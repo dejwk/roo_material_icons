@@ -20,7 +20,7 @@ class MaterialIcon : public Drawable {
  private:
   void drawTo(const Surface& s) const override {
     MaterialIconDef recolored(MaterialIconDef(
-      icon_.extents(), icon_.contents().resource(), Alpha4(color_)));
+      icon_.extents(), icon_.resource(), Alpha4(color_)));
     s.drawObject(recolored);
   }
 
