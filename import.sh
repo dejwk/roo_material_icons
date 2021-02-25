@@ -7,11 +7,6 @@ icon_dir=`pwd`
 
 sizes="18 24 36 48"
 
-rm -rf ./import/png
-for size in ${sizes}; do
-  rm -rf ./src/${size}
-done
-
 if [ ! -d ${source_dir_master} ]
 then
   echo "Fetching the newest material icons..."
@@ -128,7 +123,7 @@ function generate_family {
     for category in ${categories}; do
       echo "category: ${category}"
       mkdir -p roo_material_icons/${family}/${size}/${category}
-      files=`find import/png/${family}/${size}/${category} -name "*.png" -printf "%f "`
+      files=`find import/png/${family}/${size}/${category} -name "*.png" -printf "%f\n" | sort | sed -e ':a;N;s/\n/ /;ba'`
       (cd ${importer_dir}; ./gradlew run --args="-s PROGMEM -o ${category} -e ALPHA4 -c RLE --fg=color::Black --input-dir=${icon_dir}/import/png/${family}/${size}/${category} --output-dir=${icon_dir}/roo_material_icons/${family}/${size} ${files}")
     done
   done
