@@ -15,6 +15,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_forward_10();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_closed_caption_disabled();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_shuffle();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_play_circle();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_video_label();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_remove_from_queue();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_library_add_check();
@@ -40,6 +41,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_library_add();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_fast_forward();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_games();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_pause_circle();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_skip_previous();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_stop();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_av_fiber_new();

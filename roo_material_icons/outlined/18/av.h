@@ -28,6 +28,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_queue_music();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_library_add();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_playlist_play();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_pause_circle();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_airplay();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_skip_next();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_forward_10();
@@ -88,5 +89,6 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_recent_actors();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_play_circle_filled();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_high_quality();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_play_circle();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_hearing_disabled();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_18_av_video_label();

@@ -59,6 +59,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_do_not_disturb_alt();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_event_busy();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_disc_full();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_rv_hookup();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_add_call();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_airline_seat_flat_angled();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_notification_mms();

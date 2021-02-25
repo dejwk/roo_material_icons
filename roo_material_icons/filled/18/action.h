@@ -158,6 +158,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_backup();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_accessible();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_launch();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_motorcycle();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_vertical_split();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_settings_cell();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_action_description();

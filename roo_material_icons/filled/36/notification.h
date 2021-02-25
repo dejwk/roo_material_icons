@@ -38,6 +38,7 @@ const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_wifi();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_system_update();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_vpn_lock();
+const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_rv_hookup();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_event_note();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_airline_seat_legroom_reduced();
 const ::roo_display::RleImage4bppxPolarized<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_notification_wifi_off();
