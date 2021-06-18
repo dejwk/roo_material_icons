@@ -14,8 +14,8 @@ static const uint8_t ic_sharp_24_file_attach_email_data[] PROGMEM = {
   0x73, 0x84, 0x2B, 0xEE, 0xA1, 0x80, 0xD6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_attach_email() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_attach_email() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_attach_email_data, Alpha4(color::Black));
   return value;
 }
@@ -30,8 +30,8 @@ static const uint8_t ic_sharp_24_file_attachment_data[] PROGMEM = {
   0xDF, 0xE0, 0x77, 0x30, 0x48, 0x09, 0x07, 0x03, 0x80, 0xAA, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_attachment() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_attachment() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_attachment_data, Alpha4(color::Black));
   return value;
 }
@@ -48,8 +48,8 @@ static const uint8_t ic_sharp_24_file_cloud_circle_data[] PROGMEM = {
   0x21, 0x6B, 0xEA, 0x81, 0xDA, 0x58, 0x0E, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_circle() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_circle() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_circle_data, Alpha4(color::Black));
   return value;
 }
@@ -65,8 +65,8 @@ static const uint8_t ic_sharp_24_file_cloud_done_data[] PROGMEM = {
   0x38, 0x09, 0xB6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_done() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_done() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_done_data, Alpha4(color::Black));
   return value;
 }
@@ -81,8 +81,8 @@ static const uint8_t ic_sharp_24_file_cloud_download_data[] PROGMEM = {
   0xFD, 0x07, 0x48, 0x17, 0xBE, 0xFF, 0x0C, 0x03, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_download() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_download() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_download_data, Alpha4(color::Black));
   return value;
 }
@@ -101,8 +101,8 @@ static const uint8_t ic_sharp_24_file_cloud_off_data[] PROGMEM = {
   0x76, 0x82, 0x1D, 0xFC, 0x77, 0x78, 0x11, 0xC3, 0x80, 0xD7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_off_data, Alpha4(color::Black));
   return value;
 }
@@ -116,8 +116,8 @@ static const uint8_t ic_sharp_24_file_cloud_data[] PROGMEM = {
   0x23, 0x02, 0xCF, 0xFD, 0x07, 0x48, 0x17, 0xBE, 0xFF, 0x0C, 0x03, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_data, Alpha4(color::Black));
   return value;
 }
@@ -133,8 +133,8 @@ static const uint8_t ic_sharp_24_file_cloud_queue_data[] PROGMEM = {
   0xCF, 0xFD, 0x07, 0x48, 0x17, 0xBE, 0xFF, 0x0C, 0x03, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_queue() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_queue() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_queue_data, Alpha4(color::Black));
   return value;
 }
@@ -149,8 +149,8 @@ static const uint8_t ic_sharp_24_file_cloud_upload_data[] PROGMEM = {
   0x74, 0x81, 0x7B, 0xEF, 0xF0, 0xC0, 0x38, 0x09, 0xB6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_upload() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_cloud_upload() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_cloud_upload_data, Alpha4(color::Black));
   return value;
 }
@@ -162,8 +162,8 @@ static const uint8_t ic_sharp_24_file_create_new_folder_data[] PROGMEM = {
   0xD2, 0xE4, 0xFD, 0x2E, 0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_create_new_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_create_new_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_create_new_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -176,8 +176,8 @@ static const uint8_t ic_sharp_24_file_download_done_data[] PROGMEM = {
   0x15, 0xF6, 0x77, 0x71, 0x02, 0x80, 0xF7, 0x0F, 0xF7, 0x3F, 0xF8, 0x09, 0xC1, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_download_done() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_download_done() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_download_done_data, Alpha4(color::Black));
   return value;
 }
@@ -190,8 +190,8 @@ static const uint8_t ic_sharp_24_file_download_data[] PROGMEM = {
   0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_download() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_download() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_download_data, Alpha4(color::Black));
   return value;
 }
@@ -204,8 +204,8 @@ static const uint8_t ic_sharp_24_file_folder_open_data[] PROGMEM = {
   0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_folder_open() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_folder_open() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_folder_open_data, Alpha4(color::Black));
   return value;
 }
@@ -217,8 +217,8 @@ static const uint8_t ic_sharp_24_file_folder_data[] PROGMEM = {
   0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -231,8 +231,8 @@ static const uint8_t ic_sharp_24_file_folder_shared_data[] PROGMEM = {
   0x71, 0xB4, 0xFF, 0xE4, 0xFF, 0xE4, 0xFF, 0xE8, 0x09, 0xB6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_folder_shared() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_folder_shared() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_folder_shared_data, Alpha4(color::Black));
   return value;
 }
@@ -246,8 +246,8 @@ static const uint8_t ic_sharp_24_file_request_quote_data[] PROGMEM = {
   0x71, 0xFF, 0xA8, 0x0E, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_request_quote() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_request_quote() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_request_quote_data, Alpha4(color::Black));
   return value;
 }
@@ -262,8 +262,8 @@ static const uint8_t ic_sharp_24_file_rule_folder_data[] PROGMEM = {
   0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_rule_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_rule_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_rule_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -277,8 +277,8 @@ static const uint8_t ic_sharp_24_file_snippet_folder_data[] PROGMEM = {
   0xB6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_snippet_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_snippet_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_snippet_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -291,8 +291,8 @@ static const uint8_t ic_sharp_24_file_text_snippet_data[] PROGMEM = {
   0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_text_snippet() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_text_snippet() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_text_snippet_data, Alpha4(color::Black));
   return value;
 }
@@ -304,8 +304,8 @@ static const uint8_t ic_sharp_24_file_topic_data[] PROGMEM = {
   0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_topic() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_topic() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_topic_data, Alpha4(color::Black));
   return value;
 }
@@ -318,8 +318,8 @@ static const uint8_t ic_sharp_24_file_upload_data[] PROGMEM = {
   0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_file_upload() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_file_upload() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_file_upload_data, Alpha4(color::Black));
   return value;
 }

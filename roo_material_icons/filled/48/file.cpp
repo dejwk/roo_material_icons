@@ -23,8 +23,8 @@ static const uint8_t ic_filled_48_file_approval_data[] PROGMEM = {
   0xC8, 0x0B, 0x84, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_approval() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_approval() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_approval_data, Alpha4(color::Black));
   return value;
 }
@@ -53,8 +53,8 @@ static const uint8_t ic_filled_48_file_attach_email_data[] PROGMEM = {
   0x0C, 0x10, 0x0A, 0xF9, 0x09, 0x80, 0xC3, 0x08, 0x13, 0x9E, 0xA8, 0x1D, 0x92, 0x80, 0xB8, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_attach_email() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_attach_email() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_attach_email_data, Alpha4(color::Black));
   return value;
 }
@@ -75,8 +75,8 @@ static const uint8_t ic_filled_48_file_attachment_data[] PROGMEM = {
   0x82, 0x17, 0xBE, 0xFF, 0xE8, 0x09, 0x99, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_attachment() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_attachment() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_attachment_data, Alpha4(color::Black));
   return value;
 }
@@ -104,8 +104,8 @@ static const uint8_t ic_filled_48_file_cloud_circle_data[] PROGMEM = {
   0xD8, 0x17, 0x77, 0x75, 0x83, 0x37, 0xBC, 0xEA, 0x83, 0xDC, 0xA7, 0x28, 0x0B, 0x96, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_circle() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_circle() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_circle_data, Alpha4(color::Black));
   return value;
 }
@@ -130,8 +130,8 @@ static const uint8_t ic_filled_48_file_cloud_done_data[] PROGMEM = {
   0x7C, 0xEF, 0xFF, 0xF8, 0x1D, 0xA5, 0x80, 0xE8, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_done() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_done() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_done_data, Alpha4(color::Black));
   return value;
 }
@@ -155,8 +155,8 @@ static const uint8_t ic_filled_48_file_cloud_download_data[] PROGMEM = {
   0xFF, 0x81, 0xDA, 0x58, 0x0E, 0x82, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_download() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_download() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_download_data, Alpha4(color::Black));
   return value;
 }
@@ -190,8 +190,8 @@ static const uint8_t ic_filled_48_file_cloud_off_data[] PROGMEM = {
   0x70, 0x83, 0x3E, 0xFD, 0x18, 0x0D, 0x00, 0x81, 0x3C, 0x18, 0x0B, 0x83, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_off_data, Alpha4(color::Black));
   return value;
 }
@@ -212,8 +212,8 @@ static const uint8_t ic_filled_48_file_cloud_data[] PROGMEM = {
   0x0D, 0x05, 0x74, 0x82, 0x27, 0xCE, 0xFF, 0xFF, 0x81, 0xDA, 0x58, 0x0E, 0x82, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_data, Alpha4(color::Black));
   return value;
 }
@@ -239,8 +239,8 @@ static const uint8_t ic_filled_48_file_cloud_queue_data[] PROGMEM = {
   0x0D, 0x05, 0x74, 0x82, 0x27, 0xCE, 0xFF, 0xFF, 0x81, 0xDA, 0x58, 0x0E, 0x82, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_queue() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_queue() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_queue_data, Alpha4(color::Black));
   return value;
 }
@@ -264,8 +264,8 @@ static const uint8_t ic_filled_48_file_cloud_upload_data[] PROGMEM = {
   0xDA, 0x58, 0x0E, 0x82, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_upload() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_cloud_upload() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_cloud_upload_data, Alpha4(color::Black));
   return value;
 }
@@ -285,8 +285,8 @@ static const uint8_t ic_filled_48_file_create_new_folder_data[] PROGMEM = {
   0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_create_new_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_create_new_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_create_new_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -308,8 +308,8 @@ static const uint8_t ic_filled_48_file_drive_file_move_outline_data[] PROGMEM = 
   0x28, 0x12, 0xBE, 0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_move_outline() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_move_outline() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_drive_file_move_outline_data, Alpha4(color::Black));
   return value;
 }
@@ -330,8 +330,8 @@ static const uint8_t ic_filled_48_file_drive_file_move_data[] PROGMEM = {
   0x17, 0x28, 0x12, 0xBE, 0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_move() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_move() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_drive_file_move_data, Alpha4(color::Black));
   return value;
 }
@@ -357,8 +357,8 @@ static const uint8_t ic_filled_48_file_drive_file_rename_outline_data[] PROGMEM 
   0x90, 0x87, 0x06, 0xFF, 0xD8, 0x0E, 0x82, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_rename_outline() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_drive_file_rename_outline() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_drive_file_rename_outline_data, Alpha4(color::Black));
   return value;
 }
@@ -380,8 +380,8 @@ static const uint8_t ic_filled_48_file_drive_folder_upload_data[] PROGMEM = {
   0x17, 0x28, 0x12, 0xBE, 0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_drive_folder_upload() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_drive_folder_upload() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_drive_folder_upload_data, Alpha4(color::Black));
   return value;
 }
@@ -400,8 +400,8 @@ static const uint8_t ic_filled_48_file_file_download_done_data[] PROGMEM = {
   0xF7, 0x76, 0xFF, 0xFF, 0x77, 0x6F, 0xFF, 0xF7, 0x76, 0xFF, 0xFF, 0x80, 0xE8, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_file_download_done() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_file_download_done() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_file_download_done_data, Alpha4(color::Black));
   return value;
 }
@@ -419,8 +419,8 @@ static const uint8_t ic_filled_48_file_file_download_data[] PROGMEM = {
   0xFF, 0xFF, 0x77, 0x6F, 0xFF, 0xF8, 0x0E, 0x86, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_file_download() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_file_download() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_file_download_data, Alpha4(color::Black));
   return value;
 }
@@ -438,8 +438,8 @@ static const uint8_t ic_filled_48_file_file_upload_data[] PROGMEM = {
   0xFF, 0xFF, 0x77, 0x6F, 0xFF, 0xF8, 0x0E, 0x86, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_file_upload() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_file_upload() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_file_upload_data, Alpha4(color::Black));
   return value;
 }
@@ -459,8 +459,8 @@ static const uint8_t ic_filled_48_file_folder_open_data[] PROGMEM = {
   0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_folder_open() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_folder_open() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_folder_open_data, Alpha4(color::Black));
   return value;
 }
@@ -479,8 +479,8 @@ static const uint8_t ic_filled_48_file_folder_data[] PROGMEM = {
   0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -502,8 +502,8 @@ static const uint8_t ic_filled_48_file_folder_shared_data[] PROGMEM = {
   0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_folder_shared() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_folder_shared() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_folder_shared_data, Alpha4(color::Black));
   return value;
 }
@@ -523,8 +523,8 @@ static const uint8_t ic_filled_48_file_grid_view_data[] PROGMEM = {
   0x5F, 0xFA, 0x4F, 0xFA, 0x80, 0xCC, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_grid_view() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_grid_view() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_grid_view_data, Alpha4(color::Black));
   return value;
 }
@@ -547,8 +547,8 @@ static const uint8_t ic_filled_48_file_request_quote_data[] PROGMEM = {
   0xFF, 0xF9, 0x0E, 0x01, 0x77, 0x30, 0x20, 0xBF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xB8, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_request_quote() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_request_quote() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_request_quote_data, Alpha4(color::Black));
   return value;
 }
@@ -572,8 +572,8 @@ static const uint8_t ic_filled_48_file_rule_folder_data[] PROGMEM = {
   0x1F, 0x0E, 0x01, 0x72, 0x81, 0x2B, 0xEF, 0xFF, 0xFC, 0x81, 0xEA, 0x18, 0x0E, 0x81, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_rule_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_rule_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_rule_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -594,8 +594,8 @@ static const uint8_t ic_filled_48_file_snippet_folder_data[] PROGMEM = {
   0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_snippet_folder() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_snippet_folder() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_snippet_folder_data, Alpha4(color::Black));
   return value;
 }
@@ -616,8 +616,8 @@ static const uint8_t ic_filled_48_file_text_snippet_data[] PROGMEM = {
   0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_text_snippet() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_text_snippet() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_text_snippet_data, Alpha4(color::Black));
   return value;
 }
@@ -636,8 +636,8 @@ static const uint8_t ic_filled_48_file_topic_data[] PROGMEM = {
   0xC1, 0xF0, 0xE0, 0x17, 0x28, 0x12, 0xBE, 0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xE8, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_topic() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_topic() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_topic_data, Alpha4(color::Black));
   return value;
 }
@@ -662,8 +662,8 @@ static const uint8_t ic_filled_48_file_upload_file_data[] PROGMEM = {
   0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_upload_file() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_upload_file() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_upload_file_data, Alpha4(color::Black));
   return value;
 }
@@ -687,8 +687,8 @@ static const uint8_t ic_filled_48_file_workspaces_filled_data[] PROGMEM = {
   0x77, 0x28, 0x13, 0x9E, 0xA8, 0x1D, 0x92, 0x80, 0xCC, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_workspaces_filled() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_workspaces_filled() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_workspaces_filled_data, Alpha4(color::Black));
   return value;
 }
@@ -717,8 +717,8 @@ static const uint8_t ic_filled_48_file_workspaces_outline_data[] PROGMEM = {
   0xCC, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_file_workspaces_outline() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_file_workspaces_outline() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_file_workspaces_outline_data, Alpha4(color::Black));
   return value;
 }

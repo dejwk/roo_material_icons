@@ -25,8 +25,8 @@ static const uint8_t ic_filled_48_hardware_browser_not_supported_data[] PROGMEM 
   0x0E, 0x01, 0x80, 0xC6, 0x00, 0x10, 0xDA, 0x06, 0x80, 0xD0, 0x08, 0x11, 0xD6, 0x80, 0xB8, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_browser_not_supported() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_browser_not_supported() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_browser_not_supported_data, Alpha4(color::Black));
   return value;
 }
@@ -54,8 +54,8 @@ static const uint8_t ic_filled_48_hardware_cast_connected_data[] PROGMEM = {
   0x0D, 0x30, 0x1B, 0x0D, 0x4F, 0xF8, 0x1E, 0xA1, 0x80, 0xCB, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast_connected() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast_connected() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_cast_connected_data, Alpha4(color::Black));
   return value;
 }
@@ -86,8 +86,8 @@ static const uint8_t ic_filled_48_hardware_cast_for_education_data[] PROGMEM = {
   0x0D, 0x4F, 0xF8, 0x1E, 0xA1, 0x80, 0xCB, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast_for_education() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast_for_education() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_cast_for_education_data, Alpha4(color::Black));
   return value;
 }
@@ -113,8 +113,8 @@ static const uint8_t ic_filled_48_hardware_cast_data[] PROGMEM = {
   0xD4, 0xFF, 0x81, 0xEA, 0x18, 0x0C, 0xB7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_cast() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_cast_data, Alpha4(color::Black));
   return value;
 }
@@ -134,8 +134,8 @@ static const uint8_t ic_filled_48_hardware_computer_data[] PROGMEM = {
   0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x58, 0x0A, 0xF4, 0xF8, 0x0D, 0xF4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_computer() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_computer() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_computer_data, Alpha4(color::Black));
   return value;
 }
@@ -161,8 +161,8 @@ static const uint8_t ic_filled_48_hardware_connected_tv_data[] PROGMEM = {
   0x77, 0x74, 0xFF, 0xA7, 0x77, 0x74, 0xFF, 0xA7, 0x77, 0x74, 0xFF, 0xA8, 0x0C, 0xD4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_connected_tv() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_connected_tv() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_connected_tv_data, Alpha4(color::Black));
   return value;
 }
@@ -183,8 +183,8 @@ static const uint8_t ic_filled_48_hardware_desktop_mac_data[] PROGMEM = {
   0xFF, 0x08, 0x77, 0x77, 0x4F, 0xFA, 0x77, 0x77, 0x4F, 0xFA, 0x80, 0xB9, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_desktop_mac() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_desktop_mac() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_desktop_mac_data, Alpha4(color::Black));
   return value;
 }
@@ -205,8 +205,8 @@ static const uint8_t ic_filled_48_hardware_desktop_windows_data[] PROGMEM = {
   0xFA, 0x80, 0xB9, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_desktop_windows() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_desktop_windows() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_desktop_windows_data, Alpha4(color::Black));
   return value;
 }
@@ -228,8 +228,8 @@ static const uint8_t ic_filled_48_hardware_developer_board_data[] PROGMEM = {
   0x81, 0x2B, 0xEF, 0xFF, 0xF8, 0x1E, 0xA1, 0x80, 0xCC, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_developer_board() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_developer_board() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_developer_board_data, Alpha4(color::Black));
   return value;
 }
@@ -251,8 +251,8 @@ static const uint8_t ic_filled_48_hardware_device_hub_data[] PROGMEM = {
   0xFB, 0x77, 0x2F, 0xB8, 0x0C, 0xC2, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_device_hub() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_device_hub() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_device_hub_data, Alpha4(color::Black));
   return value;
 }
@@ -275,8 +275,8 @@ static const uint8_t ic_filled_48_hardware_devices_other_data[] PROGMEM = {
   0x03, 0x80, 0xDF, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_devices_other() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_devices_other() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_devices_other_data, Alpha4(color::Black));
   return value;
 }
@@ -302,8 +302,8 @@ static const uint8_t ic_filled_48_hardware_device_unknown_data[] PROGMEM = {
   0xC0, 0xE0, 0x17, 0x77, 0x81, 0x2B, 0xEF, 0xFE, 0x81, 0xEA, 0x18, 0x09, 0xC7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_device_unknown() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_device_unknown() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_device_unknown_data, Alpha4(color::Black));
   return value;
 }
@@ -325,8 +325,8 @@ static const uint8_t ic_filled_48_hardware_dock_data[] PROGMEM = {
   0x4F, 0xFA, 0x80, 0x9D, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_dock() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_dock() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_dock_data, Alpha4(color::Black));
   return value;
 }
@@ -348,8 +348,8 @@ static const uint8_t ic_filled_48_hardware_gamepad_data[] PROGMEM = {
   0xC0, 0x0F, 0xD8, 0x0C, 0x00, 0xFD, 0x80, 0xB9, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_gamepad() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_gamepad() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_gamepad_data, Alpha4(color::Black));
   return value;
 }
@@ -376,8 +376,8 @@ static const uint8_t ic_filled_48_hardware_headset_mic_data[] PROGMEM = {
   0x09, 0xC5, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset_mic() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset_mic() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_headset_mic_data, Alpha4(color::Black));
   return value;
 }
@@ -408,8 +408,8 @@ static const uint8_t ic_filled_48_hardware_headset_off_data[] PROGMEM = {
   0xD1, 0x00, 0x08, 0x80, 0x9C, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_headset_off_data, Alpha4(color::Black));
   return value;
 }
@@ -434,8 +434,8 @@ static const uint8_t ic_filled_48_hardware_headset_data[] PROGMEM = {
   0xC0, 0x17, 0x72, 0x81, 0x7B, 0xEE, 0x75, 0xF0, 0xD0, 0x78, 0x0E, 0x85, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_headset() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_headset_data, Alpha4(color::Black));
   return value;
 }
@@ -452,8 +452,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_arrow_down_data[] PROGMEM = 
   0xA0, 0x88, 0x0D, 0x10, 0x00, 0x88, 0x09, 0xCA, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_down() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_down() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_arrow_down_data, Alpha4(color::Black));
   return value;
 }
@@ -471,8 +471,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_arrow_left_data[] PROGMEM = 
   0x80, 0xC7, 0x00, 0x8A, 0x08, 0x80, 0xD1, 0x00, 0x08, 0x80, 0x99, 0x97, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_left() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_left() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_arrow_left_data, Alpha4(color::Black));
   return value;
 }
@@ -490,8 +490,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_arrow_right_data[] PROGMEM =
   0x80, 0x99, 0xA7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_right() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_right() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_arrow_right_data, Alpha4(color::Black));
   return value;
 }
@@ -508,8 +508,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_arrow_up_data[] PROGMEM = {
   0xF2, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_up() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_arrow_up() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_arrow_up_data, Alpha4(color::Black));
   return value;
 }
@@ -527,8 +527,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_backspace_data[] PROGMEM = {
   0xD1, 0x00, 0x08, 0x80, 0x99, 0xB1, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_backspace() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_backspace() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_backspace_data, Alpha4(color::Black));
   return value;
 }
@@ -546,8 +546,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_capslock_data[] PROGMEM = {
   0xFF, 0xB8, 0x09, 0x99, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_capslock() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_capslock() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_capslock_data, Alpha4(color::Black));
   return value;
 }
@@ -569,8 +569,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_hide_data[] PROGMEM = {
   0x10, 0x00, 0x88, 0x09, 0xE3, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_hide() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_hide() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_hide_data, Alpha4(color::Black));
   return value;
 }
@@ -589,8 +589,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_data[] PROGMEM = {
   0x17, 0x28, 0x12, 0xBE, 0xFF, 0xFF, 0xC8, 0x1E, 0xA1, 0x80, 0xFC, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_data, Alpha4(color::Black));
   return value;
 }
@@ -608,8 +608,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_return_data[] PROGMEM = {
   0x8C, 0x07, 0x80, 0xC7, 0x00, 0x8A, 0x08, 0x80, 0xD1, 0x00, 0x08, 0x80, 0x99, 0xB3, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_return() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_return() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_return_data, Alpha4(color::Black));
   return value;
 }
@@ -628,8 +628,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_tab_data[] PROGMEM = {
   0x71, 0x0A, 0x08, 0x76, 0xC8, 0x09, 0x98, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_tab() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_tab() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_tab_data, Alpha4(color::Black));
   return value;
 }
@@ -654,8 +654,8 @@ static const uint8_t ic_filled_48_hardware_keyboard_voice_data[] PROGMEM = {
   0x0C, 0x80, 0xD0, 0x0C, 0x80, 0xBA, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_voice() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_keyboard_voice() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_keyboard_voice_data, Alpha4(color::Black));
   return value;
 }
@@ -673,8 +673,8 @@ static const uint8_t ic_filled_48_hardware_laptop_chromebook_data[] PROGMEM = {
   0x1F, 0xFA, 0x48, 0x0A, 0xF4, 0xF8, 0x0D, 0xF4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_chromebook() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_chromebook() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_laptop_chromebook_data, Alpha4(color::Black));
   return value;
 }
@@ -697,8 +697,8 @@ static const uint8_t ic_filled_48_hardware_laptop_mac_data[] PROGMEM = {
   0x1E, 0xA1, 0x80, 0xDF, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_mac() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_mac() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_laptop_mac_data, Alpha4(color::Black));
   return value;
 }
@@ -717,8 +717,8 @@ static const uint8_t ic_filled_48_hardware_laptop_data[] PROGMEM = {
   0xA1, 0x58, 0x0A, 0xF4, 0xF8, 0x0D, 0xF4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_laptop_data, Alpha4(color::Black));
   return value;
 }
@@ -739,8 +739,8 @@ static const uint8_t ic_filled_48_hardware_laptop_windows_data[] PROGMEM = {
   0xF8, 0x0D, 0xF4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_windows() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_laptop_windows() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_laptop_windows_data, Alpha4(color::Black));
   return value;
 }
@@ -761,8 +761,8 @@ static const uint8_t ic_filled_48_hardware_memory_data[] PROGMEM = {
   0x00, 0xC4, 0xC8, 0x0C, 0xD6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_memory() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_memory() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_memory_data, Alpha4(color::Black));
   return value;
 }
@@ -783,8 +783,8 @@ static const uint8_t ic_filled_48_hardware_monitor_data[] PROGMEM = {
   0xFB, 0x77, 0x73, 0xFF, 0xFB, 0x80, 0xCD, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_monitor() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_monitor() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_monitor_data, Alpha4(color::Black));
   return value;
 }
@@ -809,8 +809,8 @@ static const uint8_t ic_filled_48_hardware_mouse_data[] PROGMEM = {
   0x68, 0x31, 0x5A, 0xCE, 0xA8, 0x2D, 0xC9, 0x48, 0x09, 0xD7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_mouse() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_mouse() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_mouse_data, Alpha4(color::Black));
   return value;
 }
@@ -836,8 +836,8 @@ static const uint8_t ic_filled_48_hardware_phone_android_data[] PROGMEM = {
   0x7B, 0xEF, 0xFB, 0x0D, 0x07, 0x80, 0x9D, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_phone_android() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_phone_android() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_phone_android_data, Alpha4(color::Black));
   return value;
 }
@@ -861,8 +861,8 @@ static const uint8_t ic_filled_48_hardware_phone_iphone_data[] PROGMEM = {
   0x74, 0x81, 0x5B, 0xEF, 0xFB, 0x0C, 0x03, 0x80, 0x9D, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_phone_iphone() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_phone_iphone() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_phone_iphone_data, Alpha4(color::Black));
   return value;
 }
@@ -893,8 +893,8 @@ static const uint8_t ic_filled_48_hardware_phonelink_off_data[] PROGMEM = {
   0x04, 0x80, 0xC7, 0x08, 0x23, 0xEF, 0x58, 0x0D, 0x10, 0x03, 0x05, 0x80, 0xAA, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_phonelink_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_phonelink_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_phonelink_off_data, Alpha4(color::Black));
   return value;
 }
@@ -913,8 +913,8 @@ static const uint8_t ic_filled_48_hardware_phonelink_data[] PROGMEM = {
   0xF0, 0xBF, 0xFF, 0xF4, 0x04, 0x0D, 0xFD, 0x0C, 0x03, 0x80, 0xDF, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_phonelink() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_phonelink() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_phonelink_data, Alpha4(color::Black));
   return value;
 }
@@ -940,8 +940,8 @@ static const uint8_t ic_filled_48_hardware_point_of_sale_data[] PROGMEM = {
   0xEA, 0x18, 0x0B, 0x81, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_point_of_sale() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_point_of_sale() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_point_of_sale_data, Alpha4(color::Black));
   return value;
 }
@@ -953,8 +953,8 @@ static const uint8_t ic_filled_48_hardware_power_input_data[] PROGMEM = {
   0x4F, 0xB7, 0x3F, 0xB4, 0xFB, 0x4F, 0xB8, 0x09, 0xDC, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_power_input() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_power_input() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_power_input_data, Alpha4(color::Black));
   return value;
 }
@@ -976,8 +976,8 @@ static const uint8_t ic_filled_48_hardware_router_data[] PROGMEM = {
   0x76, 0x81, 0x2B, 0xEF, 0xFF, 0xF8, 0x1E, 0xA1, 0x80, 0xCC, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_router() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_router() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_router_data, Alpha4(color::Black));
   return value;
 }
@@ -998,8 +998,8 @@ static const uint8_t ic_filled_48_hardware_scanner_data[] PROGMEM = {
   0x81, 0x2B, 0xEF, 0xFF, 0xF8, 0x1E, 0xA1, 0x80, 0xE8, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_scanner() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_scanner() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_scanner_data, Alpha4(color::Black));
   return value;
 }
@@ -1027,8 +1027,8 @@ static const uint8_t ic_filled_48_hardware_security_data[] PROGMEM = {
   0x04, 0x80, 0xC4, 0x08, 0x43, 0x8D, 0xD7, 0x28, 0x09, 0xE1, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_security() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_security() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_security_data, Alpha4(color::Black));
   return value;
 }
@@ -1052,8 +1052,8 @@ static const uint8_t ic_filled_48_hardware_sim_card_data[] PROGMEM = {
   0xFF, 0xB8, 0x1E, 0xA1, 0x80, 0xB8, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_sim_card() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_sim_card() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_sim_card_data, Alpha4(color::Black));
   return value;
 }
@@ -1075,8 +1075,8 @@ static const uint8_t ic_filled_48_hardware_smartphone_data[] PROGMEM = {
   0xEA, 0x18, 0x09, 0xC7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_smartphone() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_smartphone() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_smartphone_data, Alpha4(color::Black));
   return value;
 }
@@ -1105,8 +1105,8 @@ static const uint8_t ic_filled_48_hardware_speaker_group_data[] PROGMEM = {
   0x09, 0xD4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_speaker_group() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_speaker_group() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_speaker_group_data, Alpha4(color::Black));
   return value;
 }
@@ -1133,8 +1133,8 @@ static const uint8_t ic_filled_48_hardware_speaker_data[] PROGMEM = {
   0xEF, 0xFF, 0xB0, 0xE0, 0x17, 0x77, 0x81, 0x2B, 0xEF, 0xFE, 0x81, 0xEA, 0x18, 0x0B, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_speaker() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_speaker() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_speaker_data, Alpha4(color::Black));
   return value;
 }
@@ -1161,8 +1161,8 @@ static const uint8_t ic_filled_48_hardware_tablet_android_data[] PROGMEM = {
   0x0C, 0x01, 0x77, 0x28, 0x17, 0xBE, 0xFF, 0xFC, 0x0D, 0x07, 0x72,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet_android() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet_android() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_tablet_android_data, Alpha4(color::Black));
   return value;
 }
@@ -1187,8 +1187,8 @@ static const uint8_t ic_filled_48_hardware_tablet_mac_data[] PROGMEM = {
   0xF9, 0x0C, 0x03, 0x71,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet_mac() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet_mac() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_tablet_mac_data, Alpha4(color::Black));
   return value;
 }
@@ -1208,8 +1208,8 @@ static const uint8_t ic_filled_48_hardware_tablet_data[] PROGMEM = {
   0xC5, 0xF0, 0xE0, 0x15, 0x81, 0x2B, 0xE8, 0x0C, 0x0F, 0x81, 0xEA, 0x18, 0x0D, 0xF7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_tablet() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_tablet_data, Alpha4(color::Black));
   return value;
 }
@@ -1236,8 +1236,8 @@ static const uint8_t ic_filled_48_hardware_toys_data[] PROGMEM = {
   0xC6, 0x09, 0x82, 0xDB, 0x61, 0x80, 0x9D, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_toys() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_toys() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_toys_data, Alpha4(color::Black));
   return value;
 }
@@ -1258,8 +1258,8 @@ static const uint8_t ic_filled_48_hardware_tv_data[] PROGMEM = {
   0x74, 0xFF, 0xA7, 0x77, 0x74, 0xFF, 0xA7, 0x77, 0x74, 0xFF, 0xA8, 0x0C, 0xD4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_tv() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_tv() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_tv_data, Alpha4(color::Black));
   return value;
 }
@@ -1278,8 +1278,8 @@ static const uint8_t ic_filled_48_hardware_videogame_asset_data[] PROGMEM = {
   0x12, 0xBE, 0x80, 0xC0, 0xF8, 0x1E, 0xA1, 0x80, 0x98, 0xF7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_videogame_asset() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_videogame_asset() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_videogame_asset_data, Alpha4(color::Black));
   return value;
 }
@@ -1311,8 +1311,8 @@ static const uint8_t ic_filled_48_hardware_watch_data[] PROGMEM = {
   0x72,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_filled_48_hardware_watch() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_48_hardware_watch() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_filled_48_hardware_watch_data, Alpha4(color::Black));
   return value;
 }

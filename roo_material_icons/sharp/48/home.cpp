@@ -18,8 +18,8 @@ static const uint8_t ic_sharp_48_home_sensor_door_data[] PROGMEM = {
   0xB8, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_48_home_sensor_door() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_home_sensor_door() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_sharp_48_home_sensor_door_data, Alpha4(color::Black));
   return value;
 }
@@ -41,8 +41,8 @@ static const uint8_t ic_sharp_48_home_sensor_window_data[] PROGMEM = {
   0x84, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_48_home_sensor_window() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_home_sensor_window() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       48, 48, ic_sharp_48_home_sensor_window_data, Alpha4(color::Black));
   return value;
 }

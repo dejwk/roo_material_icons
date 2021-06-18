@@ -6,7 +6,7 @@
 
 namespace roo_display {
 
-typedef RleImage4bppxPolarized<Alpha4, PrgMemResource> MaterialIconDef;
+typedef RleImage4bppxBiased<Alpha4, PrgMemResource> MaterialIconDef;
 
 class MaterialIcon : public Drawable {
  public:

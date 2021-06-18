@@ -10,8 +10,8 @@ static const uint8_t ic_sharp_24_content_add_box_data[] PROGMEM = {
   0x09, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_add_box() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_add_box() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_add_box_data, Alpha4(color::Black));
   return value;
 }
@@ -29,8 +29,8 @@ static const uint8_t ic_sharp_24_content_add_circle_outline_data[] PROGMEM = {
   0x06, 0x0E, 0xF9, 0x0D, 0x05, 0x76, 0x82, 0x16, 0xBE, 0xA8, 0x1D, 0xA5, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_add_circle_outline() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_add_circle_outline() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_add_circle_outline_data, Alpha4(color::Black));
   return value;
 }
@@ -46,8 +46,8 @@ static const uint8_t ic_sharp_24_content_add_circle_data[] PROGMEM = {
   0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_add_circle() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_add_circle() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_add_circle_data, Alpha4(color::Black));
   return value;
 }
@@ -59,8 +59,8 @@ static const uint8_t ic_sharp_24_content_add_data[] PROGMEM = {
   0xA7, 0x77, 0x1A, 0x80, 0x9F, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_add() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_add() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_add_data, Alpha4(color::Black));
   return value;
 }
@@ -73,8 +73,8 @@ static const uint8_t ic_sharp_24_content_amp_stories_data[] PROGMEM = {
   0xFB, 0x80, 0x9F, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_amp_stories() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_amp_stories() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_amp_stories_data, Alpha4(color::Black));
   return value;
 }
@@ -88,8 +88,8 @@ static const uint8_t ic_sharp_24_content_archive_data[] PROGMEM = {
   0xFC, 0x6F, 0xFC, 0x6F, 0xFC, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_archive() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_archive() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_archive_data, Alpha4(color::Black));
   return value;
 }
@@ -109,8 +109,8 @@ static const uint8_t ic_sharp_24_content_attribution_data[] PROGMEM = {
   0x74, 0x06, 0x0E, 0xF9, 0x0D, 0x05, 0x76, 0x82, 0x16, 0xBE, 0xA8, 0x1D, 0xA6, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_attribution() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_attribution() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_attribution_data, Alpha4(color::Black));
   return value;
 }
@@ -127,8 +127,8 @@ static const uint8_t ic_sharp_24_content_backspace_data[] PROGMEM = {
   0xC8, 0x09, 0x84, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_backspace() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_backspace() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_backspace_data, Alpha4(color::Black));
   return value;
 }
@@ -141,8 +141,8 @@ static const uint8_t ic_sharp_24_content_ballot_data[] PROGMEM = {
   0x01, 0x7B, 0x6B, 0x5F, 0xB6, 0xFF, 0xC6, 0xFF, 0xC6, 0xFF, 0xC8, 0x09, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_ballot() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_ballot() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_ballot_data, Alpha4(color::Black));
   return value;
 }
@@ -157,8 +157,8 @@ static const uint8_t ic_sharp_24_content_biotech_data[] PROGMEM = {
   0xB7, 0x77, 0xB7, 0x72, 0xFF, 0x73, 0xFF, 0x80, 0x99, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_biotech() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_biotech() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_biotech_data, Alpha4(color::Black));
   return value;
 }
@@ -178,8 +178,8 @@ static const uint8_t ic_sharp_24_content_block_data[] PROGMEM = {
   0x82, 0x16, 0xBE, 0xA8, 0x1D, 0xA5, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_block() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_block() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_block_data, Alpha4(color::Black));
   return value;
 }
@@ -194,8 +194,8 @@ static const uint8_t ic_sharp_24_content_calculate_data[] PROGMEM = {
   0xFC, 0x6F, 0xFC, 0x6F, 0xFC, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_calculate() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_calculate() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_calculate_data, Alpha4(color::Black));
   return value;
 }
@@ -211,8 +211,8 @@ static const uint8_t ic_sharp_24_content_clear_data[] PROGMEM = {
   0x17, 0x18, 0x12, 0xC2, 0x80, 0x9F, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_clear() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_clear() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_clear_data, Alpha4(color::Black));
   return value;
 }
@@ -226,8 +226,8 @@ static const uint8_t ic_sharp_24_content_content_copy_data[] PROGMEM = {
   0x2F, 0xF9, 0x72, 0xFF, 0x97, 0x77, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_content_copy() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_content_copy() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_content_copy_data, Alpha4(color::Black));
   return value;
 }
@@ -246,8 +246,8 @@ static const uint8_t ic_sharp_24_content_content_cut_data[] PROGMEM = {
   0x42, 0xBE, 0xEA, 0x18, 0x0F, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_content_cut() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_content_cut() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_content_cut_data, Alpha4(color::Black));
   return value;
 }
@@ -261,8 +261,8 @@ static const uint8_t ic_sharp_24_content_content_paste_data[] PROGMEM = {
   0x0D, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_content_paste() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_content_paste() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_content_paste_data, Alpha4(color::Black));
   return value;
 }
@@ -277,8 +277,8 @@ static const uint8_t ic_sharp_24_content_create_data[] PROGMEM = {
   0x77, 0x3C, 0x0E, 0x03, 0x77, 0x4B, 0x0E, 0x03, 0x80, 0x9A, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_create() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_create() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_create_data, Alpha4(color::Black));
   return value;
 }
@@ -290,8 +290,8 @@ static const uint8_t ic_sharp_24_content_delete_sweep_data[] PROGMEM = {
   0xC7, 0x1F, 0xB2, 0xC7, 0x1F, 0xB7, 0x7F, 0xB8, 0x09, 0xC7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_delete_sweep() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_delete_sweep() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_delete_sweep_data, Alpha4(color::Black));
   return value;
 }
@@ -307,8 +307,8 @@ static const uint8_t ic_sharp_24_content_drafts_data[] PROGMEM = {
   0xFD, 0x0D, 0x4F, 0xFD, 0x0D, 0x4F, 0xFD, 0x0D, 0x4F, 0xFD, 0x0D, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_drafts() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_drafts() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_drafts_data, Alpha4(color::Black));
   return value;
 }
@@ -321,8 +321,8 @@ static const uint8_t ic_sharp_24_content_dynamic_feed_data[] PROGMEM = {
   0x71, 0xFC, 0x76, 0xFC, 0x80, 0x99, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_dynamic_feed() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_dynamic_feed() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_dynamic_feed_data, Alpha4(color::Black));
   return value;
 }
@@ -337,8 +337,8 @@ static const uint8_t ic_sharp_24_content_file_copy_data[] PROGMEM = {
   0x77, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_file_copy() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_file_copy() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_file_copy_data, Alpha4(color::Black));
   return value;
 }
@@ -349,8 +349,8 @@ static const uint8_t ic_sharp_24_content_filter_list_data[] PROGMEM = {
   0x77, 0x6C, 0x80, 0xAA, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_filter_list() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_filter_list() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_filter_list_data, Alpha4(color::Black));
   return value;
 }
@@ -363,8 +363,8 @@ static const uint8_t ic_sharp_24_content_flag_data[] PROGMEM = {
   0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_flag() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_flag() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_flag_data, Alpha4(color::Black));
   return value;
 }
@@ -380,8 +380,8 @@ static const uint8_t ic_sharp_24_content_font_download_data[] PROGMEM = {
   0xFF, 0xE8, 0x0D, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_font_download() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_font_download() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_font_download_data, Alpha4(color::Black));
   return value;
 }
@@ -394,8 +394,8 @@ static const uint8_t ic_sharp_24_content_forward_data[] PROGMEM = {
   0x77, 0x71, 0x08, 0x80, 0x9C, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_forward() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_forward() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_forward_data, Alpha4(color::Black));
   return value;
 }
@@ -413,8 +413,8 @@ static const uint8_t ic_sharp_24_content_gesture_data[] PROGMEM = {
   0xD7, 0x80, 0x99, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_gesture() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_gesture() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_gesture_data, Alpha4(color::Black));
   return value;
 }
@@ -430,8 +430,8 @@ static const uint8_t ic_sharp_24_content_how_to_reg_data[] PROGMEM = {
   0x99, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_how_to_reg() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_how_to_reg() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_how_to_reg_data, Alpha4(color::Black));
   return value;
 }
@@ -448,8 +448,8 @@ static const uint8_t ic_sharp_24_content_how_to_vote_data[] PROGMEM = {
   0xFF, 0xC8, 0x0D, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_how_to_vote() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_how_to_vote() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_how_to_vote_data, Alpha4(color::Black));
   return value;
 }
@@ -462,8 +462,8 @@ static const uint8_t ic_sharp_24_content_inbox_data[] PROGMEM = {
   0xC6, 0xFF, 0xC8, 0x09, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_inbox() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_inbox() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_inbox_data, Alpha4(color::Black));
   return value;
 }
@@ -480,8 +480,8 @@ static const uint8_t ic_sharp_24_content_insights_data[] PROGMEM = {
   0x24, 0xCB, 0x37, 0x10, 0xDA, 0x0A, 0x77, 0x68, 0x24, 0xDB, 0x38, 0x09, 0xD7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_insights() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_insights() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_insights_data, Alpha4(color::Black));
   return value;
 }
@@ -499,8 +499,8 @@ static const uint8_t ic_sharp_24_content_link_off_data[] PROGMEM = {
   0x81, 0x1C, 0x58, 0x09, 0x90, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_link_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_link_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_link_off_data, Alpha4(color::Black));
   return value;
 }
@@ -514,8 +514,8 @@ static const uint8_t ic_sharp_24_content_link_data[] PROGMEM = {
   0xC2, 0xD0, 0xC0, 0x38, 0x0A, 0xD0, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_link() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_link() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_link_data, Alpha4(color::Black));
   return value;
 }
@@ -529,8 +529,8 @@ static const uint8_t ic_sharp_24_content_low_priority_data[] PROGMEM = {
   0x82, 0xF9, 0x74, 0x90, 0x87, 0x77, 0x10, 0x88, 0x09, 0xD2, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_low_priority() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_low_priority() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_low_priority_data, Alpha4(color::Black));
   return value;
 }
@@ -544,8 +544,8 @@ static const uint8_t ic_sharp_24_content_mail_data[] PROGMEM = {
   0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_mail() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_mail() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_mail_data, Alpha4(color::Black));
   return value;
 }
@@ -559,8 +559,8 @@ static const uint8_t ic_sharp_24_content_markunread_data[] PROGMEM = {
   0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x4F, 0xFE, 0x80, 0x9B, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_markunread() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_markunread() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_markunread_data, Alpha4(color::Black));
   return value;
 }
@@ -574,8 +574,8 @@ static const uint8_t ic_sharp_24_content_move_to_inbox_data[] PROGMEM = {
   0x8F, 0x6F, 0xFC, 0x6F, 0xFC, 0x6F, 0xFC, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_move_to_inbox() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_move_to_inbox() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_move_to_inbox_data, Alpha4(color::Black));
   return value;
 }
@@ -589,8 +589,8 @@ static const uint8_t ic_sharp_24_content_next_week_data[] PROGMEM = {
   0xF9, 0x00, 0xDF, 0xB4, 0xFF, 0xE4, 0xFF, 0xE4, 0xFF, 0xE8, 0x0D, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_next_week() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_next_week() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_next_week_data, Alpha4(color::Black));
   return value;
 }
@@ -603,8 +603,8 @@ static const uint8_t ic_sharp_24_content_outlined_flag_data[] PROGMEM = {
   0x71, 0xA7, 0x77, 0x1A, 0x77, 0x71, 0xA8, 0x09, 0xA5, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_outlined_flag() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_outlined_flag() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_outlined_flag_data, Alpha4(color::Black));
   return value;
 }
@@ -622,8 +622,8 @@ static const uint8_t ic_sharp_24_content_policy_data[] PROGMEM = {
   0x73, 0x84, 0x18, 0xDD, 0x71, 0x77, 0x77, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_policy() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_policy() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_policy_data, Alpha4(color::Black));
   return value;
 }
@@ -637,8 +637,8 @@ static const uint8_t ic_sharp_24_content_push_pin_data[] PROGMEM = {
   0x77, 0x71, 0x0A, 0x06, 0x80, 0xE7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_push_pin() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_push_pin() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_push_pin_data, Alpha4(color::Black));
   return value;
 }
@@ -651,8 +651,8 @@ static const uint8_t ic_sharp_24_content_redo_data[] PROGMEM = {
   0x30, 0x3A, 0x08, 0x72, 0x08, 0xF3, 0x82, 0x29, 0xE1, 0x71, 0x08, 0xF9, 0x80, 0xAF, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_redo() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_redo() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_redo_data, Alpha4(color::Black));
   return value;
 }
@@ -670,8 +670,8 @@ static const uint8_t ic_sharp_24_content_remove_circle_outline_data[] PROGMEM = 
   0x05, 0x76, 0x82, 0x16, 0xBE, 0xA8, 0x1D, 0xA5, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_remove_circle_outline() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_remove_circle_outline() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_remove_circle_outline_data, Alpha4(color::Black));
   return value;
 }
@@ -686,8 +686,8 @@ static const uint8_t ic_sharp_24_content_remove_circle_data[] PROGMEM = {
   0xF9, 0x0D, 0x05, 0x76, 0x82, 0x16, 0xBE, 0xA8, 0x1D, 0xA5, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_remove_circle() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_remove_circle() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_remove_circle_data, Alpha4(color::Black));
   return value;
 }
@@ -697,8 +697,8 @@ static const uint8_t ic_sharp_24_content_remove_data[] PROGMEM = {
   0x80, 0xC9, 0x10, 0xFF, 0x73, 0xFF, 0x80, 0xC9, 0x10,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_remove() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_remove() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_remove_data, Alpha4(color::Black));
   return value;
 }
@@ -714,8 +714,8 @@ static const uint8_t ic_sharp_24_content_reply_all_data[] PROGMEM = {
   0x08, 0x77, 0x72, 0x04, 0x80, 0x9B, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_reply_all() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_reply_all() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_reply_all_data, Alpha4(color::Black));
   return value;
 }
@@ -729,8 +729,8 @@ static const uint8_t ic_sharp_24_content_reply_data[] PROGMEM = {
   0x08, 0x72, 0x06, 0x08, 0x77, 0x72, 0x04, 0x80, 0x9B, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_reply() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_reply() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_reply_data, Alpha4(color::Black));
   return value;
 }
@@ -746,8 +746,8 @@ static const uint8_t ic_sharp_24_content_report_gmailerrorred_data[] PROGMEM = {
   0x76, 0x05, 0xF0, 0xE0, 0x38, 0x09, 0x93, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_report_gmailerrorred() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_report_gmailerrorred() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_report_gmailerrorred_data, Alpha4(color::Black));
   return value;
 }
@@ -765,8 +765,8 @@ static const uint8_t ic_sharp_24_content_report_off_data[] PROGMEM = {
   0x30, 0x8F, 0xE3, 0x77, 0x78, 0x28, 0xFE, 0x27, 0x77, 0x00, 0x87, 0x77, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_report_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_report_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_report_off_data, Alpha4(color::Black));
   return value;
 }
@@ -781,8 +781,8 @@ static const uint8_t ic_sharp_24_content_report_data[] PROGMEM = {
   0xE0, 0x37, 0x60, 0x5F, 0x0E, 0x03, 0x80, 0x99, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_report() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_report() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_report_data, Alpha4(color::Black));
   return value;
 }
@@ -796,8 +796,8 @@ static const uint8_t ic_sharp_24_content_save_alt_data[] PROGMEM = {
   0x02, 0x6A, 0x6A, 0x77, 0xA6, 0xA7, 0x7A, 0x6F, 0xFC, 0x6F, 0xFC, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_save_alt() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_save_alt() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_save_alt_data, Alpha4(color::Black));
   return value;
 }
@@ -810,8 +810,8 @@ static const uint8_t ic_sharp_24_content_save_data[] PROGMEM = {
   0x07, 0xE6, 0xE8, 0x3E, 0x50, 0x28, 0xF6, 0xFF, 0xC6, 0xFF, 0xC8, 0x09, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_save() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_save() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_save_data, Alpha4(color::Black));
   return value;
 }
@@ -824,8 +824,8 @@ static const uint8_t ic_sharp_24_content_select_all_data[] PROGMEM = {
   0x0E, 0x20, 0xA2, 0xA2, 0xA2, 0xA2, 0xA6, 0xA2, 0xA2, 0xA2, 0xA2, 0xA8, 0x09, 0x87, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_select_all() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_select_all() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_select_all_data, Alpha4(color::Black));
   return value;
 }
@@ -840,8 +840,8 @@ static const uint8_t ic_sharp_24_content_send_data[] PROGMEM = {
   0x77, 0x1D, 0x0A, 0x04, 0x77, 0x3A, 0x81, 0xE8, 0x17, 0x75, 0x0C, 0x06, 0x80, 0x9B, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_send() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_send() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_send_data, Alpha4(color::Black));
   return value;
 }
@@ -852,8 +852,8 @@ static const uint8_t ic_sharp_24_content_sort_data[] PROGMEM = {
   0x77, 0x4E, 0x80, 0xAB, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_sort() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_sort() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_sort_data, Alpha4(color::Black));
   return value;
 }
@@ -867,8 +867,8 @@ static const uint8_t ic_sharp_24_content_square_foot_data[] PROGMEM = {
   0x73, 0xFD, 0x81, 0x7E, 0x67, 0x2F, 0xF9, 0x06, 0x80, 0x9C, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_square_foot() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_square_foot() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_square_foot_data, Alpha4(color::Black));
   return value;
 }
@@ -882,8 +882,8 @@ static const uint8_t ic_sharp_24_content_text_format_data[] PROGMEM = {
   0x80, 0xE7, 0x0F, 0xF7, 0x3F, 0xF8, 0x09, 0xF1, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_text_format() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_text_format() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_text_format_data, Alpha4(color::Black));
   return value;
 }
@@ -897,8 +897,8 @@ static const uint8_t ic_sharp_24_content_unarchive_data[] PROGMEM = {
   0xFC, 0x6F, 0xFC, 0x6F, 0xFC, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_unarchive() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_unarchive() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_unarchive_data, Alpha4(color::Black));
   return value;
 }
@@ -912,8 +912,8 @@ static const uint8_t ic_sharp_24_content_undo_data[] PROGMEM = {
   0xF5, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_undo() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_undo() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_undo_data, Alpha4(color::Black));
   return value;
 }
@@ -932,8 +932,8 @@ static const uint8_t ic_sharp_24_content_waves_data[] PROGMEM = {
   0x02, 0x68, 0x22, 0x54, 0x26, 0x02, 0x05, 0x80, 0x98, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_waves() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_waves() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_waves_data, Alpha4(color::Black));
   return value;
 }
@@ -946,8 +946,8 @@ static const uint8_t ic_sharp_24_content_weekend_data[] PROGMEM = {
   0xE5, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_weekend() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_weekend() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_weekend_data, Alpha4(color::Black));
   return value;
 }
@@ -964,8 +964,8 @@ static const uint8_t ic_sharp_24_content_where_to_vote_data[] PROGMEM = {
   0x77, 0x70, 0x80, 0x68, 0x0E, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_content_where_to_vote() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_content_where_to_vote() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_content_where_to_vote_data, Alpha4(color::Black));
   return value;
 }

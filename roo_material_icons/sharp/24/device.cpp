@@ -17,8 +17,8 @@ static const uint8_t ic_sharp_24_device_access_alarm_data[] PROGMEM = {
   0x78, 0x15, 0xAE, 0xA8, 0x1D, 0x94, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_access_alarm() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_access_alarm() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_access_alarm_data, Alpha4(color::Black));
   return value;
 }
@@ -38,8 +38,8 @@ static const uint8_t ic_sharp_24_device_access_alarms_data[] PROGMEM = {
   0x78, 0x15, 0xAE, 0xA8, 0x1E, 0x94, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_access_alarms() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_access_alarms() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_access_alarms_data, Alpha4(color::Black));
   return value;
 }
@@ -58,8 +58,8 @@ static const uint8_t ic_sharp_24_device_access_time_data[] PROGMEM = {
   0x90, 0xD0, 0x57, 0x68, 0x21, 0x6B, 0xEA, 0x81, 0xDA, 0x58, 0x0E, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_access_time() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_access_time() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_access_time_data, Alpha4(color::Black));
   return value;
 }
@@ -78,8 +78,8 @@ static const uint8_t ic_sharp_24_device_add_alarm_data[] PROGMEM = {
   0xDF, 0x90, 0xC0, 0x27, 0x78, 0x15, 0xAE, 0xA8, 0x1D, 0x94, 0x80, 0xE4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_add_alarm() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_add_alarm() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_add_alarm_data, Alpha4(color::Black));
   return value;
 }
@@ -93,8 +93,8 @@ static const uint8_t ic_sharp_24_device_add_to_home_screen_data[] PROGMEM = {
   0xA7, 0x3A, 0x73, 0xA7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x77, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_add_to_home_screen() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_add_to_home_screen() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_add_to_home_screen_data, Alpha4(color::Black));
   return value;
 }
@@ -107,8 +107,8 @@ static const uint8_t ic_sharp_24_device_ad_units_data[] PROGMEM = {
   0x3A, 0x73, 0xA7, 0x3A, 0x73, 0xA7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x77, 0x71,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_ad_units() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_ad_units() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_ad_units_data, Alpha4(color::Black));
   return value;
 }
@@ -124,8 +124,8 @@ static const uint8_t ic_sharp_24_device_airplanemode_active_data[] PROGMEM = {
   0xEA, 0x0D, 0x04, 0x77, 0x30, 0xCE, 0x0A, 0x77, 0x28, 0x6E, 0xA6, 0x22, 0x6A, 0xE8, 0x0E, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_airplanemode_active() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_airplanemode_active() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_airplanemode_active_data, Alpha4(color::Black));
   return value;
 }
@@ -144,8 +144,8 @@ static const uint8_t ic_sharp_24_device_airplanemode_inactive_data[] PROGMEM = {
   0x16, 0xFC, 0x77, 0x71, 0x05, 0x01, 0x77, 0x76,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_airplanemode_inactive() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_airplanemode_inactive() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_airplanemode_inactive_data, Alpha4(color::Black));
   return value;
 }
@@ -157,8 +157,8 @@ static const uint8_t ic_sharp_24_device_battery_alert_data[] PROGMEM = {
   0x77, 0xC2, 0xC7, 0x7C, 0x2C, 0x77, 0xFB, 0x77, 0xFB, 0x77, 0xFB, 0x77, 0xFB, 0x80, 0xE3, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_alert() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_alert() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_battery_alert_data, Alpha4(color::Black));
   return value;
 }
@@ -172,8 +172,8 @@ static const uint8_t ic_sharp_24_device_battery_charging_full_data[] PROGMEM = {
   0xFB, 0x80, 0xE3, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_charging_full() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_charging_full() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_battery_charging_full_data, Alpha4(color::Black));
   return value;
 }
@@ -185,8 +185,8 @@ static const uint8_t ic_sharp_24_device_battery_full_data[] PROGMEM = {
   0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB8, 0x0E, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_full() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_full() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_battery_full_data, Alpha4(color::Black));
   return value;
 }
@@ -198,8 +198,8 @@ static const uint8_t ic_sharp_24_device_battery_std_data[] PROGMEM = {
   0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xB8, 0x0E, 0x30,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_std() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_std() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_battery_std_data, Alpha4(color::Black));
   return value;
 }
@@ -213,8 +213,8 @@ static const uint8_t ic_sharp_24_device_battery_unknown_data[] PROGMEM = {
   0xC2, 0xC7, 0x7F, 0xB7, 0x7F, 0xB7, 0x7F, 0xA0, 0xE7, 0x70, 0x5F, 0x0E, 0x03, 0x80, 0xE3, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_unknown() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_battery_unknown() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_battery_unknown_data, Alpha4(color::Black));
   return value;
 }
@@ -232,8 +232,8 @@ static const uint8_t ic_sharp_24_device_bluetooth_connected_data[] PROGMEM = {
   0x77, 0x90, 0x88, 0x0E, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_connected() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_connected() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_bluetooth_connected_data, Alpha4(color::Black));
   return value;
 }
@@ -250,8 +250,8 @@ static const uint8_t ic_sharp_24_device_bluetooth_disabled_data[] PROGMEM = {
   0x71, 0xB0, 0x82, 0x81, 0x2C, 0x27, 0x71, 0xA0, 0x87, 0x77, 0x90, 0x88, 0x0E, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_disabled() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_disabled() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_bluetooth_disabled_data, Alpha4(color::Black));
   return value;
 }
@@ -268,8 +268,8 @@ static const uint8_t ic_sharp_24_device_bluetooth_data[] PROGMEM = {
   0x77, 0x90, 0x88, 0x0E, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_bluetooth_data, Alpha4(color::Black));
   return value;
 }
@@ -288,8 +288,8 @@ static const uint8_t ic_sharp_24_device_bluetooth_searching_data[] PROGMEM = {
   0x79, 0x08, 0x80, 0xF1, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_searching() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_bluetooth_searching() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_bluetooth_searching_data, Alpha4(color::Black));
   return value;
 }
@@ -305,8 +305,8 @@ static const uint8_t ic_sharp_24_device_brightness_auto_data[] PROGMEM = {
   0x0B, 0x77, 0x40, 0x10, 0xDA, 0x0B, 0x77, 0x68, 0x11, 0xDB, 0x77, 0x71, 0x01, 0x75,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_auto() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_auto() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_brightness_auto_data, Alpha4(color::Black));
   return value;
 }
@@ -324,8 +324,8 @@ static const uint8_t ic_sharp_24_device_brightness_high_data[] PROGMEM = {
   0x10, 0xDA, 0x0B, 0x77, 0x68, 0x11, 0xDB, 0x77, 0x71, 0x01, 0x75,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_high() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_high() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_brightness_high_data, Alpha4(color::Black));
   return value;
 }
@@ -342,8 +342,8 @@ static const uint8_t ic_sharp_24_device_brightness_low_data[] PROGMEM = {
   0x77, 0x10, 0x17, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_low() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_low() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_brightness_low_data, Alpha4(color::Black));
   return value;
 }
@@ -359,8 +359,8 @@ static const uint8_t ic_sharp_24_device_brightness_medium_data[] PROGMEM = {
   0x77, 0x68, 0x11, 0xDB, 0x77, 0x71, 0x01, 0x75,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_medium() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_brightness_medium() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_brightness_medium_data, Alpha4(color::Black));
   return value;
 }
@@ -378,8 +378,8 @@ static const uint8_t ic_sharp_24_device_data_usage_data[] PROGMEM = {
   0x81, 0xEB, 0x68, 0x0E, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_data_usage() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_data_usage() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_data_usage_data, Alpha4(color::Black));
   return value;
 }
@@ -394,8 +394,8 @@ static const uint8_t ic_sharp_24_device_developer_mode_data[] PROGMEM = {
   0x6A, 0x73, 0xA7, 0x3A, 0x73, 0xA7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x77, 0x71,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_developer_mode() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_developer_mode() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_developer_mode_data, Alpha4(color::Black));
   return value;
 }
@@ -408,8 +408,8 @@ static const uint8_t ic_sharp_24_device_devices_data[] PROGMEM = {
   0x2F, 0x98, 0x09, 0xB4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_devices() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_devices() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_devices_data, Alpha4(color::Black));
   return value;
 }
@@ -422,8 +422,8 @@ static const uint8_t ic_sharp_24_device_dvr_data[] PROGMEM = {
   0x74, 0xA2, 0xFF, 0xF9, 0x2F, 0xFF, 0x97, 0x2F, 0x97, 0x72, 0xF9, 0x80, 0x99, 0x40,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_dvr() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_dvr() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_dvr_data, Alpha4(color::Black));
   return value;
 }
@@ -443,8 +443,8 @@ static const uint8_t ic_sharp_24_device_gps_fixed_data[] PROGMEM = {
   0xA7, 0x77, 0x77,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_fixed() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_fixed() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_gps_fixed_data, Alpha4(color::Black));
   return value;
 }
@@ -462,8 +462,8 @@ static const uint8_t ic_sharp_24_device_gps_not_fixed_data[] PROGMEM = {
   0xA7, 0x77, 0x1A, 0x77, 0x77, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_not_fixed() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_not_fixed() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_gps_not_fixed_data, Alpha4(color::Black));
   return value;
 }
@@ -483,8 +483,8 @@ static const uint8_t ic_sharp_24_device_gps_off_data[] PROGMEM = {
   0xC3, 0x77, 0xA7, 0x77, 0x1A, 0x77, 0x77, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_gps_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_gps_off_data, Alpha4(color::Black));
   return value;
 }
@@ -498,8 +498,8 @@ static const uint8_t ic_sharp_24_device_graphic_eq_data[] PROGMEM = {
   0x77, 0x71, 0xA7, 0x77, 0x1A, 0x80, 0xE7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_graphic_eq() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_graphic_eq() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_graphic_eq_data, Alpha4(color::Black));
   return value;
 }
@@ -519,8 +519,8 @@ static const uint8_t ic_sharp_24_device_location_disabled_data[] PROGMEM = {
   0xC3, 0x77, 0xA7, 0x77, 0x1A, 0x77, 0x77, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_location_disabled() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_location_disabled() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_location_disabled_data, Alpha4(color::Black));
   return value;
 }
@@ -538,8 +538,8 @@ static const uint8_t ic_sharp_24_device_location_searching_data[] PROGMEM = {
   0xA7, 0x77, 0x1A, 0x77, 0x77, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_location_searching() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_location_searching() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_location_searching_data, Alpha4(color::Black));
   return value;
 }
@@ -554,8 +554,8 @@ static const uint8_t ic_sharp_24_device_mobile_friendly_data[] PROGMEM = {
   0xFF, 0x77, 0x76,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_mobile_friendly() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_mobile_friendly() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_mobile_friendly_data, Alpha4(color::Black));
   return value;
 }
@@ -572,8 +572,8 @@ static const uint8_t ic_sharp_24_device_mobile_off_data[] PROGMEM = {
   0xF9, 0x0D, 0x01, 0x7F, 0xF8, 0x1D, 0xFC, 0x7F, 0xF8, 0x11, 0xC3, 0x77, 0x75,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_mobile_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_mobile_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_mobile_off_data, Alpha4(color::Black));
   return value;
 }
@@ -588,8 +588,8 @@ static const uint8_t ic_sharp_24_device_nfc_data[] PROGMEM = {
   0xA4, 0xFF, 0xE4, 0xFF, 0xE8, 0x0D, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_nfc() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_nfc() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_nfc_data, Alpha4(color::Black));
   return value;
 }
@@ -602,8 +602,8 @@ static const uint8_t ic_sharp_24_device_screen_lock_landscape_data[] PROGMEM = {
   0x98, 0x09, 0xE5, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_landscape() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_landscape() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_screen_lock_landscape_data, Alpha4(color::Black));
   return value;
 }
@@ -617,8 +617,8 @@ static const uint8_t ic_sharp_24_device_screen_lock_portrait_data[] PROGMEM = {
   0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x3F, 0xF7, 0x77, 0x71,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_portrait() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_portrait() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_screen_lock_portrait_data, Alpha4(color::Black));
   return value;
 }
@@ -639,8 +639,8 @@ static const uint8_t ic_sharp_24_device_screen_lock_rotation_data[] PROGMEM = {
   0x7C, 0xEE, 0x20, 0x17, 0x20,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_rotation() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_lock_rotation() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_screen_lock_rotation_data, Alpha4(color::Black));
   return value;
 }
@@ -662,8 +662,8 @@ static const uint8_t ic_sharp_24_device_screen_rotation_data[] PROGMEM = {
   0x75, 0x02, 0x0A, 0xB8, 0x4E, 0x20, 0x2E, 0xA7, 0x71, 0x86, 0x27, 0xCE, 0xE2, 0x01, 0x72,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_rotation() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_screen_rotation() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_screen_rotation_data, Alpha4(color::Black));
   return value;
 }
@@ -677,8 +677,8 @@ static const uint8_t ic_sharp_24_device_sd_storage_data[] PROGMEM = {
   0xA8, 0x0E, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_sd_storage() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_sd_storage() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_sd_storage_data, Alpha4(color::Black));
   return value;
 }
@@ -693,8 +693,8 @@ static const uint8_t ic_sharp_24_device_settings_system_daydream_data[] PROGMEM 
   0x98, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_settings_system_daydream() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_settings_system_daydream() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_settings_system_daydream_data, Alpha4(color::Black));
   return value;
 }
@@ -708,8 +708,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_4_bar_data[] PROGMEM = {
   0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_4_bar() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_4_bar() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_4_bar_data, Alpha4(color::Black));
   return value;
 }
@@ -722,8 +722,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_alt_data[] PROGMEM = {
   0x09, 0xC0, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_alt() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_alt() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_alt_data, Alpha4(color::Black));
   return value;
 }
@@ -737,8 +737,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_connected_no_internet_4_
   0xF2, 0xA4, 0x06, 0xFF, 0x92, 0xA8, 0x0D, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_connected_no_internet_4_bar() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_connected_no_internet_4_bar() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_connected_no_internet_4_bar_data, Alpha4(color::Black));
   return value;
 }
@@ -753,8 +753,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_no_sim_data[] PROGMEM = 
   0x67, 0x77, 0x81, 0x6F, 0xD7, 0x77, 0x10, 0x50, 0x17, 0x77, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_no_sim() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_no_sim() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_no_sim_data, Alpha4(color::Black));
   return value;
 }
@@ -769,8 +769,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_null_data[] PROGMEM = {
   0xFC, 0x40, 0x6F, 0xFD, 0x80, 0xD6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_null() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_null() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_null_data, Alpha4(color::Black));
   return value;
 }
@@ -787,8 +787,8 @@ static const uint8_t ic_sharp_24_device_signal_cellular_off_data[] PROGMEM = {
   0x77, 0x68, 0x21, 0xDF, 0xC7, 0x77, 0x81, 0x1C, 0x37, 0x77, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_cellular_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_cellular_off_data, Alpha4(color::Black));
   return value;
 }
@@ -804,8 +804,8 @@ static const uint8_t ic_sharp_24_device_signal_wifi_4_bar_lock_data[] PROGMEM = 
   0xA0, 0x93, 0xF7, 0x38, 0x11, 0xDC, 0x4F, 0x74, 0x02, 0x01, 0x4F, 0x80, 0xD4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_4_bar_lock() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_4_bar_lock() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_wifi_4_bar_lock_data, Alpha4(color::Black));
   return value;
 }
@@ -820,8 +820,8 @@ static const uint8_t ic_sharp_24_device_signal_wifi_4_bar_data[] PROGMEM = {
   0x77, 0x50, 0xBA, 0x09, 0x77, 0x68, 0x11, 0xDC, 0x77, 0x71, 0x02, 0x01, 0x80, 0xE7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_4_bar() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_4_bar() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_wifi_4_bar_data, Alpha4(color::Black));
   return value;
 }
@@ -839,8 +839,8 @@ static const uint8_t ic_sharp_24_device_signal_wifi_off_data[] PROGMEM = {
   0x71, 0x02, 0x01, 0x80, 0xE7, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_off() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_signal_wifi_off() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_signal_wifi_off_data, Alpha4(color::Black));
   return value;
 }
@@ -852,8 +852,8 @@ static const uint8_t ic_sharp_24_device_storage_data[] PROGMEM = {
   0xA2, 0xFF, 0xA4, 0xFF, 0xE8, 0x09, 0xB6, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_storage() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_storage() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_storage_data, Alpha4(color::Black));
   return value;
 }
@@ -867,8 +867,8 @@ static const uint8_t ic_sharp_24_device_thermostat_data[] PROGMEM = {
   0x03, 0x77, 0x10, 0x9E, 0x07, 0x77, 0x38, 0x45, 0xBE, 0xFC, 0x38, 0x0E, 0x50,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_thermostat() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_thermostat() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_thermostat_data, Alpha4(color::Black));
   return value;
 }
@@ -883,8 +883,8 @@ static const uint8_t ic_sharp_24_device_usb_data[] PROGMEM = {
   0xE7, 0x76, 0x08, 0xA0, 0x67, 0x77, 0x00, 0x17, 0x77, 0x77,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_usb() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_usb() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_usb_data, Alpha4(color::Black));
   return value;
 }
@@ -899,8 +899,8 @@ static const uint8_t ic_sharp_24_device_wallpaper_data[] PROGMEM = {
   0xFA, 0x2F, 0xA4, 0xFA, 0x2F, 0xA8, 0x0D, 0x60,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_wallpaper() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_wallpaper() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_wallpaper_data, Alpha4(color::Black));
   return value;
 }
@@ -915,8 +915,8 @@ static const uint8_t ic_sharp_24_device_widgets_data[] PROGMEM = {
   0x6F, 0x92, 0xF9, 0x6F, 0x92, 0xF9, 0x6F, 0x92, 0xF9, 0x80, 0x98, 0x70,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_widgets() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_widgets() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_widgets_data, Alpha4(color::Black));
   return value;
 }
@@ -933,8 +933,8 @@ static const uint8_t ic_sharp_24_device_wifi_lock_data[] PROGMEM = {
   0x4F, 0x80, 0xD4, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_wifi_lock() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_wifi_lock() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_wifi_lock_data, Alpha4(color::Black));
   return value;
 }
@@ -955,8 +955,8 @@ static const uint8_t ic_sharp_24_device_wifi_tethering_data[] PROGMEM = {
   0x71, 0x03, 0x05, 0x80, 0xE2, 0x00,
 };
 
-const RleImage4bppxPolarized<Alpha4, PrgMemResource>& ic_sharp_24_device_wifi_tethering() {
-  static RleImage4bppxPolarized<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_24_device_wifi_tethering() {
+  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
       24, 24, ic_sharp_24_device_wifi_tethering_data, Alpha4(color::Black));
   return value;
 }
