@@ -1,6 +1,8 @@
 #include "roo_display/image/image.h"
 
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_add_home_work();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_app_settings_alt();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_apps_outage();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_apps();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_arrow_back_ios_new();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_arrow_back_ios();
@@ -24,6 +26,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_close();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_double_arrow();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_east();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_expand_circle_down();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_expand_less();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_expand_more();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_36_navigation_first_page();

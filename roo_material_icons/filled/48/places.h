@@ -24,6 +24,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_cottage();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_countertops();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_crib();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_desk();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_do_not_step();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_do_not_touch();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_dry();
@@ -76,6 +77,8 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_tapas();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_tty();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_umbrella();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_vape_free();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_vaping_rooms();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_villa();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_wash();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_48_places_water_damage();

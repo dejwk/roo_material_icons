@@ -41,6 +41,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_auto_fix_off();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_autofps_select();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_auto_stories();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_bedtime_off();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_bedtime();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_blur_circular();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_blur_linear();
@@ -70,6 +71,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_colorize();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_color_lens();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_compare();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_contrast();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_control_point_duplicate();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_control_point();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_crop_16_9();
@@ -84,6 +86,15 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_crop_portrait();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_crop_rotate();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_crop_square();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_bitcoin();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_franc();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_lira();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_pound();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_ruble();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_rupee();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_yen();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_currency_yuan();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_deblur();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_dehaze();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_details();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_dirty_lens();
@@ -147,6 +158,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_leak_remove();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_lens();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_linked_camera();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_logo_dev();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_looks_3();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_looks_4();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_looks_5();
@@ -200,6 +212,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_receipt_long();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_remove_red_eye();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_rotate_90_degrees_ccw();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_rotate_90_degrees_cw();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_rotate_left();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_rotate_right();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_filled_18_image_shutter_speed();

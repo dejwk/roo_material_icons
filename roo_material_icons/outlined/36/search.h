@@ -25,5 +25,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_manage_search();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_podcasts();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_shower();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_table_bar();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_table_restaurant();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_window();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_outlined_36_search_yard();

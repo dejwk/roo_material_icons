@@ -56,6 +56,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_sms();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_support_agent();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_sync_disabled();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_sync_lock();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_sync();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_sync_problem();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_system_update();
@@ -63,6 +64,7 @@ const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::P
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_time_to_leave();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_tv_off();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_vibration();
+const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_video_chat();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_voice_chat();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_vpn_lock();
 const ::roo_display::RleImage4bppxBiased<::roo_display::Alpha4, ::roo_display::PrgMemResource>& ic_sharp_48_notification_wc();
