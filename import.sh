@@ -124,7 +124,7 @@ function generate_family {
       echo "category: ${category}"
       mkdir -p roo_material_icons/${family}/${size}/${category}
       files=`find import/png/${family}/${size}/${category} -name "*.png" -printf "%f\n" | sort | sed -e ':a;N;s/\n/ /;ba'`
-      (cd ${importer_dir}; ./gradlew run --args="-s PROGMEM -o ${category} -e ALPHA4 -c RLE --fg=color::Black --input-dir=${icon_dir}/import/png/${family}/${size}/${category} --output-dir=${icon_dir}/roo_material_icons/${family}/${size} ${files}")
+      (cd ${importer_dir}; ./gradlew run --args="-s PROGMEM -o ${category} -e ALPHA4 -c RLE --fg=color::Black --autocrop --input-dir=${icon_dir}/import/png/${family}/${size}/${category} --output-dir=${icon_dir}/roo_material_icons/${family}/${size} ${files}")
     done
   done
 
