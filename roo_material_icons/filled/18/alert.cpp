@@ -11,8 +11,8 @@ static const uint8_t ic_filled_18_alert_add_alert_data[] PROGMEM = {
   0x31, 0x73, 0x03, 0xA0, 0x37, 0x40, 0x01, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_add_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_add_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 15, 17), Box(0, 0, 17, 17),
       ic_filled_18_alert_add_alert_data, Alpha4(color::Black));
   return value;
@@ -27,8 +27,8 @@ static const uint8_t ic_filled_18_alert_auto_delete_data[] PROGMEM = {
   0x90, 0x87, 0x84, 0x3D, 0xBA, 0xD8, 0x73, 0x00, 0x34,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_auto_delete() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_auto_delete() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_filled_18_alert_auto_delete_data, Alpha4(color::Black));
   return value;
@@ -45,8 +45,8 @@ static const uint8_t ic_filled_18_alert_error_outline_data[] PROGMEM = {
   0x25, 0x77, 0x56,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_error_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_error_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_filled_18_alert_error_outline_data, Alpha4(color::Black));
   return value;
@@ -60,8 +60,8 @@ static const uint8_t ic_filled_18_alert_error_data[] PROGMEM = {
   0xBF, 0xB0, 0xB5, 0x09, 0xF9, 0x09, 0x78, 0x12, 0x9D, 0xA8, 0x1D, 0x92, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_error() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_error() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_filled_18_alert_error_data, Alpha4(color::Black));
   return value;
@@ -75,8 +75,8 @@ static const uint8_t ic_filled_18_alert_notification_important_data[] PROGMEM = 
   0xB0, 0xD8, 0x09, 0x03, 0x40, 0x5A, 0x05, 0x72, 0x00, 0x55,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_notification_important() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_notification_important() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 14, 16), Box(0, 0, 17, 17),
       ic_filled_18_alert_notification_important_data, Alpha4(color::Black));
   return value;
@@ -90,8 +90,8 @@ static const uint8_t ic_filled_18_alert_warning_amber_data[] PROGMEM = {
   0x53, 0x00, 0x43, 0x83, 0x5B, 0x04, 0xE8, 0x06, 0x78, 0x1E, 0x44, 0x80, 0x90, 0x50, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_warning_amber() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_warning_amber() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 14), Box(0, 0, 17, 17),
       ic_filled_18_alert_warning_amber_data, Alpha4(color::Black));
   return value;
@@ -105,8 +105,8 @@ static const uint8_t ic_filled_18_alert_warning_data[] PROGMEM = {
   0x10, 0xED, 0x2D, 0x0E, 0x01, 0x20, 0xAF, 0xF8, 0x1A, 0x03, 0xFF, 0xA0, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_filled_18_alert_warning() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_filled_18_alert_warning() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 17, 15), Box(0, 0, 17, 17),
       ic_filled_18_alert_warning_data, Alpha4(color::Black));
   return value;

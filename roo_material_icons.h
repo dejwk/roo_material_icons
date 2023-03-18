@@ -7,6 +7,6 @@
 namespace roo_display {
 
 // A convenience typedef.
-typedef RleImage4bppxBiased<Alpha4, PrgMemResource> MaterialIcon;
+typedef RleImage4bppxBiased<Alpha4, ProgMemPtr> MaterialIcon;
 
 }  // namespace roo_display

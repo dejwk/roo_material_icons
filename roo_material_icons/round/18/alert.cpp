@@ -10,8 +10,8 @@ static const uint8_t ic_round_18_alert_add_alert_data[] PROGMEM = {
   0x98, 0x1A, 0x03, 0xFB, 0x03, 0x50, 0x01, 0x72, 0x82, 0x2E, 0xE2, 0x72, 0x00, 0x15,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_add_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_add_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 14, 16), Box(0, 0, 17, 17),
       ic_round_18_alert_add_alert_data, Alpha4(color::Black));
   return value;
@@ -26,8 +26,8 @@ static const uint8_t ic_round_18_alert_auto_delete_data[] PROGMEM = {
   0x33, 0x09, 0x08, 0x78, 0x43, 0xDB, 0xAD, 0x87, 0x30, 0x03, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_auto_delete() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_auto_delete() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_round_18_alert_auto_delete_data, Alpha4(color::Black));
   return value;
@@ -41,8 +41,8 @@ static const uint8_t ic_round_18_alert_error_outline_data[] PROGMEM = {
   0x30, 0x9F, 0xB0, 0x95, 0x09, 0xF9, 0x09, 0x70, 0x30, 0xBC, 0x0B, 0x03, 0x74, 0x00, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_error_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_error_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_alert_error_outline_data, Alpha4(color::Black));
   return value;
@@ -56,8 +56,8 @@ static const uint8_t ic_round_18_alert_error_data[] PROGMEM = {
   0x30, 0x9F, 0xB0, 0x95, 0x09, 0xF9, 0x09, 0x70, 0x30, 0xBC, 0x0B, 0x03, 0x74, 0x00, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_error() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_error() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_alert_error_data, Alpha4(color::Black));
   return value;
@@ -71,8 +71,8 @@ static const uint8_t ic_round_18_alert_notification_important_data[] PROGMEM = {
   0x03, 0x50, 0x01, 0x72, 0x82, 0x2E, 0xE2, 0x72, 0x00, 0x15,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_notification_important() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_notification_important() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 14, 16), Box(0, 0, 17, 17),
       ic_round_18_alert_notification_important_data, Alpha4(color::Black));
   return value;
@@ -86,8 +86,8 @@ static const uint8_t ic_round_18_alert_warning_amber_data[] PROGMEM = {
   0x53, 0x00, 0x43, 0x83, 0x5B, 0x01, 0xE8, 0x06, 0x78, 0x2E, 0x10, 0x48, 0x06, 0x50, 0x41,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_warning_amber() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_warning_amber() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 14), Box(0, 0, 17, 17),
       ic_round_18_alert_warning_amber_data, Alpha4(color::Black));
   return value;
@@ -101,8 +101,8 @@ static const uint8_t ic_round_18_alert_warning_data[] PROGMEM = {
   0x82, 0x60, 0x1E, 0xFD, 0x81, 0xE1, 0x5F, 0xF0, 0x51, 0x80, 0x92, 0x31,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_alert_warning() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_alert_warning() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_round_18_alert_warning_data, Alpha4(color::Black));
   return value;

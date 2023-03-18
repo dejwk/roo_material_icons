@@ -13,8 +13,8 @@ static const uint8_t ic_outlined_18_search_bathroom_data[] PROGMEM = {
   0x3F, 0x30, 0xEF, 0xD0, 0xE3, 0x80, 0x90, 0x32,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_bathroom() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_bathroom() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_bathroom_data, Alpha4(color::Black));
   return value;
@@ -28,8 +28,8 @@ static const uint8_t ic_outlined_18_search_bed_data[] PROGMEM = {
   0x5F, 0x33, 0xFF, 0x82, 0x33, 0xF3, 0x80, 0x61, 0x84, 0x3F, 0x31, 0x71, 0x73, 0x81, 0x17, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_bed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_bed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 16, 13), Box(0, 0, 17, 17),
       ic_outlined_18_search_bed_data, Alpha4(color::Black));
   return value;
@@ -46,8 +46,8 @@ static const uint8_t ic_outlined_18_search_bedroom_baby_data[] PROGMEM = {
   0x0E, 0x38, 0x09, 0x03, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_bedroom_baby() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_bedroom_baby() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_bedroom_baby_data, Alpha4(color::Black));
   return value;
@@ -64,8 +64,8 @@ static const uint8_t ic_outlined_18_search_bedroom_child_data[] PROGMEM = {
   0x0E, 0xFD, 0x0E, 0x38, 0x09, 0x03, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_bedroom_child() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_bedroom_child() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_bedroom_child_data, Alpha4(color::Black));
   return value;
@@ -82,8 +82,8 @@ static const uint8_t ic_outlined_18_search_bedroom_parent_data[] PROGMEM = {
   0xD0, 0xE3, 0x80, 0x90, 0x32,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_bedroom_parent() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_bedroom_parent() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_bedroom_parent_data, Alpha4(color::Black));
   return value;
@@ -98,8 +98,8 @@ static const uint8_t ic_outlined_18_search_blender_data[] PROGMEM = {
   0x59, 0x39, 0x84, 0x61, 0x11, 0x16, 0x93, 0x0C, 0xE0, 0xC4, 0x80, 0x23, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_blender() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_blender() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 12, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_blender_data, Alpha4(color::Black));
   return value;
@@ -114,8 +114,8 @@ static const uint8_t ic_outlined_18_search_camera_indoor_data[] PROGMEM = {
   0x18, 0x06, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_camera_indoor() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_camera_indoor() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_camera_indoor_data, Alpha4(color::Black));
   return value;
@@ -129,8 +129,8 @@ static const uint8_t ic_outlined_18_search_camera_outdoor_data[] PROGMEM = {
   0x6E, 0x73, 0x06, 0xFB, 0x06, 0x01, 0x80, 0x63, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_camera_outdoor() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_camera_outdoor() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_camera_outdoor_data, Alpha4(color::Black));
   return value;
@@ -144,8 +144,8 @@ static const uint8_t ic_outlined_18_search_chair_alt_data[] PROGMEM = {
   0x2A, 0xEE, 0x66, 0x82, 0x6E, 0x31, 0x60, 0x10, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_chair_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_chair_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 13, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_chair_alt_data, Alpha4(color::Black));
   return value;
@@ -161,8 +161,8 @@ static const uint8_t ic_outlined_18_search_chair_data[] PROGMEM = {
   0x10, 0x70, 0xC6, 0x02, 0x73, 0x02, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_chair() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_chair() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_chair_data, Alpha4(color::Black));
   return value;
@@ -177,8 +177,8 @@ static const uint8_t ic_outlined_18_search_coffee_maker_data[] PROGMEM = {
   0x13, 0xFA, 0x34, 0xCE, 0x20, 0x2F, 0xB8, 0x16, 0x01, 0x80, 0x53, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_coffee_maker() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_coffee_maker() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 14, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_coffee_maker_data, Alpha4(color::Black));
   return value;
@@ -193,8 +193,8 @@ static const uint8_t ic_outlined_18_search_coffee_data[] PROGMEM = {
   0x80, 0x64, 0x01, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_coffee() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_coffee() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 16, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_coffee_data, Alpha4(color::Black));
   return value;
@@ -212,8 +212,8 @@ static const uint8_t ic_outlined_18_search_dining_data[] PROGMEM = {
   0xFD, 0x0E, 0x38, 0x09, 0x03, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_dining() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_dining() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_dining_data, Alpha4(color::Black));
   return value;
@@ -228,8 +228,8 @@ static const uint8_t ic_outlined_18_search_door_back_data[] PROGMEM = {
   0x90, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_door_back() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_door_back() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_door_back_data, Alpha4(color::Black));
   return value;
@@ -244,8 +244,8 @@ static const uint8_t ic_outlined_18_search_doorbell_data[] PROGMEM = {
   0xB0, 0x60, 0x18, 0x06, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_doorbell() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_doorbell() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_doorbell_data, Alpha4(color::Black));
   return value;
@@ -260,8 +260,8 @@ static const uint8_t ic_outlined_18_search_door_front_data[] PROGMEM = {
   0x90, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_door_front() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_door_front() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_door_front_data, Alpha4(color::Black));
   return value;
@@ -277,8 +277,8 @@ static const uint8_t ic_outlined_18_search_door_sliding_data[] PROGMEM = {
   0x04, 0xFD, 0x04, 0x01, 0x80, 0x90, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_door_sliding() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_door_sliding() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_door_sliding_data, Alpha4(color::Black));
   return value;
@@ -293,8 +293,8 @@ static const uint8_t ic_outlined_18_search_feed_data[] PROGMEM = {
   0x50, 0xF4, 0x49, 0x73, 0x90, 0x40, 0x2F, 0xD8, 0x12, 0x02, 0x80, 0x63, 0x02, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_feed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_feed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_feed_data, Alpha4(color::Black));
   return value;
@@ -311,8 +311,8 @@ static const uint8_t ic_outlined_18_search_flatware_data[] PROGMEM = {
   0xF1, 0x06, 0xE4, 0x03, 0x40, 0x32, 0x01, 0x03, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_flatware() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_flatware() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_flatware_data, Alpha4(color::Black));
   return value;
@@ -329,8 +329,8 @@ static const uint8_t ic_outlined_18_search_garage_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_garage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_garage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_garage_data, Alpha4(color::Black));
   return value;
@@ -345,8 +345,8 @@ static const uint8_t ic_outlined_18_search_light_data[] PROGMEM = {
   0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_light() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_light() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_light_data, Alpha4(color::Black));
   return value;
@@ -363,8 +363,8 @@ static const uint8_t ic_outlined_18_search_living_data[] PROGMEM = {
   0xF3, 0x80, 0x61, 0x83, 0x3F, 0x30, 0xEF, 0xD0, 0xE3, 0x80, 0x90, 0x32,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_living() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_living() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_living_data, Alpha4(color::Black));
   return value;
@@ -378,8 +378,8 @@ static const uint8_t ic_outlined_18_search_manage_search_data[] PROGMEM = {
   0xE3, 0x72, 0x01, 0x03, 0x28, 0x2B, 0xE3, 0x28, 0x03, 0xD5, 0x81, 0xBE, 0x18, 0x03, 0x76, 0x03,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_manage_search() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_manage_search() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 15, 13), Box(0, 0, 17, 17),
       ic_outlined_18_search_manage_search_data, Alpha4(color::Black));
   return value;
@@ -396,8 +396,8 @@ static const uint8_t ic_outlined_18_search_podcasts_data[] PROGMEM = {
   0x0A, 0x30, 0x70, 0x87, 0x20, 0x0A, 0x77, 0x00, 0xA7, 0x70, 0x02, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_podcasts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_podcasts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_podcasts_data, Alpha4(color::Black));
   return value;
@@ -411,8 +411,8 @@ static const uint8_t ic_outlined_18_search_shower_data[] PROGMEM = {
   0xF1, 0xAA, 0x1F, 0x33, 0x84, 0x30, 0x11, 0x03, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_shower() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_shower() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 13, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_shower_data, Alpha4(color::Black));
   return value;
@@ -427,8 +427,8 @@ static const uint8_t ic_outlined_18_search_table_bar_data[] PROGMEM = {
   0x05, 0x02, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_table_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_table_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_outlined_18_search_table_bar_data, Alpha4(color::Black));
   return value;
@@ -443,8 +443,8 @@ static const uint8_t ic_outlined_18_search_table_restaurant_data[] PROGMEM = {
   0x72, 0x01, 0x05, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_table_restaurant() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_table_restaurant() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_outlined_18_search_table_restaurant_data, Alpha4(color::Black));
   return value;
@@ -459,8 +459,8 @@ static const uint8_t ic_outlined_18_search_window_data[] PROGMEM = {
   0x2F, 0xD8, 0x12, 0x02, 0x80, 0x63, 0x02, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_window() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_window() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_outlined_18_search_window_data, Alpha4(color::Black));
   return value;
@@ -477,8 +477,8 @@ static const uint8_t ic_outlined_18_search_yard_data[] PROGMEM = {
   0x2F, 0x33, 0xF3, 0x80, 0x61, 0x83, 0x3F, 0x30, 0xEF, 0xD0, 0xE3, 0x80, 0x90, 0x32,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_18_search_yard() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_18_search_yard() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_outlined_18_search_yard_data, Alpha4(color::Black));
   return value;

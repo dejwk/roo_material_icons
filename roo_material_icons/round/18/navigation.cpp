@@ -13,8 +13,8 @@ static const uint8_t ic_round_18_navigation_add_home_work_data[] PROGMEM = {
   0x82, 0x33, 0x06, 0xA0, 0xDA, 0x06, 0x75, 0x83, 0x6D, 0xFD, 0x62,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_add_home_work() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_add_home_work() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_add_home_work_data, Alpha4(color::Black));
   return value;
@@ -30,8 +30,8 @@ static const uint8_t ic_round_18_navigation_app_settings_alt_data[] PROGMEM = {
   0x90, 0xE0, 0x24, 0x80, 0x41, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_app_settings_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_app_settings_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 16, 17), Box(0, 0, 17, 17),
       ic_round_18_navigation_app_settings_alt_data, Alpha4(color::Black));
   return value;
@@ -48,8 +48,8 @@ static const uint8_t ic_round_18_navigation_apps_outage_data[] PROGMEM = {
   0xA0, 0x44, 0x04, 0x03, 0x20, 0x03, 0x20, 0x30, 0x44,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_apps_outage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_apps_outage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 17, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_apps_outage_data, Alpha4(color::Black));
   return value;
@@ -65,8 +65,8 @@ static const uint8_t ic_round_18_navigation_apps_data[] PROGMEM = {
   0x03, 0x04, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_apps() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_apps() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_apps_data, Alpha4(color::Black));
   return value;
@@ -79,8 +79,8 @@ static const uint8_t ic_round_18_navigation_arrow_back_ios_new_data[] PROGMEM = 
   0xDF, 0x85, 0x82, 0x1D, 0xF8, 0x58, 0x21, 0xDF, 0x85, 0x82, 0x1D, 0xF6, 0x58, 0x11, 0xA4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_back_ios_new() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_back_ios_new() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 2, 12, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_back_ios_new_data, Alpha4(color::Black));
   return value;
@@ -93,8 +93,8 @@ static const uint8_t ic_round_18_navigation_arrow_back_ios_data[] PROGMEM = {
   0xFD, 0x25, 0x82, 0x7F, 0xD2, 0x58, 0x27, 0xFD, 0x25, 0x81, 0x7F, 0xD6, 0x06, 0x0A,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_back_ios() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_back_ios() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 7, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_back_ios_data, Alpha4(color::Black));
   return value;
@@ -107,8 +107,8 @@ static const uint8_t ic_round_18_navigation_arrow_back_data[] PROGMEM = {
   0x82, 0x1C, 0xD2, 0x71, 0x81, 0x1C, 0x85,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_back() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_back() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 14, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_back_data, Alpha4(color::Black));
   return value;
@@ -121,8 +121,8 @@ static const uint8_t ic_round_18_navigation_arrow_downward_data[] PROGMEM = {
   0xCD, 0xC1, 0x30, 0x10, 0xCA, 0x0C, 0x01, 0x58, 0x21, 0xCB, 0x13,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_downward() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_downward() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 13, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_downward_data, Alpha4(color::Black));
   return value;
@@ -136,8 +136,8 @@ static const uint8_t ic_round_18_navigation_arrow_drop_down_circle_data[] PROGME
   0x50, 0x8F, 0x90, 0x87, 0x03, 0x0B, 0xC0, 0xB0, 0x37, 0x40, 0x02, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_drop_down_circle() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_drop_down_circle() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_drop_down_circle_data, Alpha4(color::Black));
   return value;
@@ -148,8 +148,8 @@ static const uint8_t ic_round_18_navigation_arrow_drop_down_data[] PROGMEM = {
   0x85, 0xAB, 0xBB, 0xBA, 0x4C, 0x81, 0x40, 0x4A, 0x04, 0x30, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_drop_down() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_drop_down() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 7, 11, 10), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_drop_down_data, Alpha4(color::Black));
   return value;
@@ -160,8 +160,8 @@ static const uint8_t ic_round_18_navigation_arrow_drop_up_data[] PROGMEM = {
   0x20, 0x04, 0x30, 0x4A, 0x81, 0x40, 0x4C, 0x85, 0x4A, 0xBB, 0xBB, 0xA0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_drop_up() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_drop_up() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 7, 11, 10), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_drop_up_data, Alpha4(color::Black));
   return value;
@@ -174,8 +174,8 @@ static const uint8_t ic_round_18_navigation_arrow_forward_ios_data[] PROGMEM = {
   0xE2, 0x38, 0x26, 0xFE, 0x23, 0x82, 0x6F, 0xE2, 0x38, 0x24, 0xFE, 0x24, 0x81, 0x3B, 0x25,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_forward_ios() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_forward_ios() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 11, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_forward_ios_data, Alpha4(color::Black));
   return value;
@@ -188,8 +188,8 @@ static const uint8_t ic_round_18_navigation_arrow_forward_data[] PROGMEM = {
   0x68, 0x22, 0xDC, 0x17, 0x81, 0x8C, 0x13,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_forward() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_forward() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 13, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_forward_data, Alpha4(color::Black));
   return value;
@@ -200,8 +200,8 @@ static const uint8_t ic_round_18_navigation_arrow_left_data[] PROGMEM = {
   0x28, 0x54, 0xA0, 0x4F, 0xC4, 0xA0, 0xC0, 0x4A, 0x83, 0xC0, 0x4F, 0xC2, 0x04, 0x0B,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_left() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_left() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 6, 10, 11), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_left_data, Alpha4(color::Black));
   return value;
@@ -212,8 +212,8 @@ static const uint8_t ic_round_18_navigation_arrow_right_data[] PROGMEM = {
   0x0A, 0x04, 0x28, 0x3C, 0xF4, 0x0C, 0xA0, 0x40, 0xCA, 0x85, 0x4C, 0xF4, 0x0A, 0x42,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_right() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_right() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 6, 10, 11), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_right_data, Alpha4(color::Black));
   return value;
@@ -226,8 +226,8 @@ static const uint8_t ic_round_18_navigation_arrow_upward_data[] PROGMEM = {
   0xA7, 0x10, 0x0A, 0x71, 0x00, 0xA7, 0x10, 0x0A, 0x71, 0x00, 0x24,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_arrow_upward() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_arrow_upward() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 13, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_arrow_upward_data, Alpha4(color::Black));
   return value;
@@ -244,8 +244,8 @@ static const uint8_t ic_round_18_navigation_assistant_direction_data[] PROGMEM =
   0x0B, 0x03, 0x74, 0x00, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_assistant_direction() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_assistant_direction() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_assistant_direction_data, Alpha4(color::Black));
   return value;
@@ -259,8 +259,8 @@ static const uint8_t ic_round_18_navigation_campaign_data[] PROGMEM = {
   0x62, 0x06, 0x0B, 0x20, 0x30, 0x44, 0x81, 0x5F, 0x56, 0x81, 0x6F, 0x74, 0x04, 0x71, 0x00, 0x41,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_campaign() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_campaign() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 15, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_campaign_data, Alpha4(color::Black));
   return value;
@@ -276,8 +276,8 @@ static const uint8_t ic_round_18_navigation_cancel_data[] PROGMEM = {
   0x02, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_cancel() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_cancel() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_cancel_data, Alpha4(color::Black));
   return value;
@@ -289,8 +289,8 @@ static const uint8_t ic_round_18_navigation_check_data[] PROGMEM = {
   0x30, 0x5F, 0x84, 0x83, 0xBE, 0x7F, 0x86, 0x81, 0xBF, 0x87, 0x10, 0x26,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_check() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_check() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 5, 13, 12), Box(0, 0, 17, 17),
       ic_round_18_navigation_check_data, Alpha4(color::Black));
   return value;
@@ -302,8 +302,8 @@ static const uint8_t ic_round_18_navigation_chevron_left_data[] PROGMEM = {
   0xA4, 0x81, 0x3E, 0xA4, 0x81, 0x3E, 0xA4, 0x81, 0x3E, 0x54, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_chevron_left() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_chevron_left() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 11, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_chevron_left_data, Alpha4(color::Black));
   return value;
@@ -315,8 +315,8 @@ static const uint8_t ic_round_18_navigation_chevron_right_data[] PROGMEM = {
   0x12, 0x81, 0xAE, 0x32, 0x81, 0xAE, 0x32, 0x81, 0x5E, 0x34, 0x01, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_chevron_right() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_chevron_right() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 11, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_chevron_right_data, Alpha4(color::Black));
   return value;
@@ -329,8 +329,8 @@ static const uint8_t ic_round_18_navigation_close_data[] PROGMEM = {
   0x85, 0x7F, 0x70, 0x1F, 0x74, 0x83, 0x7F, 0x10, 0x16, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_close() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_close() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 13, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_close_data, Alpha4(color::Black));
   return value;
@@ -344,8 +344,8 @@ static const uint8_t ic_round_18_navigation_double_arrow_data[] PROGMEM = {
   0x05, 0x30, 0x60, 0x13,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_double_arrow() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_double_arrow() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 4, 14, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_double_arrow_data, Alpha4(color::Black));
   return value;
@@ -358,8 +358,8 @@ static const uint8_t ic_round_18_navigation_east_data[] PROGMEM = {
   0xED, 0x17, 0x38, 0x22, 0xED, 0x17, 0x48, 0x14, 0xC1, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_east() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_east() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 15, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_east_data, Alpha4(color::Black));
   return value;
@@ -374,8 +374,8 @@ static const uint8_t ic_round_18_navigation_expand_circle_down_data[] PROGMEM = 
   0x03, 0x74, 0x00, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_expand_circle_down() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_expand_circle_down() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_expand_circle_down_data, Alpha4(color::Black));
   return value;
@@ -387,8 +387,8 @@ static const uint8_t ic_round_18_navigation_expand_less_data[] PROGMEM = {
   0x01, 0xEA, 0x48, 0x3A, 0xE1, 0x05, 0x60, 0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_expand_less() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_expand_less() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 13, 11), Box(0, 0, 17, 17),
       ic_round_18_navigation_expand_less_data, Alpha4(color::Black));
   return value;
@@ -400,8 +400,8 @@ static const uint8_t ic_round_18_navigation_expand_more_data[] PROGMEM = {
   0xAA, 0xE3, 0x58, 0x23, 0xEE, 0x37, 0x00, 0x14,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_expand_more() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_expand_more() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 13, 11), Box(0, 0, 17, 17),
       ic_round_18_navigation_expand_more_data, Alpha4(color::Black));
   return value;
@@ -414,8 +414,8 @@ static const uint8_t ic_round_18_navigation_first_page_data[] PROGMEM = {
   0x23, 0x45, 0x02, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_first_page() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_first_page() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 5, 13, 12), Box(0, 0, 17, 17),
       ic_round_18_navigation_first_page_data, Alpha4(color::Black));
   return value;
@@ -428,8 +428,8 @@ static const uint8_t ic_round_18_navigation_fullscreen_exit_data[] PROGMEM = {
   0x82, 0x9E, 0xB8, 0x20, 0x0A, 0x20, 0x0A, 0x40, 0x80, 0x72, 0x07, 0x08, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_fullscreen_exit() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_fullscreen_exit() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 13, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_fullscreen_exit_data, Alpha4(color::Black));
   return value;
@@ -443,8 +443,8 @@ static const uint8_t ic_round_18_navigation_fullscreen_data[] PROGMEM = {
   0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_fullscreen() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_fullscreen() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_fullscreen_data, Alpha4(color::Black));
   return value;
@@ -461,8 +461,8 @@ static const uint8_t ic_round_18_navigation_home_work_data[] PROGMEM = {
   0x51, 0x03, 0x33, 0x31, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_home_work() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_home_work() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_home_work_data, Alpha4(color::Black));
   return value;
@@ -475,8 +475,8 @@ static const uint8_t ic_round_18_navigation_last_page_data[] PROGMEM = {
   0x02, 0x50, 0x50, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_last_page() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_last_page() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 5, 13, 12), Box(0, 0, 17, 17),
       ic_round_18_navigation_last_page_data, Alpha4(color::Black));
   return value;
@@ -489,8 +489,8 @@ static const uint8_t ic_round_18_navigation_legend_toggle_data[] PROGMEM = {
   0x01, 0x02, 0x80, 0x67, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_legend_toggle() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_legend_toggle() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 14, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_legend_toggle_data, Alpha4(color::Black));
   return value;
@@ -507,8 +507,8 @@ static const uint8_t ic_round_18_navigation_maps_home_work_data[] PROGMEM = {
   0x51, 0x03, 0x33, 0x31, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_maps_home_work() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_maps_home_work() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_maps_home_work_data, Alpha4(color::Black));
   return value;
@@ -521,8 +521,8 @@ static const uint8_t ic_round_18_navigation_menu_open_data[] PROGMEM = {
   0x83, 0x10, 0xBD, 0x2F, 0x90, 0x82, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_menu_open() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_menu_open() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 5, 14, 12), Box(0, 0, 17, 17),
       ic_round_18_navigation_menu_open_data, Alpha4(color::Black));
   return value;
@@ -534,8 +534,8 @@ static const uint8_t ic_round_18_navigation_menu_data[] PROGMEM = {
   0x77, 0x18, 0x09, 0x03, 0x10, 0x2F, 0xD0, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_menu() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_menu() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 5, 15, 12), Box(0, 0, 17, 17),
       ic_round_18_navigation_menu_data, Alpha4(color::Black));
   return value;
@@ -547,8 +547,8 @@ static const uint8_t ic_round_18_navigation_more_horiz_data[] PROGMEM = {
   0x20, 0x3A, 0x03, 0x02, 0xA8, 0x23, 0x03, 0x22, 0x00, 0x32, 0x02, 0x03, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_more_horiz() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_more_horiz() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 7, 14, 10), Box(0, 0, 17, 17),
       ic_round_18_navigation_more_horiz_data, Alpha4(color::Black));
   return value;
@@ -560,8 +560,8 @@ static const uint8_t ic_round_18_navigation_more_vert_data[] PROGMEM = {
   0x23, 0x03, 0x32, 0x82, 0x22, 0x02, 0xA0, 0x20, 0x3A, 0x82, 0x30, 0x33, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_more_vert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_more_vert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 3, 10, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_more_vert_data, Alpha4(color::Black));
   return value;
@@ -575,8 +575,8 @@ static const uint8_t ic_round_18_navigation_north_east_data[] PROGMEM = {
   0x04, 0x07, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_north_east() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_north_east() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_north_east_data, Alpha4(color::Black));
   return value;
@@ -590,8 +590,8 @@ static const uint8_t ic_round_18_navigation_north_data[] PROGMEM = {
   0x10, 0x0B, 0x71, 0x00, 0x34,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_north() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_north() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 13, 16), Box(0, 0, 17, 17),
       ic_round_18_navigation_north_data, Alpha4(color::Black));
   return value;
@@ -605,8 +605,8 @@ static const uint8_t ic_round_18_navigation_north_west_data[] PROGMEM = {
   0x30, 0x70, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_north_west() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_north_west() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_north_west_data, Alpha4(color::Black));
   return value;
@@ -622,8 +622,8 @@ static const uint8_t ic_round_18_navigation_offline_share_data[] PROGMEM = {
   0x06, 0xE8, 0x03, 0x34, 0x02, 0x0E, 0xF0, 0x75, 0x80, 0x31, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_offline_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_offline_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 15, 17), Box(0, 0, 17, 17),
       ic_round_18_navigation_offline_share_data, Alpha4(color::Black));
   return value;
@@ -638,8 +638,8 @@ static const uint8_t ic_round_18_navigation_payments_data[] PROGMEM = {
   0xB8, 0x36, 0x01, 0xF3, 0x77, 0x20, 0xEF, 0xD0, 0x34, 0x02, 0x80, 0x90, 0x54,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_payments() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_payments() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 17, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_payments_data, Alpha4(color::Black));
   return value;
@@ -655,8 +655,8 @@ static const uint8_t ic_round_18_navigation_pivot_table_chart_data[] PROGMEM = {
   0x20, 0x66,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_pivot_table_chart() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_pivot_table_chart() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_pivot_table_chart_data, Alpha4(color::Black));
   return value;
@@ -670,8 +670,8 @@ static const uint8_t ic_round_18_navigation_refresh_data[] PROGMEM = {
   0x24, 0xCD, 0x13, 0x02, 0x0B, 0xC0, 0xA0, 0x26, 0x82, 0x25, 0x42, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_refresh() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_refresh() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_refresh_data, Alpha4(color::Black));
   return value;
@@ -685,8 +685,8 @@ static const uint8_t ic_round_18_navigation_south_east_data[] PROGMEM = {
   0x80, 0x33, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_south_east() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_south_east() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_south_east_data, Alpha4(color::Black));
   return value;
@@ -700,8 +700,8 @@ static const uint8_t ic_round_18_navigation_south_data[] PROGMEM = {
   0x02, 0x58, 0x21, 0xDD, 0x23,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_south() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_south() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 1, 13, 15), Box(0, 0, 17, 17),
       ic_round_18_navigation_south_data, Alpha4(color::Black));
   return value;
@@ -715,8 +715,8 @@ static const uint8_t ic_round_18_navigation_south_west_data[] PROGMEM = {
   0x48, 0x03, 0x34,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_south_west() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_south_west() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_south_west_data, Alpha4(color::Black));
   return value;
@@ -729,8 +729,8 @@ static const uint8_t ic_round_18_navigation_subdirectory_arrow_left_data[] PROGM
   0xB8, 0x01, 0xD8, 0x2C, 0x20, 0x9A, 0x03, 0x71, 0x81, 0x9F, 0x37, 0x20, 0x70, 0x16,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_subdirectory_arrow_left() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_subdirectory_arrow_left() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 13, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_subdirectory_arrow_left_data, Alpha4(color::Black));
   return value;
@@ -743,8 +743,8 @@ static const uint8_t ic_round_18_navigation_subdirectory_arrow_right_data[] PROG
   0xE2, 0x2C, 0x80, 0x1D, 0xB0, 0x76, 0x03, 0xA0, 0x97, 0x81, 0x3F, 0x97, 0x10, 0x10, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_subdirectory_arrow_right() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_subdirectory_arrow_right() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 14, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_subdirectory_arrow_right_data, Alpha4(color::Black));
   return value;
@@ -758,8 +758,8 @@ static const uint8_t ic_round_18_navigation_switch_left_data[] PROGMEM = {
   0x04, 0x58, 0x14, 0xE6, 0x28, 0x16, 0xF4, 0x70, 0x14, 0x01, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_switch_left() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_switch_left() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 15, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_switch_left_data, Alpha4(color::Black));
   return value;
@@ -773,8 +773,8 @@ static const uint8_t ic_round_18_navigation_switch_right_data[] PROGMEM = {
   0xE4, 0x58, 0x14, 0xF6, 0x28, 0x16, 0xF4, 0x70, 0x14, 0x01, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_switch_right() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_switch_right() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 15, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_switch_right_data, Alpha4(color::Black));
   return value;
@@ -786,8 +786,8 @@ static const uint8_t ic_round_18_navigation_unfold_less_data[] PROGMEM = {
   0x02, 0xEB, 0xBE, 0x29, 0xB2, 0x0B, 0x09,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_unfold_less() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_unfold_less() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 11, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_unfold_less_data, Alpha4(color::Black));
   return value;
@@ -799,8 +799,8 @@ static const uint8_t ic_round_18_navigation_unfold_more_data[] PROGMEM = {
   0x28, 0x93, 0x22, 0x9E, 0x22, 0xE9, 0x0B, 0xEE, 0xB3, 0x00, 0xA2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_unfold_more() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_unfold_more() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 3, 11, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_unfold_more_data, Alpha4(color::Black));
   return value;
@@ -814,8 +814,8 @@ static const uint8_t ic_round_18_navigation_waterfall_chart_data[] PROGMEM = {
   0x77, 0x18, 0x47, 0xF4, 0x3F, 0x67, 0x18, 0x36, 0xF3, 0x04, 0x73, 0x04, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_waterfall_chart() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_waterfall_chart() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 14), Box(0, 0, 17, 17),
       ic_round_18_navigation_waterfall_chart_data, Alpha4(color::Black));
   return value;
@@ -828,8 +828,8 @@ static const uint8_t ic_round_18_navigation_west_data[] PROGMEM = {
   0xE2, 0x75, 0x82, 0x2D, 0xE2, 0x75, 0x81, 0x2C, 0x47, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_round_18_navigation_west() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_round_18_navigation_west() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 16, 13), Box(0, 0, 17, 17),
       ic_round_18_navigation_west_data, Alpha4(color::Black));
   return value;

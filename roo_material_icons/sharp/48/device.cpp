@@ -15,8 +15,8 @@ static const uint8_t ic_sharp_48_device_1x_mobiledata_data[] PROGMEM = {
   0x09, 0x60, 0x10, 0xEB, 0x0A,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_1x_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_1x_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 14, 37, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_1x_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -33,8 +33,8 @@ static const uint8_t ic_sharp_48_device_30fps_data[] PROGMEM = {
   0x28, 0x0C, 0x2F, 0x28, 0x0C, 0x2F, 0x2F, 0xFE,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_30fps() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_30fps() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 43, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_30fps_data, Alpha4(color::Black));
   return value;
@@ -49,8 +49,8 @@ static const uint8_t ic_sharp_48_device_3g_mobiledata_data[] PROGMEM = {
   0xFC, 0x4F, 0xFF, 0xFC, 0x4F, 0xFC,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_3g_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_3g_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 14, 41, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_3g_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -65,8 +65,8 @@ static const uint8_t ic_sharp_48_device_4g_mobiledata_data[] PROGMEM = {
   0xC7, 0x1C, 0x6F, 0xFC, 0x71, 0xC6, 0xFF, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_4g_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_4g_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 14, 41, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_4g_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -83,8 +83,8 @@ static const uint8_t ic_sharp_48_device_4g_plus_mobiledata_data[] PROGMEM = {
   0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_4g_plus_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_4g_plus_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 14, 47, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_4g_plus_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -101,8 +101,8 @@ static const uint8_t ic_sharp_48_device_60fps_data[] PROGMEM = {
   0x2F, 0x2F, 0xFE,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_60fps() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_60fps() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 43, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_60fps_data, Alpha4(color::Black));
   return value;
@@ -137,8 +137,8 @@ static const uint8_t ic_sharp_48_device_access_alarm_data[] PROGMEM = {
   0xBF, 0xD0, 0xB0, 0x47, 0x77, 0x58, 0x92, 0x15, 0x9B, 0xDE, 0xED, 0xB9, 0x51, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_access_alarm() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_access_alarm() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_access_alarm_data, Alpha4(color::Black));
   return value;
@@ -173,8 +173,8 @@ static const uint8_t ic_sharp_48_device_access_alarms_data[] PROGMEM = {
   0xBD, 0xEE, 0xDB, 0x95, 0x17, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_access_alarms() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_access_alarms() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_access_alarms_data, Alpha4(color::Black));
   return value;
@@ -200,8 +200,8 @@ static const uint8_t ic_sharp_48_device_access_time_filled_data[] PROGMEM = {
   0x81, 0xD8, 0x17, 0x77, 0x48, 0x33, 0x7A, 0xCE, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_access_time_filled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_access_time_filled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_access_time_filled_data, Alpha4(color::Black));
   return value;
@@ -233,8 +233,8 @@ static const uint8_t ic_sharp_48_device_access_time_data[] PROGMEM = {
   0xAC, 0xEA, 0x83, 0xDC, 0xA7, 0x37, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_access_time() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_access_time() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_access_time_data, Alpha4(color::Black));
   return value;
@@ -268,8 +268,8 @@ static const uint8_t ic_sharp_48_device_add_alarm_data[] PROGMEM = {
   0x89, 0x21, 0x59, 0xBD, 0xEE, 0xDB, 0x95, 0x17, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_add_alarm() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_add_alarm() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_add_alarm_data, Alpha4(color::Black));
   return value;
@@ -289,8 +289,8 @@ static const uint8_t ic_sharp_48_device_add_to_home_screen_data[] PROGMEM = {
   0xFF, 0xFF, 0x6F, 0xFF, 0xF6, 0xFF, 0xFF, 0x6F, 0xFF, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_add_to_home_screen() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_add_to_home_screen() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 2, 39, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_add_to_home_screen_data, Alpha4(color::Black));
   return value;
@@ -305,8 +305,8 @@ static const uint8_t ic_sharp_48_device_ad_units_data[] PROGMEM = {
   0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0x80, 0xBC, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_ad_units() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_ad_units() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_ad_units_data, Alpha4(color::Black));
   return value;
@@ -330,8 +330,8 @@ static const uint8_t ic_sharp_48_device_airplanemode_active_data[] PROGMEM = {
   0x17, 0x18, 0x21, 0x59, 0xD7, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_airplanemode_active() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_airplanemode_active() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_airplanemode_active_data, Alpha4(color::Black));
   return value;
@@ -362,8 +362,8 @@ static const uint8_t ic_sharp_48_device_airplanemode_inactive_data[] PROGMEM = {
   0x04, 0x80, 0xC1, 0x08, 0x13, 0xE4, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_airplanemode_inactive() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_airplanemode_inactive() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 43, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_airplanemode_inactive_data, Alpha4(color::Black));
   return value;
@@ -381,8 +381,8 @@ static const uint8_t ic_sharp_48_device_airplane_ticket_data[] PROGMEM = {
   0xEF, 0xFF, 0xFE, 0x00, 0xD8, 0x0D, 0xA5, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_airplane_ticket() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_airplane_ticket() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_airplane_ticket_data, Alpha4(color::Black));
   return value;
@@ -406,8 +406,8 @@ static const uint8_t ic_sharp_48_device_air_data[] PROGMEM = {
   0x77, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_air() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_air() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_air_data, Alpha4(color::Black));
   return value;
@@ -422,8 +422,8 @@ static const uint8_t ic_sharp_48_device_aod_data[] PROGMEM = {
   0xF9, 0x77, 0x68, 0x0C, 0xB0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_aod() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_aod() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_aod_data, Alpha4(color::Black));
   return value;
@@ -438,8 +438,8 @@ static const uint8_t ic_sharp_48_device_battery_0_bar_data[] PROGMEM = {
   0xF9, 0x75, 0x80, 0x9A, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_0_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_0_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_0_bar_data, Alpha4(color::Black));
   return value;
@@ -453,8 +453,8 @@ static const uint8_t ic_sharp_48_device_battery_1_bar_data[] PROGMEM = {
   0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0x80, 0xAC, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_1_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_1_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_1_bar_data, Alpha4(color::Black));
   return value;
@@ -468,8 +468,8 @@ static const uint8_t ic_sharp_48_device_battery_2_bar_data[] PROGMEM = {
   0xF9, 0x75, 0x80, 0xBE, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_2_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_2_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_2_bar_data, Alpha4(color::Black));
   return value;
@@ -482,8 +482,8 @@ static const uint8_t ic_sharp_48_device_battery_3_bar_data[] PROGMEM = {
   0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0x80, 0xD8, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_3_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_3_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_3_bar_data, Alpha4(color::Black));
   return value;
@@ -496,8 +496,8 @@ static const uint8_t ic_sharp_48_device_battery_4_bar_data[] PROGMEM = {
   0xF9, 0x75, 0x80, 0xEA, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_4_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_4_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_4_bar_data, Alpha4(color::Black));
   return value;
@@ -509,8 +509,8 @@ static const uint8_t ic_sharp_48_device_battery_5_bar_data[] PROGMEM = {
   0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0xF9, 0x75, 0x80, 0xFC, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_5_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_5_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_5_bar_data, Alpha4(color::Black));
   return value;
@@ -522,8 +522,8 @@ static const uint8_t ic_sharp_48_device_battery_6_bar_data[] PROGMEM = {
   0xF9, 0x75, 0x80, 0x98, 0xE0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_6_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_6_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_6_bar_data, Alpha4(color::Black));
   return value;
@@ -536,8 +536,8 @@ static const uint8_t ic_sharp_48_device_battery_alert_data[] PROGMEM = {
   0xF4, 0xFF, 0xA4, 0xFF, 0xA4, 0xFF, 0xA4, 0x80, 0xAC, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_alert_data, Alpha4(color::Black));
   return value;
@@ -553,8 +553,8 @@ static const uint8_t ic_sharp_48_device_battery_charging_full_data[] PROGMEM = {
   0xFF, 0xB1, 0x02, 0xFF, 0xC1, 0x0A, 0xFF, 0xC0, 0x3F, 0xFD, 0x0B, 0x80, 0x9A, 0x7F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_charging_full() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_charging_full() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_charging_full_data, Alpha4(color::Black));
   return value;
@@ -565,8 +565,8 @@ static const uint8_t ic_sharp_48_device_battery_full_data[] PROGMEM = {
   0x6F, 0x97, 0x5F, 0x97, 0x5F, 0x97, 0x5F, 0x96, 0x80, 0x9B, 0x94, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_full() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_full() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_full_data, Alpha4(color::Black));
   return value;
@@ -579,8 +579,8 @@ static const uint8_t ic_sharp_48_device_battery_saver_data[] PROGMEM = {
   0xA4, 0x80, 0xBE, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_saver() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_saver() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_saver_data, Alpha4(color::Black));
   return value;
@@ -591,8 +591,8 @@ static const uint8_t ic_sharp_48_device_battery_std_data[] PROGMEM = {
   0x6F, 0x97, 0x5F, 0x97, 0x5F, 0x97, 0x5F, 0x96, 0x80, 0x9B, 0x94, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_std() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_std() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_std_data, Alpha4(color::Black));
   return value;
@@ -609,8 +609,8 @@ static const uint8_t ic_sharp_48_device_battery_unknown_data[] PROGMEM = {
   0xD0, 0xF0, 0xEF, 0xFC, 0x0E, 0x0A, 0xFF, 0xC8, 0x2A, 0x1A, 0xEF, 0xF8, 0x1E, 0xA1,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_battery_unknown() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_battery_unknown() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_battery_unknown_data, Alpha4(color::Black));
   return value;
@@ -634,8 +634,8 @@ static const uint8_t ic_sharp_48_device_bloodtype_data[] PROGMEM = {
   0xDE, 0xED, 0xB9, 0x47, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bloodtype() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bloodtype() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_bloodtype_data, Alpha4(color::Black));
   return value;
@@ -662,8 +662,8 @@ static const uint8_t ic_sharp_48_device_bluetooth_connected_data[] PROGMEM = {
   0x77, 0x3B, 0x07, 0x77, 0x77, 0x4A, 0x07, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bluetooth_connected() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bluetooth_connected() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 41, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_bluetooth_connected_data, Alpha4(color::Black));
   return value;
@@ -689,8 +689,8 @@ static const uint8_t ic_sharp_48_device_bluetooth_disabled_data[] PROGMEM = {
   0x07, 0x77, 0x77, 0xA0, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bluetooth_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bluetooth_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_bluetooth_disabled_data, Alpha4(color::Black));
   return value;
@@ -717,8 +717,8 @@ static const uint8_t ic_sharp_48_device_bluetooth_drive_data[] PROGMEM = {
   0xE7, 0x77, 0x3E, 0x4E, 0x77, 0x73, 0xE4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bluetooth_drive() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bluetooth_drive() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 43, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_bluetooth_drive_data, Alpha4(color::Black));
   return value;
@@ -741,8 +741,8 @@ static const uint8_t ic_sharp_48_device_bluetooth_data[] PROGMEM = {
   0x77, 0x5D, 0x07, 0x77, 0x6C, 0x07, 0x77, 0x7B, 0x07, 0x77, 0x71, 0xA0, 0x77, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bluetooth() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bluetooth() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 4, 35, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_bluetooth_data, Alpha4(color::Black));
   return value;
@@ -772,8 +772,8 @@ static const uint8_t ic_sharp_48_device_bluetooth_searching_data[] PROGMEM = {
   0x77, 0x3B, 0x07, 0x77, 0x77, 0x4A, 0x07, 0x77, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_bluetooth_searching() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_bluetooth_searching() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 41, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_bluetooth_searching_data, Alpha4(color::Black));
   return value;
@@ -804,8 +804,8 @@ static const uint8_t ic_sharp_48_device_brightness_auto_data[] PROGMEM = {
   0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_brightness_auto() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_brightness_auto() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 46, 46), Box(0, 0, 47, 47),
       ic_sharp_48_device_brightness_auto_data, Alpha4(color::Black));
   return value;
@@ -838,8 +838,8 @@ static const uint8_t ic_sharp_48_device_brightness_high_data[] PROGMEM = {
   0x03, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_brightness_high() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_brightness_high() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 46, 46), Box(0, 0, 47, 47),
       ic_sharp_48_device_brightness_high_data, Alpha4(color::Black));
   return value;
@@ -869,8 +869,8 @@ static const uint8_t ic_sharp_48_device_brightness_low_data[] PROGMEM = {
   0x38, 0x0C, 0x50, 0x82, 0x3E, 0xE3, 0x80, 0xC7, 0x00, 0x03, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_brightness_low() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_brightness_low() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 46, 46), Box(0, 0, 47, 47),
       ic_sharp_48_device_brightness_low_data, Alpha4(color::Black));
   return value;
@@ -899,8 +899,8 @@ static const uint8_t ic_sharp_48_device_brightness_medium_data[] PROGMEM = {
   0x03, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_brightness_medium() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_brightness_medium() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 46, 46), Box(0, 0, 47, 47),
       ic_sharp_48_device_brightness_medium_data, Alpha4(color::Black));
   return value;
@@ -919,8 +919,8 @@ static const uint8_t ic_sharp_48_device_cable_data[] PROGMEM = {
   0x71, 0xC6, 0xF9, 0x6F, 0xFA, 0x6F, 0x96, 0xFF, 0xA6, 0xF9, 0x6F, 0xFA, 0x6F, 0x96, 0xFF, 0xA4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_cable() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_cable() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_cable_data, Alpha4(color::Black));
   return value;
@@ -953,8 +953,8 @@ static const uint8_t ic_sharp_48_device_cameraswitch_data[] PROGMEM = {
   0xEC, 0xA8, 0x41, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_cameraswitch() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_cameraswitch() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 0, 47, 47), Box(0, 0, 47, 47),
       ic_sharp_48_device_cameraswitch_data, Alpha4(color::Black));
   return value;
@@ -973,8 +973,8 @@ static const uint8_t ic_sharp_48_device_credit_score_data[] PROGMEM = {
   0x9A, 0x05, 0x80, 0xC1, 0x00, 0x90, 0x57, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_credit_score() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_credit_score() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_credit_score_data, Alpha4(color::Black));
   return value;
@@ -997,8 +997,8 @@ static const uint8_t ic_sharp_48_device_dark_mode_data[] PROGMEM = {
   0xBF, 0xD0, 0xB0, 0x47, 0x77, 0x18, 0x92, 0x15, 0x9B, 0xDE, 0xED, 0xB9, 0x51, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_dark_mode() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_dark_mode() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_dark_mode_data, Alpha4(color::Black));
   return value;
@@ -1027,8 +1027,8 @@ static const uint8_t ic_sharp_48_device_data_saver_off_data[] PROGMEM = {
   0x81, 0xD7, 0x17, 0x77, 0x48, 0x33, 0x7A, 0xCE, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_data_saver_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_data_saver_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_data_saver_off_data, Alpha4(color::Black));
   return value;
@@ -1058,8 +1058,8 @@ static const uint8_t ic_sharp_48_device_data_saver_on_data[] PROGMEM = {
   0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_data_saver_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_data_saver_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_data_saver_on_data, Alpha4(color::Black));
   return value;
@@ -1084,8 +1084,8 @@ static const uint8_t ic_sharp_48_device_dataset_linked_data[] PROGMEM = {
   0xC4, 0xC8, 0x2E, 0xC8, 0x24,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_dataset_linked() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_dataset_linked() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 47, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_dataset_linked_data, Alpha4(color::Black));
   return value;
@@ -1100,8 +1100,8 @@ static const uint8_t ic_sharp_48_device_dataset_data[] PROGMEM = {
   0xA7, 0x1C, 0x71, 0x80, 0xCC, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_dataset() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_dataset() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_dataset_data, Alpha4(color::Black));
   return value;
@@ -1130,8 +1130,8 @@ static const uint8_t ic_sharp_48_device_data_usage_data[] PROGMEM = {
   0x81, 0xD7, 0x17, 0x77, 0x48, 0x33, 0x7A, 0xCE, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_data_usage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_data_usage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_data_usage_data, Alpha4(color::Black));
   return value;
@@ -1155,8 +1155,8 @@ static const uint8_t ic_sharp_48_device_developer_mode_data[] PROGMEM = {
   0xFF, 0xFF, 0x4F, 0xFF, 0xF4, 0xFF, 0xFF, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_developer_mode() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_developer_mode() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 2, 39, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_developer_mode_data, Alpha4(color::Black));
   return value;
@@ -1177,8 +1177,8 @@ static const uint8_t ic_sharp_48_device_devices_fold_data[] PROGMEM = {
   0xC4, 0xFF, 0xFB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_devices_fold() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_devices_fold() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 0, 43, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_devices_fold_data, Alpha4(color::Black));
   return value;
@@ -1197,8 +1197,8 @@ static const uint8_t ic_sharp_48_device_devices_data[] PROGMEM = {
   0x48, 0x0D, 0x0F, 0x4F, 0xFA,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_devices() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_devices() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_devices_data, Alpha4(color::Black));
   return value;
@@ -1217,8 +1217,8 @@ static const uint8_t ic_sharp_48_device_device_thermostat_data[] PROGMEM = {
   0x04, 0x0D, 0xF9, 0x0D, 0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_device_thermostat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_device_thermostat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_device_thermostat_data, Alpha4(color::Black));
   return value;
@@ -1249,8 +1249,8 @@ static const uint8_t ic_sharp_48_device_discount_data[] PROGMEM = {
   0x68, 0x18, 0xFB, 0x80, 0xC0, 0x00, 0x67, 0x74,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_discount() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_discount() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 0, 43, 47), Box(0, 0, 47, 47),
       ic_sharp_48_device_discount_data, Alpha4(color::Black));
   return value;
@@ -1285,8 +1285,8 @@ static const uint8_t ic_sharp_48_device_do_not_disturb_on_total_silence_data[] P
   0x7A, 0xCD, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_do_not_disturb_on_total_silence() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_do_not_disturb_on_total_silence() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_do_not_disturb_on_total_silence_data, Alpha4(color::Black));
   return value;
@@ -1304,8 +1304,8 @@ static const uint8_t ic_sharp_48_device_dvr_data[] PROGMEM = {
   0x7F, 0xFA, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_dvr() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_dvr() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 6, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_dvr_data, Alpha4(color::Black));
   return value;
@@ -1328,8 +1328,8 @@ static const uint8_t ic_sharp_48_device_edgesensor_high_data[] PROGMEM = {
   0xFB, 0x77, 0x73, 0xFF, 0xFB, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_edgesensor_high() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_edgesensor_high() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 47, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_edgesensor_high_data, Alpha4(color::Black));
   return value;
@@ -1350,8 +1350,8 @@ static const uint8_t ic_sharp_48_device_edgesensor_low_data[] PROGMEM = {
   0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_edgesensor_low() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_edgesensor_low() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_edgesensor_low_data, Alpha4(color::Black));
   return value;
@@ -1363,8 +1363,8 @@ static const uint8_t ic_sharp_48_device_e_mobiledata_data[] PROGMEM = {
   0x75, 0x80, 0xF4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_e_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_e_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(16, 14, 31, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_e_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -1390,8 +1390,8 @@ static const uint8_t ic_sharp_48_device_flashlight_off_data[] PROGMEM = {
   0x81, 0x3E, 0x42,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_flashlight_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_flashlight_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 42, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_flashlight_off_data, Alpha4(color::Black));
   return value;
@@ -1408,8 +1408,8 @@ static const uint8_t ic_sharp_48_device_flashlight_on_data[] PROGMEM = {
   0xFF, 0xA7, 0x1F, 0xFA, 0x71, 0xFF, 0xA4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_flashlight_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_flashlight_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(12, 4, 35, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_flashlight_on_data, Alpha4(color::Black));
   return value;
@@ -1430,8 +1430,8 @@ static const uint8_t ic_sharp_48_device_flourescent_data[] PROGMEM = {
   0x72, 0xC7, 0x77, 0x72, 0xC7, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_flourescent() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_flourescent() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 4, 40, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_flourescent_data, Alpha4(color::Black));
   return value;
@@ -1452,8 +1452,8 @@ static const uint8_t ic_sharp_48_device_fluorescent_data[] PROGMEM = {
   0x72, 0xC7, 0x77, 0x72, 0xC7, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_fluorescent() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_fluorescent() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 4, 40, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_fluorescent_data, Alpha4(color::Black));
   return value;
@@ -1477,8 +1477,8 @@ static const uint8_t ic_sharp_48_device_fmd_bad_data[] PROGMEM = {
   0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_fmd_bad() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_fmd_bad() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_fmd_bad_data, Alpha4(color::Black));
   return value;
@@ -1503,8 +1503,8 @@ static const uint8_t ic_sharp_48_device_fmd_good_data[] PROGMEM = {
   0x77, 0x10, 0x08, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_fmd_good() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_fmd_good() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_fmd_good_data, Alpha4(color::Black));
   return value;
@@ -1516,8 +1516,8 @@ static const uint8_t ic_sharp_48_device_g_mobiledata_data[] PROGMEM = {
   0xF9, 0x73, 0xF9, 0x73, 0xF9, 0x73, 0x80, 0x99, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_g_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_g_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 14, 31, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_g_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -1541,8 +1541,8 @@ static const uint8_t ic_sharp_48_device_gpp_bad_data[] PROGMEM = {
   0x84, 0x17, 0xCC, 0x71, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gpp_bad() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gpp_bad() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_gpp_bad_data, Alpha4(color::Black));
   return value;
@@ -1565,8 +1565,8 @@ static const uint8_t ic_sharp_48_device_gpp_good_data[] PROGMEM = {
   0xFB, 0x08, 0x77, 0x70, 0x20, 0xAE, 0x0A, 0x02, 0x77, 0x73, 0x84, 0x17, 0xCC, 0x71, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gpp_good() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gpp_good() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_gpp_good_data, Alpha4(color::Black));
   return value;
@@ -1587,8 +1587,8 @@ static const uint8_t ic_sharp_48_device_gpp_maybe_data[] PROGMEM = {
   0x87, 0x77, 0x02, 0x0A, 0xE0, 0xA0, 0x27, 0x77, 0x38, 0x41, 0x7C, 0xC7, 0x17, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gpp_maybe() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gpp_maybe() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_gpp_maybe_data, Alpha4(color::Black));
   return value;
@@ -1621,8 +1621,8 @@ static const uint8_t ic_sharp_48_device_gps_fixed_data[] PROGMEM = {
   0x0C, 0x77, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gps_fixed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gps_fixed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_gps_fixed_data, Alpha4(color::Black));
   return value;
@@ -1652,8 +1652,8 @@ static const uint8_t ic_sharp_48_device_gps_not_fixed_data[] PROGMEM = {
   0x51, 0x80, 0xC0, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x77, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gps_not_fixed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gps_not_fixed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_gps_not_fixed_data, Alpha4(color::Black));
   return value;
@@ -1688,8 +1688,8 @@ static const uint8_t ic_sharp_48_device_gps_off_data[] PROGMEM = {
   0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x77, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_gps_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_gps_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_gps_off_data, Alpha4(color::Black));
   return value;
@@ -1709,8 +1709,8 @@ static const uint8_t ic_sharp_48_device_graphic_eq_data[] PROGMEM = {
   0xC7, 0x77, 0x74, 0xC7, 0x72,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_graphic_eq() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_graphic_eq() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 41, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_graphic_eq_data, Alpha4(color::Black));
   return value;
@@ -1726,8 +1726,8 @@ static const uint8_t ic_sharp_48_device_grid_3x3_data[] PROGMEM = {
   0x77, 0x2C, 0x71, 0xC7, 0x72, 0xC7, 0x1C, 0x77, 0x2C, 0x71, 0xC7, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_grid_3x3() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_grid_3x3() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 8, 39, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_grid_3x3_data, Alpha4(color::Black));
   return value;
@@ -1746,8 +1746,8 @@ static const uint8_t ic_sharp_48_device_grid_4x4_data[] PROGMEM = {
   0xC7, 0x1C, 0x75, 0xC7, 0x1C, 0x71, 0xC6,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_grid_4x4() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_grid_4x4() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_grid_4x4_data, Alpha4(color::Black));
   return value;
@@ -1765,8 +1765,8 @@ static const uint8_t ic_sharp_48_device_grid_goldenratio_data[] PROGMEM = {
   0xC4, 0xC7, 0x77, 0x7C, 0x4C, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_grid_goldenratio() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_grid_goldenratio() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_grid_goldenratio_data, Alpha4(color::Black));
   return value;
@@ -1796,8 +1796,8 @@ static const uint8_t ic_sharp_48_device_hdr_auto_data[] PROGMEM = {
   0x7A, 0xCD, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_hdr_auto() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_hdr_auto() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_hdr_auto_data, Alpha4(color::Black));
   return value;
@@ -1826,8 +1826,8 @@ static const uint8_t ic_sharp_48_device_hdr_auto_select_data[] PROGMEM = {
   0xAA, 0x05, 0x5B, 0x4B, 0x4B, 0x3F, 0x0D, 0x07, 0x4B, 0x30, 0x3A, 0x0C, 0x5B, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_hdr_auto_select() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_hdr_auto_select() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 47, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_hdr_auto_select_data, Alpha4(color::Black));
   return value;
@@ -1858,8 +1858,8 @@ static const uint8_t ic_sharp_48_device_hdr_off_select_data[] PROGMEM = {
   0xB4, 0xB3, 0xF0, 0xD0, 0x74, 0xB3, 0x03, 0xA0, 0xC5, 0xB4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_hdr_off_select() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_hdr_off_select() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 47, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_hdr_off_select_data, Alpha4(color::Black));
   return value;
@@ -1887,8 +1887,8 @@ static const uint8_t ic_sharp_48_device_hdr_on_select_data[] PROGMEM = {
   0x73, 0xB3, 0x0A, 0xA0, 0x55, 0xB4, 0xB4, 0xB3, 0xF0, 0xD0, 0x74, 0xB3, 0x03, 0xA0, 0xC5, 0xB4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_hdr_on_select() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_hdr_on_select() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 47, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_hdr_on_select_data, Alpha4(color::Black));
   return value;
@@ -1901,8 +1901,8 @@ static const uint8_t ic_sharp_48_device_h_mobiledata_data[] PROGMEM = {
   0x97, 0x5C,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_h_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_h_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 14, 33, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_h_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -1917,8 +1917,8 @@ static const uint8_t ic_sharp_48_device_h_plus_mobiledata_data[] PROGMEM = {
   0x72, 0xC7, 0x5C, 0x77, 0x2C, 0x75, 0xC7, 0x72,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_h_plus_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_h_plus_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 14, 43, 33), Box(0, 0, 47, 47),
       ic_sharp_48_device_h_plus_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -1936,8 +1936,8 @@ static const uint8_t ic_sharp_48_device_lan_data[] PROGMEM = {
   0x4F, 0xFF, 0xFC, 0x4F, 0xFF, 0xFC, 0x4F, 0xFF, 0xFC, 0x4F, 0xFA,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_lan() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_lan() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 41, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_lan_data, Alpha4(color::Black));
   return value;
@@ -1965,8 +1965,8 @@ static const uint8_t ic_sharp_48_device_lens_blur_data[] PROGMEM = {
   0x80, 0xA8, 0x10, 0x00, 0xB6, 0x00, 0xB7, 0x77, 0x70, 0x0B, 0x60, 0x0B, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_lens_blur() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_lens_blur() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 5, 42, 42), Box(0, 0, 47, 47),
       ic_sharp_48_device_lens_blur_data, Alpha4(color::Black));
   return value;
@@ -1994,8 +1994,8 @@ static const uint8_t ic_sharp_48_device_light_mode_data[] PROGMEM = {
   0x40, 0xC8, 0x0C, 0x40, 0xC7, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_light_mode() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_light_mode() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_light_mode_data, Alpha4(color::Black));
   return value;
@@ -2030,8 +2030,8 @@ static const uint8_t ic_sharp_48_device_location_disabled_data[] PROGMEM = {
   0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x77, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_location_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_location_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_location_disabled_data, Alpha4(color::Black));
   return value;
@@ -2061,8 +2061,8 @@ static const uint8_t ic_sharp_48_device_location_searching_data[] PROGMEM = {
   0x51, 0x80, 0xC0, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x80, 0xC4, 0x0C, 0x77, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_location_searching() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_location_searching() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_location_searching_data, Alpha4(color::Black));
   return value;
@@ -2076,8 +2076,8 @@ static const uint8_t ic_sharp_48_device_lte_mobiledata_data[] PROGMEM = {
   0x4C, 0x6F, 0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_lte_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_lte_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 16, 41, 31), Box(0, 0, 47, 47),
       ic_sharp_48_device_lte_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -2092,8 +2092,8 @@ static const uint8_t ic_sharp_48_device_lte_plus_mobiledata_data[] PROGMEM = {
   0xFB, 0x2C, 0x6F, 0xB6, 0xC4, 0xFB, 0x2C, 0x6F, 0xB7, 0x7F, 0xB2, 0xC6, 0xFB, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_lte_plus_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_lte_plus_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 16, 47, 31), Box(0, 0, 47, 47),
       ic_sharp_48_device_lte_plus_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -2128,8 +2128,8 @@ static const uint8_t ic_sharp_48_device_macro_off_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_macro_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_macro_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 42, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_macro_off_data, Alpha4(color::Black));
   return value;
@@ -2160,8 +2160,8 @@ static const uint8_t ic_sharp_48_device_media_bluetooth_off_data[] PROGMEM = {
   0xC0, 0x27, 0x77, 0x77, 0x03, 0x0E, 0xA0, 0x48, 0x0C, 0x10, 0x81, 0x3E, 0x43,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_media_bluetooth_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_media_bluetooth_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 5, 43, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_media_bluetooth_off_data, Alpha4(color::Black));
   return value;
@@ -2186,8 +2186,8 @@ static const uint8_t ic_sharp_48_device_media_bluetooth_on_data[] PROGMEM = {
   0x77, 0x1A, 0x09, 0x72, 0x86, 0x28, 0xCE, 0xED, 0x82, 0x77, 0x29, 0x0A, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_media_bluetooth_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_media_bluetooth_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_media_bluetooth_on_data, Alpha4(color::Black));
   return value;
@@ -2211,8 +2211,8 @@ static const uint8_t ic_sharp_48_device_medication_liquid_data[] PROGMEM = {
   0x0D, 0x58, 0x11, 0xAD, 0xFF, 0xE8, 0x1D, 0xA1, 0x78, 0x24, 0xDD, 0x44,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_medication_liquid() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_medication_liquid() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_medication_liquid_data, Alpha4(color::Black));
   return value;
@@ -2226,8 +2226,8 @@ static const uint8_t ic_sharp_48_device_medication_data[] PROGMEM = {
   0x6F, 0xFF, 0x96, 0xFF, 0xF9, 0x68, 0x0B, 0x93, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_medication() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_medication() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 6, 37, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_medication_data, Alpha4(color::Black));
   return value;
@@ -2255,8 +2255,8 @@ static const uint8_t ic_sharp_48_device_mobiledata_off_data[] PROGMEM = {
   0xA0, 0x48, 0x0C, 0x00, 0x81, 0x3E, 0x42,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_mobiledata_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_mobiledata_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 5, 42, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_mobiledata_off_data, Alpha4(color::Black));
   return value;
@@ -2278,8 +2278,8 @@ static const uint8_t ic_sharp_48_device_mobile_friendly_data[] PROGMEM = {
   0xF7, 0x1F, 0xFF, 0xF7, 0x1F, 0xFF, 0xF7, 0x1F, 0xFF, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_mobile_friendly() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_mobile_friendly() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 2, 41, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_mobile_friendly_data, Alpha4(color::Black));
   return value;
@@ -2306,8 +2306,8 @@ static const uint8_t ic_sharp_48_device_mobile_off_data[] PROGMEM = {
   0xF0, 0x20, 0xDB, 0x0C, 0x7F, 0xFF, 0xF1, 0x82, 0x2D, 0xFC, 0x71, 0xFF, 0xFF, 0x20, 0x20, 0xA2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_mobile_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_mobile_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 43, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_mobile_off_data, Alpha4(color::Black));
   return value;
@@ -2330,8 +2330,8 @@ static const uint8_t ic_sharp_48_device_mode_night_data[] PROGMEM = {
   0x1D, 0x81, 0x77, 0x18, 0x33, 0x6A, 0xDD, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_mode_night() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_mode_night() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(9, 4, 38, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_mode_night_data, Alpha4(color::Black));
   return value;
@@ -2363,8 +2363,8 @@ static const uint8_t ic_sharp_48_device_mode_standby_data[] PROGMEM = {
   0xFD, 0x81, 0xD8, 0x17, 0x77, 0x48, 0x33, 0x7A, 0xCD, 0xA8, 0x3D, 0xCA, 0x73, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_mode_standby() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_mode_standby() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_mode_standby_data, Alpha4(color::Black));
   return value;
@@ -2384,8 +2384,8 @@ static const uint8_t ic_sharp_48_device_monitor_heart_data[] PROGMEM = {
   0x2F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_monitor_heart() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_monitor_heart() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_monitor_heart_data, Alpha4(color::Black));
   return value;
@@ -2400,8 +2400,8 @@ static const uint8_t ic_sharp_48_device_monitor_weight_data[] PROGMEM = {
   0xFF, 0xFF, 0x08, 0x03, 0x28, 0x13, 0x8E, 0x80, 0x9A, 0xA2, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_monitor_weight() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_monitor_weight() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_monitor_weight_data, Alpha4(color::Black));
   return value;
@@ -2438,8 +2438,8 @@ static const uint8_t ic_sharp_48_device_nearby_error_data[] PROGMEM = {
   0x38, 0x0C, 0x30, 0x00, 0x37, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_nearby_error() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_nearby_error() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 43, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_nearby_error_data, Alpha4(color::Black));
   return value;
@@ -2482,8 +2482,8 @@ static const uint8_t ic_sharp_48_device_nearby_off_data[] PROGMEM = {
   0xE4, 0x77, 0x75, 0x00, 0x37, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_nearby_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_nearby_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_nearby_off_data, Alpha4(color::Black));
   return value;
@@ -2505,8 +2505,8 @@ static const uint8_t ic_sharp_48_device_network_cell_data[] PROGMEM = {
   0xC1, 0xF1, 0x07, 0x80, 0xC2, 0xF0, 0x78, 0x0C, 0x3F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_network_cell() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_network_cell() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_network_cell_data, Alpha4(color::Black));
   return value;
@@ -2535,8 +2535,8 @@ static const uint8_t ic_sharp_48_device_network_wifi_1_bar_data[] PROGMEM = {
   0x07, 0xA0, 0x78, 0x0D, 0x10, 0x00, 0x77, 0x77, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_network_wifi_1_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_network_wifi_1_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_network_wifi_1_bar_data, Alpha4(color::Black));
   return value;
@@ -2565,8 +2565,8 @@ static const uint8_t ic_sharp_48_device_network_wifi_2_bar_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_network_wifi_2_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_network_wifi_2_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_network_wifi_2_bar_data, Alpha4(color::Black));
   return value;
@@ -2594,8 +2594,8 @@ static const uint8_t ic_sharp_48_device_network_wifi_3_bar_data[] PROGMEM = {
   0x07, 0xA0, 0x78, 0x0D, 0x10, 0x00, 0x77, 0x77, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_network_wifi_3_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_network_wifi_3_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_network_wifi_3_bar_data, Alpha4(color::Black));
   return value;
@@ -2623,8 +2623,8 @@ static const uint8_t ic_sharp_48_device_network_wifi_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_network_wifi() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_network_wifi() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_network_wifi_data, Alpha4(color::Black));
   return value;
@@ -2645,8 +2645,8 @@ static const uint8_t ic_sharp_48_device_nfc_data[] PROGMEM = {
   0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_nfc() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_nfc() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_nfc_data, Alpha4(color::Black));
   return value;
@@ -2669,8 +2669,8 @@ static const uint8_t ic_sharp_48_device_nightlight_data[] PROGMEM = {
   0x81, 0xD7, 0x17, 0x71, 0x83, 0x37, 0xAC, 0xDA, 0x83, 0xDD, 0xA6, 0x34,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_nightlight() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_nightlight() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 37, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_nightlight_data, Alpha4(color::Black));
   return value;
@@ -2690,8 +2690,8 @@ static const uint8_t ic_sharp_48_device_note_alt_data[] PROGMEM = {
   0x60, 0x4F, 0xFF, 0xF9, 0x50, 0x4F, 0xFF, 0xFA, 0x40, 0x48, 0x0C, 0xE3, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_note_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_note_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 2, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_note_alt_data, Alpha4(color::Black));
   return value;
@@ -2713,8 +2713,8 @@ static const uint8_t ic_sharp_48_device_password_data[] PROGMEM = {
   0x0C, 0x4F, 0x48, 0x0C, 0x4F, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_password() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_password() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 14, 45, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_password_data, Alpha4(color::Black));
   return value;
@@ -2742,8 +2742,8 @@ static const uint8_t ic_sharp_48_device_pattern_data[] PROGMEM = {
   0xAE, 0xEA, 0x26, 0x84, 0x2A, 0xED, 0xA1, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_pattern() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_pattern() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 8, 39, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_pattern_data, Alpha4(color::Black));
   return value;
@@ -2766,8 +2766,8 @@ static const uint8_t ic_sharp_48_device_phishing_data[] PROGMEM = {
   0xED, 0xA6, 0x17, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_phishing() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_phishing() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 4, 37, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_phishing_data, Alpha4(color::Black));
   return value;
@@ -2786,8 +2786,8 @@ static const uint8_t ic_sharp_48_device_pin_data[] PROGMEM = {
   0x20, 0xBB, 0x03, 0x7C, 0x0B, 0x03, 0x20, 0x30, 0xB8, 0x0E, 0xA3, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_pin() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_pin() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_pin_data, Alpha4(color::Black));
   return value;
@@ -2814,8 +2814,8 @@ static const uint8_t ic_sharp_48_device_play_lesson_data[] PROGMEM = {
   0x47, 0x77, 0x72, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_play_lesson() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_play_lesson() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_play_lesson_data, Alpha4(color::Black));
   return value;
@@ -2831,8 +2831,8 @@ static const uint8_t ic_sharp_48_device_price_change_data[] PROGMEM = {
   0xDF, 0xFF, 0x94, 0xFC, 0x00, 0xDF, 0xFF, 0xA4, 0x80, 0xC8, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_price_change() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_price_change() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_price_change_data, Alpha4(color::Black));
   return value;
@@ -2852,8 +2852,8 @@ static const uint8_t ic_sharp_48_device_price_check_data[] PROGMEM = {
   0x09, 0xA0, 0x57, 0x77, 0x73, 0x09, 0x05, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_price_check() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_price_check() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_price_check_data, Alpha4(color::Black));
   return value;
@@ -2873,8 +2873,8 @@ static const uint8_t ic_sharp_48_device_punch_clock_data[] PROGMEM = {
   0x10, 0x20, 0xAF, 0xFF, 0xD8, 0x1A, 0x52, 0x28, 0x12, 0x5A, 0x80, 0xBC, 0x2F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_punch_clock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_punch_clock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 2, 41, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_punch_clock_data, Alpha4(color::Black));
   return value;
@@ -2896,8 +2896,8 @@ static const uint8_t ic_sharp_48_device_quiz_data[] PROGMEM = {
   0xFF, 0xFF, 0xC7, 0x1F, 0xFF, 0xFC, 0x71, 0xFF, 0xFF, 0xC7, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_quiz() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_quiz() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_quiz_data, Alpha4(color::Black));
   return value;
@@ -2936,8 +2936,8 @@ static const uint8_t ic_sharp_48_device_radar_data[] PROGMEM = {
   0xFE, 0xDB, 0xA6, 0x27, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_radar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_radar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_radar_data, Alpha4(color::Black));
   return value;
@@ -2954,8 +2954,8 @@ static const uint8_t ic_sharp_48_device_remember_me_data[] PROGMEM = {
   0xCF, 0xFC, 0x0C, 0x80, 0xEC, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_remember_me() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_remember_me() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_remember_me_data, Alpha4(color::Black));
   return value;
@@ -2973,8 +2973,8 @@ static const uint8_t ic_sharp_48_device_reset_tv_data[] PROGMEM = {
   0x77, 0x73, 0xFF, 0xA7, 0x77, 0x3F, 0xFA, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_reset_tv() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_reset_tv() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_reset_tv_data, Alpha4(color::Black));
   return value;
@@ -3001,8 +3001,8 @@ static const uint8_t ic_sharp_48_device_restart_alt_data[] PROGMEM = {
   0x8B, 0x48, 0x1B, 0x84, 0x74,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_restart_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_restart_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_restart_alt_data, Alpha4(color::Black));
   return value;
@@ -3022,8 +3022,8 @@ static const uint8_t ic_sharp_48_device_reviews_data[] PROGMEM = {
   0x20, 0x07, 0x80, 0xC3, 0x00,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_reviews() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_reviews() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_reviews_data, Alpha4(color::Black));
   return value;
@@ -3036,8 +3036,8 @@ static const uint8_t ic_sharp_48_device_r_mobiledata_data[] PROGMEM = {
   0x03, 0xB0, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_r_mobiledata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_r_mobiledata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 17, 19), Box(0, 0, 47, 47),
       ic_sharp_48_device_r_mobiledata_data, Alpha4(color::Black));
   return value;
@@ -3054,8 +3054,8 @@ static const uint8_t ic_sharp_48_device_rsvp_data[] PROGMEM = {
   0xFA, 0x50, 0xEA, 0x0E, 0x4B, 0x7B, 0x30, 0x3A, 0x0C, 0x2F, 0xA5, 0x09, 0xA0, 0x94, 0xB7,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_rsvp() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_rsvp() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 18, 45, 29), Box(0, 0, 47, 47),
       ic_sharp_48_device_rsvp_data, Alpha4(color::Black));
   return value;
@@ -3072,8 +3072,8 @@ static const uint8_t ic_sharp_48_device_screen_lock_landscape_data[] PROGMEM = {
   0xFF, 0xA7, 0x1F, 0xD7, 0x1F, 0xFA, 0x77, 0x77, 0xFF, 0xA7, 0x77, 0x78, 0x0A, 0xE4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screen_lock_landscape() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screen_lock_landscape() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 10, 45, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_screen_lock_landscape_data, Alpha4(color::Black));
   return value;
@@ -3090,8 +3090,8 @@ static const uint8_t ic_sharp_48_device_screen_lock_portrait_data[] PROGMEM = {
   0x77, 0x6F, 0x97, 0x76, 0x80, 0xBC, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screen_lock_portrait() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screen_lock_portrait() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_screen_lock_portrait_data, Alpha4(color::Black));
   return value;
@@ -3131,8 +3131,8 @@ static const uint8_t ic_sharp_48_device_screen_lock_rotation_data[] PROGMEM = {
   0xFC, 0x17, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screen_lock_rotation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screen_lock_rotation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 46, 47), Box(0, 0, 47, 47),
       ic_sharp_48_device_screen_lock_rotation_data, Alpha4(color::Black));
   return value;
@@ -3175,8 +3175,8 @@ static const uint8_t ic_sharp_48_device_screen_rotation_data[] PROGMEM = {
   0xC1, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screen_rotation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screen_rotation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 0, 47, 47), Box(0, 0, 47, 47),
       ic_sharp_48_device_screen_rotation_data, Alpha4(color::Black));
   return value;
@@ -3197,8 +3197,8 @@ static const uint8_t ic_sharp_48_device_screen_search_desktop_data[] PROGMEM = {
   0x80, 0xC4, 0xF4, 0x80, 0xC4, 0xF8, 0x09, 0xA6, 0x08, 0x0A, 0xD4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screen_search_desktop() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screen_search_desktop() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 6, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_screen_search_desktop_data, Alpha4(color::Black));
   return value;
@@ -3216,8 +3216,8 @@ static const uint8_t ic_sharp_48_device_screenshot_monitor_data[] PROGMEM = {
   0xFA, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screenshot_monitor() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screenshot_monitor() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_screenshot_monitor_data, Alpha4(color::Black));
   return value;
@@ -3233,8 +3233,8 @@ static const uint8_t ic_sharp_48_device_screenshot_data[] PROGMEM = {
   0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_screenshot() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_screenshot() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_screenshot_data, Alpha4(color::Black));
   return value;
@@ -3248,8 +3248,8 @@ static const uint8_t ic_sharp_48_device_sd_storage_data[] PROGMEM = {
   0xB4, 0xA4, 0xA4, 0xC0, 0x7F, 0xC4, 0xA4, 0xA4, 0x80, 0x9E, 0x80, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_sd_storage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_sd_storage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_sd_storage_data, Alpha4(color::Black));
   return value;
@@ -3266,8 +3266,8 @@ static const uint8_t ic_sharp_48_device_security_update_good_data[] PROGMEM = {
   0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x68, 0x0C, 0xB0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_security_update_good() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_security_update_good() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_security_update_good_data, Alpha4(color::Black));
   return value;
@@ -3283,8 +3283,8 @@ static const uint8_t ic_sharp_48_device_security_update_data[] PROGMEM = {
   0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0x80, 0xCB, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_security_update() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_security_update() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_security_update_data, Alpha4(color::Black));
   return value;
@@ -3300,8 +3300,8 @@ static const uint8_t ic_sharp_48_device_security_update_warning_data[] PROGMEM =
   0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_security_update_warning() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_security_update_warning() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_security_update_warning_data, Alpha4(color::Black));
   return value;
@@ -3325,8 +3325,8 @@ static const uint8_t ic_sharp_48_device_sell_data[] PROGMEM = {
   0xC4, 0x00, 0x57, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_sell() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_sell() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 45, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_sell_data, Alpha4(color::Black));
   return value;
@@ -3345,8 +3345,8 @@ static const uint8_t ic_sharp_48_device_send_to_mobile_data[] PROGMEM = {
   0xF6, 0xFF, 0xFF, 0x6F, 0xFF, 0xF6, 0xFF, 0xFF, 0x6F, 0xFF, 0xF6, 0xFF, 0xFF, 0x6F, 0xFF, 0xF6,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_send_to_mobile() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_send_to_mobile() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 43, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_send_to_mobile_data, Alpha4(color::Black));
   return value;
@@ -3377,8 +3377,8 @@ static const uint8_t ic_sharp_48_device_settings_suggest_data[] PROGMEM = {
   0x73, 0x02, 0xFB, 0x02, 0x77, 0x77, 0x30, 0x1F, 0xB0, 0x17, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_settings_suggest() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_settings_suggest() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 45, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_settings_suggest_data, Alpha4(color::Black));
   return value;
@@ -3398,8 +3398,8 @@ static const uint8_t ic_sharp_48_device_settings_system_daydream_data[] PROGMEM 
   0x0F, 0x98, 0x0C, 0x00, 0xF9, 0x80, 0xC0, 0x08, 0x0A, 0xE0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_settings_system_daydream() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_settings_system_daydream() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 6, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_settings_system_daydream_data, Alpha4(color::Black));
   return value;
@@ -3433,8 +3433,8 @@ static const uint8_t ic_sharp_48_device_share_location_data[] PROGMEM = {
   0x77, 0x74, 0x82, 0x26, 0x9B, 0x48, 0x2C, 0xA7, 0x37, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_share_location() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_share_location() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_share_location_data, Alpha4(color::Black));
   return value;
@@ -3453,8 +3453,8 @@ static const uint8_t ic_sharp_48_device_shortcut_data[] PROGMEM = {
   0x77, 0x74,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_shortcut() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_shortcut() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 10, 41, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_shortcut_data, Alpha4(color::Black));
   return value;
@@ -3479,8 +3479,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_0_bar_data[] PROGMEM = {
   0x0C, 0x3F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_0_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_0_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_0_bar_data, Alpha4(color::Black));
   return value;
@@ -3501,8 +3501,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_4_bar_data[] PROGMEM = {
   0xC2, 0xF0, 0x78, 0x0C, 0x3F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_4_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_4_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_4_bar_data, Alpha4(color::Black));
   return value;
@@ -3513,8 +3513,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_alt_1_bar_data[] PROGMEM
   0x80, 0x98, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_alt_1_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_alt_1_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 28, 15, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_alt_1_bar_data, Alpha4(color::Black));
   return value;
@@ -3527,8 +3527,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_alt_2_bar_data[] PROGMEM
   0x6E,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_alt_2_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_alt_2_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 18, 27, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_alt_2_bar_data, Alpha4(color::Black));
   return value;
@@ -3543,8 +3543,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_alt_data[] PROGMEM = {
   0x6F, 0xD6, 0xE6, 0xFD, 0x6E, 0x6F, 0xD6, 0xE6, 0xFD, 0x6E, 0x6F, 0xD6, 0xE6, 0xFD, 0x6E, 0x6E,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 8, 39, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_alt_data, Alpha4(color::Black));
   return value;
@@ -3569,8 +3569,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_connected_no_internet_0_
   0xB4, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_connected_no_internet_0_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_connected_no_internet_0_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_connected_no_internet_0_bar_data, Alpha4(color::Black));
   return value;
@@ -3591,8 +3591,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_connected_no_internet_4_
   0xC2, 0x07, 0xFF, 0xFF, 0x94, 0xC1, 0x07, 0xFF, 0xFF, 0xA4, 0xC0, 0x7F, 0xFF, 0xFB, 0x4C,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_connected_no_internet_4_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_connected_no_internet_4_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_connected_no_internet_4_bar_data, Alpha4(color::Black));
   return value;
@@ -3616,8 +3616,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_nodata_data[] PROGMEM = 
   0xFE, 0x77, 0x40, 0x7F, 0xFF, 0x77, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_nodata() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_nodata() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_nodata_data, Alpha4(color::Black));
   return value;
@@ -3640,8 +3640,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_no_sim_data[] PROGMEM = 
   0x40, 0x20, 0xDC, 0x04, 0x77, 0x77, 0x40, 0x20, 0xDA, 0x06, 0x77, 0x77, 0x68, 0x12, 0xD6, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_no_sim() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_no_sim() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 6, 42, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_no_sim_data, Alpha4(color::Black));
   return value;
@@ -3666,8 +3666,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_null_data[] PROGMEM = {
   0x0C, 0x3F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_null() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_null() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_null_data, Alpha4(color::Black));
   return value;
@@ -3695,8 +3695,8 @@ static const uint8_t ic_sharp_48_device_signal_cellular_off_data[] PROGMEM = {
   0xC3, 0x08, 0x12, 0xB1, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_cellular_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_cellular_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 44, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_cellular_off_data, Alpha4(color::Black));
   return value;
@@ -3726,8 +3726,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_0_bar_data[] PROGMEM = {
   0x0C, 0x70, 0x07, 0xA0, 0x78, 0x0D, 0x10, 0x00, 0x77, 0x77, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_0_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_0_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_0_bar_data, Alpha4(color::Black));
   return value;
@@ -3752,8 +3752,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_4_bar_lock_data[] PROGMEM = 
   0x7A, 0x07, 0x71, 0xFD, 0x77, 0x74, 0x00, 0x77, 0x2F, 0xD2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_4_bar_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_4_bar_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_4_bar_lock_data, Alpha4(color::Black));
   return value;
@@ -3778,8 +3778,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_4_bar_data[] PROGMEM = {
   0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_4_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_4_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 6, 46, 42), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_4_bar_data, Alpha4(color::Black));
   return value;
@@ -3804,8 +3804,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_bad_data[] PROGMEM = {
   0x0A, 0xA0, 0x54, 0x05, 0xA0, 0xA7, 0x77, 0x72, 0x07, 0x60, 0xA0, 0x56, 0x05, 0x0A, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_bad() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_bad() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_bad_data, Alpha4(color::Black));
   return value;
@@ -3830,8 +3830,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_connected_no_internet_4_data
   0x0A, 0xA0, 0x54, 0x05, 0xA0, 0xA7, 0x77, 0x72, 0x07, 0x60, 0xA0, 0x56, 0x05, 0x0A, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_connected_no_internet_4() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_connected_no_internet_4() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_connected_no_internet_4_data, Alpha4(color::Black));
   return value;
@@ -3861,8 +3861,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_off_data[] PROGMEM = {
   0x18, 0x0C, 0x50, 0x03, 0xA0, 0x38, 0x0C, 0x70, 0x00, 0x67, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 46, 42), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_off_data, Alpha4(color::Black));
   return value;
@@ -3885,8 +3885,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_statusbar_4_bar_data[] PROGM
   0x7C, 0x07, 0x80, 0xC7, 0x00, 0x7A, 0x07, 0x80, 0xD1, 0x00, 0x07, 0x77, 0x72,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_statusbar_4_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_statusbar_4_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_statusbar_4_bar_data, Alpha4(color::Black));
   return value;
@@ -3909,8 +3909,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_statusbar_connected_no_inter
   0x07, 0xA0, 0x78, 0x0C, 0x70, 0x00, 0x77, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_statusbar_connected_no_internet_4() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_statusbar_connected_no_internet_4() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_statusbar_connected_no_internet_4_data, Alpha4(color::Black));
   return value;
@@ -3940,8 +3940,8 @@ static const uint8_t ic_sharp_48_device_signal_wifi_statusbar_null_data[] PROGME
   0x0C, 0x70, 0x07, 0xA0, 0x78, 0x0D, 0x10, 0x00, 0x77, 0x77, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_signal_wifi_statusbar_null() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_signal_wifi_statusbar_null() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_signal_wifi_statusbar_null_data, Alpha4(color::Black));
   return value;
@@ -3958,8 +3958,8 @@ static const uint8_t ic_sharp_48_device_sim_card_download_data[] PROGMEM = {
   0xF9, 0x00, 0x78, 0x0D, 0x93, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_sim_card_download() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_sim_card_download() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_sim_card_download_data, Alpha4(color::Black));
   return value;
@@ -3974,8 +3974,8 @@ static const uint8_t ic_sharp_48_device_splitscreen_data[] PROGMEM = {
   0xF9, 0x77, 0x73, 0xF9, 0x77, 0x73, 0x80, 0xA8, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_splitscreen() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_splitscreen() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_splitscreen_data, Alpha4(color::Black));
   return value;
@@ -3992,8 +3992,8 @@ static const uint8_t ic_sharp_48_device_sports_score_data[] PROGMEM = {
   0x3C, 0x77, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_sports_score() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_sports_score() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 8, 37, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_sports_score_data, Alpha4(color::Black));
   return value;
@@ -4019,8 +4019,8 @@ static const uint8_t ic_sharp_48_device_ssid_chart_data[] PROGMEM = {
   0x09, 0xC0, 0xD0, 0x37, 0x77, 0x72, 0x08, 0xA0, 0xB0, 0x17, 0x77, 0x74, 0x08, 0x09, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_ssid_chart() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_ssid_chart() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_ssid_chart_data, Alpha4(color::Black));
   return value;
@@ -4034,8 +4034,8 @@ static const uint8_t ic_sharp_48_device_storage_data[] PROGMEM = {
   0x0F, 0x48, 0x09, 0xD4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_storage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_storage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_storage_data, Alpha4(color::Black));
   return value;
@@ -4070,8 +4070,8 @@ static const uint8_t ic_sharp_48_device_storm_data[] PROGMEM = {
   0x77, 0x77, 0x50, 0xDB, 0x03, 0x77, 0x77, 0x40, 0x3B, 0x0E, 0x77, 0x77, 0x50, 0x8B, 0x0A, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_storm() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_storm() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 4, 42, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_storm_data, Alpha4(color::Black));
   return value;
@@ -4089,8 +4089,8 @@ static const uint8_t ic_sharp_48_device_summarize_data[] PROGMEM = {
   0x01, 0xFF, 0xFF, 0xC0, 0x12, 0x01, 0xFF, 0xFF, 0xC8, 0x2B, 0x11, 0xB8, 0x0C, 0xE4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_summarize() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_summarize() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_summarize_data, Alpha4(color::Black));
   return value;
@@ -4107,8 +4107,8 @@ static const uint8_t ic_sharp_48_device_system_security_update_good_data[] PROGM
   0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x68, 0x0C, 0xB0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_system_security_update_good() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_system_security_update_good() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_system_security_update_good_data, Alpha4(color::Black));
   return value;
@@ -4124,8 +4124,8 @@ static const uint8_t ic_sharp_48_device_system_security_update_data[] PROGMEM = 
   0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0x80, 0xCB, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_system_security_update() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_system_security_update() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_system_security_update_data, Alpha4(color::Black));
   return value;
@@ -4141,8 +4141,8 @@ static const uint8_t ic_sharp_48_device_system_security_update_warning_data[] PR
   0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_system_security_update_warning() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_system_security_update_warning() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 2, 37, 45), Box(0, 0, 47, 47),
       ic_sharp_48_device_system_security_update_warning_data, Alpha4(color::Black));
   return value;
@@ -4162,8 +4162,8 @@ static const uint8_t ic_sharp_48_device_task_data[] PROGMEM = {
   0x95, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_task() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_task() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_task_data, Alpha4(color::Black));
   return value;
@@ -4182,8 +4182,8 @@ static const uint8_t ic_sharp_48_device_thermostat_data[] PROGMEM = {
   0x04, 0x0D, 0xF9, 0x0D, 0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_thermostat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_thermostat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(14, 4, 33, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_thermostat_data, Alpha4(color::Black));
   return value;
@@ -4201,8 +4201,8 @@ static const uint8_t ic_sharp_48_device_timer_10_select_data[] PROGMEM = {
   0x2F, 0xFC, 0x2F, 0xD4, 0xE2, 0xFF, 0xC2, 0xFD,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_timer_10_select() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_timer_10_select() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 10, 45, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_timer_10_select_data, Alpha4(color::Black));
   return value;
@@ -4218,8 +4218,8 @@ static const uint8_t ic_sharp_48_device_timer_3_select_data[] PROGMEM = {
   0x4F, 0xD0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_timer_3_select() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_timer_3_select() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 10, 41, 37), Box(0, 0, 47, 47),
       ic_sharp_48_device_timer_3_select_data, Alpha4(color::Black));
   return value;
@@ -4242,8 +4242,8 @@ static const uint8_t ic_sharp_48_device_tungsten_data[] PROGMEM = {
   0xC0, 0x0C, 0x80, 0xC0, 0x0C, 0x77, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_tungsten() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_tungsten() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_tungsten_data, Alpha4(color::Black));
   return value;
@@ -4273,8 +4273,8 @@ static const uint8_t ic_sharp_48_device_usb_off_data[] PROGMEM = {
   0x13, 0xE4, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_usb_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_usb_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 42, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_usb_off_data, Alpha4(color::Black));
   return value;
@@ -4296,8 +4296,8 @@ static const uint8_t ic_sharp_48_device_usb_data[] PROGMEM = {
   0x08, 0x77, 0x73, 0x82, 0x14, 0x41, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_usb() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_usb() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(9, 2, 37, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_usb_data, Alpha4(color::Black));
   return value;
@@ -4319,8 +4319,8 @@ static const uint8_t ic_sharp_48_device_wallpaper_data[] PROGMEM = {
   0x4F, 0xFC,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wallpaper() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wallpaper() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_wallpaper_data, Alpha4(color::Black));
   return value;
@@ -4344,8 +4344,8 @@ static const uint8_t ic_sharp_48_device_water_data[] PROGMEM = {
   0x15, 0x81, 0x29, 0xD9,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_water() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_water() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 14, 43, 35), Box(0, 0, 47, 47),
       ic_sharp_48_device_water_data, Alpha4(color::Black));
   return value;
@@ -4368,8 +4368,8 @@ static const uint8_t ic_sharp_48_device_widgets_data[] PROGMEM = {
   0xA3, 0xFF, 0xA4, 0xFF, 0xA3,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_widgets() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_widgets() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 3, 44, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_widgets_data, Alpha4(color::Black));
   return value;
@@ -4382,8 +4382,8 @@ static const uint8_t ic_sharp_48_device_wifi_1_bar_data[] PROGMEM = {
   0xA0, 0x77, 0x40, 0x07, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_1_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_1_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(17, 32, 30, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_1_bar_data, Alpha4(color::Black));
   return value;
@@ -4402,8 +4402,8 @@ static const uint8_t ic_sharp_48_device_wifi_2_bar_data[] PROGMEM = {
   0x77, 0x10, 0x07, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_2_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_2_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 20, 39, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_2_bar_data, Alpha4(color::Black));
   return value;
@@ -4431,8 +4431,8 @@ static const uint8_t ic_sharp_48_device_wifi_calling_3_data[] PROGMEM = {
   0x51, 0x58, 0xAB, 0xDD, 0x93,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_calling_3() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_calling_3() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 44, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_calling_3_data, Alpha4(color::Black));
   return value;
@@ -4463,8 +4463,8 @@ static const uint8_t ic_sharp_48_device_wifi_channel_data[] PROGMEM = {
   0x17, 0x30, 0x1C, 0x02, 0x73, 0x01, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_channel() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_channel() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_channel_data, Alpha4(color::Black));
   return value;
@@ -4493,8 +4493,8 @@ static const uint8_t ic_sharp_48_device_wifi_find_data[] PROGMEM = {
   0xC0, 0x77, 0x71, 0x05, 0x0A, 0x77, 0x75, 0x07, 0xA0, 0x78, 0x0D, 0x10, 0x00, 0x77, 0x77, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_find() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_find() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_find_data, Alpha4(color::Black));
   return value;
@@ -4519,8 +4519,8 @@ static const uint8_t ic_sharp_48_device_wifi_lock_data[] PROGMEM = {
   0x7A, 0x07, 0x71, 0xFD, 0x77, 0x74, 0x00, 0x77, 0x2F, 0xD2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 41), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_lock_data, Alpha4(color::Black));
   return value;
@@ -4551,8 +4551,8 @@ static const uint8_t ic_sharp_48_device_wifi_password_data[] PROGMEM = {
   0xFD, 0x80, 0xC0, 0x0F, 0xD0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_password() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_password() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 8, 47, 47), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_password_data, Alpha4(color::Black));
   return value;
@@ -4583,8 +4583,8 @@ static const uint8_t ic_sharp_48_device_wifi_tethering_error_data[] PROGMEM = {
   0x5C, 0x06, 0x77, 0x76, 0xC4, 0x09, 0xA0, 0x77, 0x77, 0x7C, 0x50, 0xA0, 0x77, 0x77, 0x71, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_tethering_error() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_tethering_error() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_tethering_error_data, Alpha4(color::Black));
   return value;
@@ -4615,8 +4615,8 @@ static const uint8_t ic_sharp_48_device_wifi_tethering_error_rounded_data[] PROG
   0x5C, 0x06, 0x77, 0x76, 0xC4, 0x09, 0xA0, 0x77, 0x77, 0x7C, 0x50, 0xA0, 0x77, 0x77, 0x71, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_tethering_error_rounded() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_tethering_error_rounded() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_tethering_error_rounded_data, Alpha4(color::Black));
   return value;
@@ -4654,8 +4654,8 @@ static const uint8_t ic_sharp_48_device_wifi_tethering_off_data[] PROGMEM = {
   0x77, 0x03, 0x0E, 0xA0, 0x48, 0x0C, 0x10, 0x81, 0x3E, 0x43,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_tethering_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_tethering_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 5, 43, 44), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_tethering_off_data, Alpha4(color::Black));
   return value;
@@ -4693,8 +4693,8 @@ static const uint8_t ic_sharp_48_device_wifi_tethering_data[] PROGMEM = {
   0x01, 0x77, 0x60, 0x17, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_device_wifi_tethering() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_device_wifi_tethering() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_device_wifi_tethering_data, Alpha4(color::Black));
   return value;

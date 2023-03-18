@@ -16,8 +16,8 @@ static const uint8_t ic_sharp_48_search_bathroom_data[] PROGMEM = {
   0xB1, 0x1B, 0xA8, 0x2B, 0x11, 0xBA, 0x82, 0xB1, 0x1B, 0x80, 0xD9, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_bathroom() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_bathroom() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_bathroom_data, Alpha4(color::Black));
   return value;
@@ -32,8 +32,8 @@ static const uint8_t ic_sharp_48_search_bed_data[] PROGMEM = {
   0x74, 0xF9, 0x77, 0x77, 0x4F, 0x97, 0x77, 0x74, 0xF9, 0x77, 0x77, 0x4C,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_bed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_bed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 43, 37), Box(0, 0, 47, 47),
       ic_sharp_48_search_bed_data, Alpha4(color::Black));
   return value;
@@ -53,8 +53,8 @@ static const uint8_t ic_sharp_48_search_bedroom_baby_data[] PROGMEM = {
   0x83, 0xD8, 0x53, 0x22, 0x83, 0x12, 0x58, 0xC8, 0x0D, 0x92, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_bedroom_baby() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_bedroom_baby() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_bedroom_baby_data, Alpha4(color::Black));
   return value;
@@ -70,8 +70,8 @@ static const uint8_t ic_sharp_48_search_bedroom_child_data[] PROGMEM = {
   0xEA, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_bedroom_child() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_bedroom_child() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_bedroom_child_data, Alpha4(color::Black));
   return value;
@@ -89,8 +89,8 @@ static const uint8_t ic_sharp_48_search_bedroom_parent_data[] PROGMEM = {
   0x2F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_bedroom_parent() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_bedroom_parent() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_bedroom_parent_data, Alpha4(color::Black));
   return value;
@@ -113,8 +113,8 @@ static const uint8_t ic_sharp_48_search_blender_data[] PROGMEM = {
   0x6F, 0xFF, 0xB6, 0xFF, 0xFB, 0x6F, 0xFF, 0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_blender() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_blender() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 35, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_blender_data, Alpha4(color::Black));
   return value;
@@ -132,8 +132,8 @@ static const uint8_t ic_sharp_48_search_camera_indoor_data[] PROGMEM = {
   0x80, 0xC9, 0x0F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_camera_indoor() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_camera_indoor() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 6, 39, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_camera_indoor_data, Alpha4(color::Black));
   return value;
@@ -154,8 +154,8 @@ static const uint8_t ic_sharp_48_search_camera_outdoor_data[] PROGMEM = {
   0x77, 0x80, 0x9F, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_camera_outdoor() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_camera_outdoor() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 6, 39, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_camera_outdoor_data, Alpha4(color::Black));
   return value;
@@ -169,8 +169,8 @@ static const uint8_t ic_sharp_48_search_chair_alt_data[] PROGMEM = {
   0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0xF9, 0x77, 0x6F, 0x97, 0x76, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_chair_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_chair_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 6, 37, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_chair_alt_data, Alpha4(color::Black));
   return value;
@@ -188,8 +188,8 @@ static const uint8_t ic_sharp_48_search_chair_data[] PROGMEM = {
   0x82, 0x4D, 0xD4, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_chair() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_chair() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 6, 45, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_chair_data, Alpha4(color::Black));
   return value;
@@ -207,8 +207,8 @@ static const uint8_t ic_sharp_48_search_coffee_maker_data[] PROGMEM = {
   0x60, 0x7F, 0xF0, 0x76, 0xC7, 0x07, 0xFD, 0x07, 0x78, 0x09, 0xF4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_coffee_maker() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_coffee_maker() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 4, 39, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_coffee_maker_data, Alpha4(color::Black));
   return value;
@@ -229,8 +229,8 @@ static const uint8_t ic_sharp_48_search_coffee_data[] PROGMEM = {
   0xA5, 0x0F, 0xFF, 0xFC, 0x4F, 0xFF, 0xFC, 0x4F, 0xFF, 0xFC, 0x4F, 0xFF, 0xFC, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_coffee() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_coffee() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 6, 43, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_coffee_data, Alpha4(color::Black));
   return value;
@@ -251,8 +251,8 @@ static const uint8_t ic_sharp_48_search_dining_data[] PROGMEM = {
   0x3F, 0xA3, 0x80, 0xBF, 0x1F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_dining() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_dining() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_dining_data, Alpha4(color::Black));
   return value;
@@ -269,8 +269,8 @@ static const uint8_t ic_sharp_48_search_door_back_data[] PROGMEM = {
   0xF7, 0x1F, 0xFF, 0xF4, 0x80, 0xA9, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_door_back() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_door_back() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_door_back_data, Alpha4(color::Black));
   return value;
@@ -289,8 +289,8 @@ static const uint8_t ic_sharp_48_search_doorbell_data[] PROGMEM = {
   0x20, 0x1F, 0xFF, 0xF8, 0x2B, 0x11, 0xB8, 0x0B, 0xD2, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_doorbell() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_doorbell() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 6, 39, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_doorbell_data, Alpha4(color::Black));
   return value;
@@ -307,8 +307,8 @@ static const uint8_t ic_sharp_48_search_door_front_data[] PROGMEM = {
   0xF7, 0x1F, 0xFF, 0xF4, 0x80, 0xA9, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_door_front() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_door_front() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_door_front_data, Alpha4(color::Black));
   return value;
@@ -329,8 +329,8 @@ static const uint8_t ic_sharp_48_search_door_sliding_data[] PROGMEM = {
   0x72, 0x07, 0xFF, 0x4F, 0xF0, 0x72, 0x07, 0xFF, 0x28, 0x0A, 0x94, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_door_sliding() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_door_sliding() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_door_sliding_data, Alpha4(color::Black));
   return value;
@@ -346,8 +346,8 @@ static const uint8_t ic_sharp_48_search_feed_data[] PROGMEM = {
   0x6F, 0xFA, 0x77, 0x68, 0x0C, 0xC4, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_feed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_feed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_feed_data, Alpha4(color::Black));
   return value;
@@ -372,8 +372,8 @@ static const uint8_t ic_sharp_48_search_flatware_data[] PROGMEM = {
   0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_flatware() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_flatware() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_flatware_data, Alpha4(color::Black));
   return value;
@@ -392,8 +392,8 @@ static const uint8_t ic_sharp_48_search_garage_data[] PROGMEM = {
   0xFE, 0x4F, 0xD4, 0xFF, 0xE4, 0xFD, 0x4F, 0xFE, 0x48, 0x0C, 0xB2, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_garage() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_garage() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_garage_data, Alpha4(color::Black));
   return value;
@@ -417,8 +417,8 @@ static const uint8_t ic_sharp_48_search_light_data[] PROGMEM = {
   0x28, 0xCE, 0xEC, 0x82, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_light() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_light() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_light_data, Alpha4(color::Black));
   return value;
@@ -436,8 +436,8 @@ static const uint8_t ic_sharp_48_search_living_data[] PROGMEM = {
   0xFD, 0x77, 0x77, 0xFD, 0x77, 0x77, 0xFD, 0x77, 0x77, 0x80, 0xD8, 0x2F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_living() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_living() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_living_data, Alpha4(color::Black));
   return value;
@@ -459,8 +459,8 @@ static const uint8_t ic_sharp_48_search_manage_search_data[] PROGMEM = {
   0x1F, 0xFE, 0x77, 0x20, 0x50, 0xA2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_manage_search() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_manage_search() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 12, 43, 37), Box(0, 0, 47, 47),
       ic_sharp_48_search_manage_search_data, Alpha4(color::Black));
   return value;
@@ -497,8 +497,8 @@ static const uint8_t ic_sharp_48_search_podcasts_data[] PROGMEM = {
   0x74,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_podcasts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_podcasts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_podcasts_data, Alpha4(color::Black));
   return value;
@@ -519,8 +519,8 @@ static const uint8_t ic_sharp_48_search_shower_data[] PROGMEM = {
   0x24, 0xDD, 0x44, 0x82, 0x4D, 0xD4, 0x48, 0x24, 0xDD, 0x44,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_shower() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_shower() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 6, 37, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_shower_data, Alpha4(color::Black));
   return value;
@@ -542,8 +542,8 @@ static const uint8_t ic_sharp_48_search_table_bar_data[] PROGMEM = {
   0x77, 0x09, 0xB0, 0x67, 0x72, 0x0C, 0xB0, 0x37, 0x70, 0x3B, 0x0C, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_table_bar() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_table_bar() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 8, 43, 39), Box(0, 0, 47, 47),
       ic_sharp_48_search_table_bar_data, Alpha4(color::Black));
   return value;
@@ -566,8 +566,8 @@ static const uint8_t ic_sharp_48_search_table_restaurant_data[] PROGMEM = {
   0x1B, 0x0E, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_table_restaurant() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_table_restaurant() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 8, 44, 39), Box(0, 0, 47, 47),
       ic_sharp_48_search_table_restaurant_data, Alpha4(color::Black));
   return value;
@@ -584,8 +584,8 @@ static const uint8_t ic_sharp_48_search_window_data[] PROGMEM = {
   0xFF, 0xFC, 0x4F, 0xFA,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_window() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_window() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 41, 41), Box(0, 0, 47, 47),
       ic_sharp_48_search_window_data, Alpha4(color::Black));
   return value;
@@ -609,8 +609,8 @@ static const uint8_t ic_sharp_48_search_yard_data[] PROGMEM = {
   0x9D, 0x80, 0xBF, 0x3F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_48_search_yard() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_48_search_yard() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 43, 43), Box(0, 0, 47, 47),
       ic_sharp_48_search_yard_data, Alpha4(color::Black));
   return value;

@@ -16,8 +16,8 @@ static const uint8_t ic_outlined_24_home_auto_mode_data[] PROGMEM = {
   0x90, 0xE0, 0x77, 0x58, 0x65, 0xAC, 0xEF, 0xDA, 0x67,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_auto_mode() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_auto_mode() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_auto_mode_data, Alpha4(color::Black));
   return value;
@@ -31,8 +31,8 @@ static const uint8_t ic_outlined_24_home_blinds_closed_data[] PROGMEM = {
   0x09, 0xA0, 0x97, 0x72, 0x82, 0x19, 0x91, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_blinds_closed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_blinds_closed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_blinds_closed_data, Alpha4(color::Black));
   return value;
@@ -46,8 +46,8 @@ static const uint8_t ic_outlined_24_home_blinds_data[] PROGMEM = {
   0xA4, 0xA7, 0x5A, 0x28, 0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_blinds() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_blinds() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_blinds_data, Alpha4(color::Black));
   return value;
@@ -65,8 +65,8 @@ static const uint8_t ic_outlined_24_home_broadcast_on_home_data[] PROGMEM = {
   0x6F, 0x32, 0x00, 0xB2, 0x81, 0x3F, 0x67, 0x40, 0x53, 0x00, 0xB3, 0x04, 0x77, 0x20, 0x0B, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_broadcast_on_home() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_broadcast_on_home() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 23, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_broadcast_on_home_data, Alpha4(color::Black));
   return value;
@@ -85,8 +85,8 @@ static const uint8_t ic_outlined_24_home_broadcast_on_personal_data[] PROGMEM = 
   0x00, 0xB2, 0x81, 0x3F, 0x61, 0xF9, 0x81, 0x60, 0x53, 0x00, 0xB3, 0x04, 0x77, 0x20, 0x0B, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_broadcast_on_personal() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_broadcast_on_personal() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 23, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_broadcast_on_personal_data, Alpha4(color::Black));
   return value;
@@ -100,8 +100,8 @@ static const uint8_t ic_outlined_24_home_curtains_closed_data[] PROGMEM = {
   0x4A, 0x3A, 0x2A, 0x3A, 0x4A, 0x3A, 0x2A, 0x3A, 0x4A, 0x3A, 0x2A, 0x3A, 0x28, 0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_curtains_closed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_curtains_closed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_curtains_closed_data, Alpha4(color::Black));
   return value;
@@ -118,8 +118,8 @@ static const uint8_t ic_outlined_24_home_curtains_data[] PROGMEM = {
   0x84, 0x2F, 0xDD, 0xF2, 0x3A, 0x28, 0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_curtains() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_curtains() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_curtains_data, Alpha4(color::Black));
   return value;
@@ -135,8 +135,8 @@ static const uint8_t ic_outlined_24_home_electric_bolt_data[] PROGMEM = {
   0x81, 0xAF, 0xA7, 0x60, 0xC0, 0x97, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_electric_bolt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_electric_bolt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_electric_bolt_data, Alpha4(color::Black));
   return value;
@@ -155,8 +155,8 @@ static const uint8_t ic_outlined_24_home_electric_meter_data[] PROGMEM = {
   0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_electric_meter() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_electric_meter() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 20, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_electric_meter_data, Alpha4(color::Black));
   return value;
@@ -174,8 +174,8 @@ static const uint8_t ic_outlined_24_home_energy_savings_leaf_data[] PROGMEM = {
   0x90, 0xB0, 0x23, 0x81, 0x2B, 0x12, 0x86, 0x49, 0xDE, 0xED, 0x94, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_energy_savings_leaf() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_energy_savings_leaf() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_energy_savings_leaf_data, Alpha4(color::Black));
   return value;
@@ -191,8 +191,8 @@ static const uint8_t ic_outlined_24_home_gas_meter_data[] PROGMEM = {
   0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_gas_meter() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_gas_meter() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_gas_meter_data, Alpha4(color::Black));
   return value;
@@ -209,8 +209,8 @@ static const uint8_t ic_outlined_24_home_heat_pump_data[] PROGMEM = {
   0x84, 0x6C, 0xEE, 0xC6, 0x4C, 0x77, 0xA0, 0xDF, 0xFA, 0x81, 0xD4, 0xDF, 0xF0, 0xD0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_heat_pump() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_heat_pump() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_heat_pump_data, Alpha4(color::Black));
   return value;
@@ -231,8 +231,8 @@ static const uint8_t ic_outlined_24_home_mode_fan_off_data[] PROGMEM = {
   0xA0, 0x77, 0x18, 0x41, 0xBE, 0xDB, 0x54, 0x81, 0x5F, 0xC7, 0x75, 0x04, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_mode_fan_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_mode_fan_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_mode_fan_off_data, Alpha4(color::Black));
   return value;
@@ -248,8 +248,8 @@ static const uint8_t ic_outlined_24_home_nest_cam_wired_stand_data[] PROGMEM = {
   0x1E, 0xF1, 0x48, 0x11, 0xFE, 0x2A, 0x6A, 0x2F, 0xB2, 0x0B, 0xF9, 0x0B, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_nest_cam_wired_stand() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_nest_cam_wired_stand() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 1, 17, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_nest_cam_wired_stand_data, Alpha4(color::Black));
   return value;
@@ -264,8 +264,8 @@ static const uint8_t ic_outlined_24_home_oil_barrel_data[] PROGMEM = {
   0xA4, 0xA7, 0x3A, 0x20, 0xBF, 0xFA, 0x00, 0xBF, 0xFA, 0x0B,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_oil_barrel() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_oil_barrel() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_oil_barrel_data, Alpha4(color::Black));
   return value;
@@ -281,8 +281,8 @@ static const uint8_t ic_outlined_24_home_propane_data[] PROGMEM = {
   0xC0, 0x14, 0x81, 0x6C, 0xEF, 0xB8, 0x1E, 0xC6, 0x72, 0xA6, 0xA7, 0x5A, 0x6A, 0x75, 0xA6, 0xA6,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_propane() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_propane() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_propane_data, Alpha4(color::Black));
   return value;
@@ -297,8 +297,8 @@ static const uint8_t ic_outlined_24_home_propane_tank_data[] PROGMEM = {
   0xAD, 0xF9, 0x81, 0xDA, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_propane_tank() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_propane_tank() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_propane_tank_data, Alpha4(color::Black));
   return value;
@@ -312,8 +312,8 @@ static const uint8_t ic_outlined_24_home_roller_shades_closed_data[] PROGMEM = {
   0x19, 0x91, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_roller_shades_closed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_roller_shades_closed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_roller_shades_closed_data, Alpha4(color::Black));
   return value;
@@ -327,8 +327,8 @@ static const uint8_t ic_outlined_24_home_roller_shades_data[] PROGMEM = {
   0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_roller_shades() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_roller_shades() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_roller_shades_data, Alpha4(color::Black));
   return value;
@@ -341,8 +341,8 @@ static const uint8_t ic_outlined_24_home_sensor_door_data[] PROGMEM = {
   0x12, 0x72, 0x1C, 0x75, 0xC7, 0x5C, 0x75, 0xC7, 0x5C, 0x75, 0xC7, 0x5F, 0xFF, 0xFE,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_sensor_door() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_sensor_door() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_sensor_door_data, Alpha4(color::Black));
   return value;
@@ -361,8 +361,8 @@ static const uint8_t ic_outlined_24_home_sensor_occupied_data[] PROGMEM = {
   0x24, 0xEF, 0xE7, 0x18, 0x2E, 0xFE, 0x47, 0x81, 0x19, 0x97, 0x18, 0x19, 0x91, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_sensor_occupied() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_sensor_occupied() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_sensor_occupied_data, Alpha4(color::Black));
   return value;
@@ -375,8 +375,8 @@ static const uint8_t ic_outlined_24_home_sensor_window_data[] PROGMEM = {
   0xDF, 0xF8, 0x1D, 0x4D, 0xFD, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_sensor_window() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_sensor_window() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_sensor_window_data, Alpha4(color::Black));
   return value;
@@ -394,8 +394,8 @@ static const uint8_t ic_outlined_24_home_shield_moon_data[] PROGMEM = {
   0x27, 0xCC, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_shield_moon() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_shield_moon() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_shield_moon_data, Alpha4(color::Black));
   return value;
@@ -412,8 +412,8 @@ static const uint8_t ic_outlined_24_home_solar_power_data[] PROGMEM = {
   0x68, 0x28, 0xF7, 0xAF, 0xFC, 0x0A, 0x0D, 0xFF, 0xC0, 0xD0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_solar_power() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_solar_power() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_home_solar_power_data, Alpha4(color::Black));
   return value;
@@ -432,8 +432,8 @@ static const uint8_t ic_outlined_24_home_vertical_shades_closed_data[] PROGMEM =
   0xF7, 0x1A, 0x28, 0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_vertical_shades_closed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_vertical_shades_closed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_vertical_shades_closed_data, Alpha4(color::Black));
   return value;
@@ -447,8 +447,8 @@ static const uint8_t ic_outlined_24_home_vertical_shades_data[] PROGMEM = {
   0x4A, 0x2A, 0x4A, 0x2A, 0x4A, 0x2A, 0x4A, 0x2A, 0x4A, 0x2A, 0x4A, 0x2A, 0x28, 0x0C, 0x4F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_vertical_shades() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_vertical_shades() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_home_vertical_shades_data, Alpha4(color::Black));
   return value;
@@ -467,8 +467,8 @@ static const uint8_t ic_outlined_24_home_wind_power_data[] PROGMEM = {
   0xA0, 0xD0, 0x42, 0x82, 0x3C, 0xE8, 0x73, 0x0D, 0xC0, 0xD7,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_home_wind_power() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_home_wind_power() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_home_wind_power_data, Alpha4(color::Black));
   return value;

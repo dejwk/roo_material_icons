@@ -9,8 +9,8 @@ static const uint8_t ic_outlined_24_notification_account_tree_data[] PROGMEM = {
   0x3A, 0x72, 0xE3, 0xA7, 0x2E, 0x3A, 0x76, 0xA3, 0xA7, 0x6F, 0x76, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_account_tree() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_account_tree() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_account_tree_data, Alpha4(color::Black));
   return value;
@@ -25,8 +25,8 @@ static const uint8_t ic_outlined_24_notification_adb_data[] PROGMEM = {
   0xB0, 0x53, 0x05, 0x0E, 0xE0, 0xE0, 0x55, 0x86, 0x17, 0xCE, 0xEC, 0x71, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_adb() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_adb() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 1, 18, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_adb_data, Alpha4(color::Black));
   return value;
@@ -44,8 +44,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_flat_angled_data[]
   0x01, 0x07, 0xC8, 0x1D, 0x72, 0x72, 0xF9, 0x08, 0x0D, 0xB0, 0x17, 0x1F, 0x92, 0x81, 0x49, 0xA2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_flat_angled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_flat_angled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 22, 18), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_flat_angled_data, Alpha4(color::Black));
   return value;
@@ -58,8 +58,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_flat_data[] PROGME
   0xE1, 0x82, 0x8E, 0xE8, 0x2F, 0xE7, 0x76, 0x80, 0xC4, 0xF6, 0xF9, 0x75, 0xF9, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_flat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_flat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 7, 21, 17), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_flat_data, Alpha4(color::Black));
   return value;
@@ -73,8 +73,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_individual_suite_d
   0x1C, 0x71, 0xA7, 0x18, 0x0D, 0x2F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_individual_suite() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_individual_suite() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 7, 22, 16), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_individual_suite_data, Alpha4(color::Black));
   return value;
@@ -89,8 +89,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_legroom_extra_data
   0x10, 0xCC, 0x0C, 0x77, 0x10, 0x5A, 0x81, 0xE9, 0x17, 0x72, 0x81, 0xB7, 0x12,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_legroom_extra() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_legroom_extra() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_legroom_extra_data, Alpha4(color::Black));
   return value;
@@ -104,8 +104,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_legroom_normal_dat
   0xE2, 0xB7, 0x72, 0xB7, 0x72, 0xD0, 0x87, 0x6D, 0x0E, 0x76, 0xD0, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_legroom_normal() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_legroom_normal() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_legroom_normal_data, Alpha4(color::Black));
   return value;
@@ -120,8 +120,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_legroom_reduced_da
   0x0E, 0x74, 0xD0, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_legroom_reduced() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_legroom_reduced() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 19, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_legroom_reduced_data, Alpha4(color::Black));
   return value;
@@ -138,8 +138,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_recline_extra_data
   0x08, 0xFB, 0x20, 0x6A, 0x0B, 0x48, 0x14, 0xBE, 0xF3, 0x81, 0x3C, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_recline_extra() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_recline_extra() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_recline_extra_data, Alpha4(color::Black));
   return value;
@@ -155,8 +155,8 @@ static const uint8_t ic_outlined_24_notification_airline_seat_recline_normal_dat
   0xA0, 0x62, 0x81, 0x4B, 0xEE, 0x28, 0x16, 0xF8, 0x77, 0x03, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_airline_seat_recline_normal() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_airline_seat_recline_normal() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_airline_seat_recline_normal_data, Alpha4(color::Black));
   return value;
@@ -175,8 +175,8 @@ static const uint8_t ic_outlined_24_notification_bluetooth_audio_data[] PROGMEM 
   0x3C, 0x07, 0x76, 0xB0, 0x77, 0x7A, 0x07, 0x77, 0x19, 0x07, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_bluetooth_audio() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_bluetooth_audio() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 20, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_bluetooth_audio_data, Alpha4(color::Black));
   return value;
@@ -191,8 +191,8 @@ static const uint8_t ic_outlined_24_notification_confirmation_number_data[] PROG
   0xFF, 0xC8, 0x1D, 0x4D, 0xFF, 0xA0, 0xD0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_confirmation_number() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_confirmation_number() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 21, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_confirmation_number_data, Alpha4(color::Black));
   return value;
@@ -214,8 +214,8 @@ static const uint8_t ic_outlined_24_notification_directions_off_data[] PROGMEM =
   0x5F, 0xC7, 0x75, 0x04, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_directions_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_directions_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_directions_off_data, Alpha4(color::Black));
   return value;
@@ -233,8 +233,8 @@ static const uint8_t ic_outlined_24_notification_disc_full_data[] PROGMEM = {
   0x82, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_disc_full() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_disc_full() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 21, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_disc_full_data, Alpha4(color::Black));
   return value;
@@ -254,8 +254,8 @@ static const uint8_t ic_outlined_24_notification_do_disturb_alt_data[] PROGMEM =
   0x0D, 0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_disturb_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_disturb_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_disturb_alt_data, Alpha4(color::Black));
   return value;
@@ -276,8 +276,8 @@ static const uint8_t ic_outlined_24_notification_do_disturb_off_data[] PROGMEM =
   0xDA, 0x52, 0x82, 0x2D, 0xF9, 0x77, 0x48, 0x12, 0xB1,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_disturb_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_disturb_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_disturb_off_data, Alpha4(color::Black));
   return value;
@@ -295,8 +295,8 @@ static const uint8_t ic_outlined_24_notification_do_disturb_on_data[] PROGMEM = 
   0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_disturb_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_disturb_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_disturb_on_data, Alpha4(color::Black));
   return value;
@@ -316,8 +316,8 @@ static const uint8_t ic_outlined_24_notification_do_disturb_data[] PROGMEM = {
   0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_disturb() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_disturb() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_disturb_data, Alpha4(color::Black));
   return value;
@@ -337,8 +337,8 @@ static const uint8_t ic_outlined_24_notification_do_not_disturb_alt_data[] PROGM
   0x0D, 0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_not_disturb_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_not_disturb_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_not_disturb_alt_data, Alpha4(color::Black));
   return value;
@@ -359,8 +359,8 @@ static const uint8_t ic_outlined_24_notification_do_not_disturb_off_data[] PROGM
   0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_not_disturb_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_not_disturb_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 21, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_not_disturb_off_data, Alpha4(color::Black));
   return value;
@@ -378,8 +378,8 @@ static const uint8_t ic_outlined_24_notification_do_not_disturb_on_data[] PROGME
   0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_not_disturb_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_not_disturb_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_not_disturb_on_data, Alpha4(color::Black));
   return value;
@@ -399,8 +399,8 @@ static const uint8_t ic_outlined_24_notification_do_not_disturb_data[] PROGMEM =
   0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_do_not_disturb() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_do_not_disturb() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_do_not_disturb_data, Alpha4(color::Black));
   return value;
@@ -415,8 +415,8 @@ static const uint8_t ic_outlined_24_notification_drive_eta_data[] PROGMEM = {
   0xB7, 0x58, 0x1B, 0xFB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_drive_eta() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_drive_eta() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 20, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_drive_eta_data, Alpha4(color::Black));
   return value;
@@ -431,8 +431,8 @@ static const uint8_t ic_outlined_24_notification_enhanced_encryption_data[] PROG
   0x1D, 0x4D, 0xFD, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_enhanced_encryption() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_enhanced_encryption() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 1, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_enhanced_encryption_data, Alpha4(color::Black));
   return value;
@@ -447,8 +447,8 @@ static const uint8_t ic_outlined_24_notification_event_available_data[] PROGMEM 
   0xD0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_event_available() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_event_available() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_event_available_data, Alpha4(color::Black));
   return value;
@@ -463,8 +463,8 @@ static const uint8_t ic_outlined_24_notification_event_busy_data[] PROGMEM = {
   0x0D, 0xFF, 0xA8, 0x1D, 0x4D, 0xFF, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_event_busy() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_event_busy() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_event_busy_data, Alpha4(color::Black));
   return value;
@@ -477,8 +477,8 @@ static const uint8_t ic_outlined_24_notification_event_note_data[] PROGMEM = {
   0x2F, 0x5C, 0x77, 0xC7, 0x7A, 0x0D, 0xFF, 0xA8, 0x1D, 0x4D, 0xFF, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_event_note() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_event_note() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_event_note_data, Alpha4(color::Black));
   return value;
@@ -493,8 +493,8 @@ static const uint8_t ic_outlined_24_notification_folder_special_data[] PROGMEM =
   0xA0, 0xD0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_folder_special() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_folder_special() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 21, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_folder_special_data, Alpha4(color::Black));
   return value;
@@ -508,8 +508,8 @@ static const uint8_t ic_outlined_24_notification_imagesearch_roller_data[] PROGM
   0xA7, 0x5A, 0x2A, 0x75, 0xE7, 0x50, 0xBC, 0x0B, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_imagesearch_roller() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_imagesearch_roller() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 19, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_imagesearch_roller_data, Alpha4(color::Black));
   return value;
@@ -525,8 +525,8 @@ static const uint8_t ic_outlined_24_notification_live_tv_data[] PROGMEM = {
   0xFC, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_live_tv() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_live_tv() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 22, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_live_tv_data, Alpha4(color::Black));
   return value;
@@ -541,8 +541,8 @@ static const uint8_t ic_outlined_24_notification_mms_data[] PROGMEM = {
   0x72, 0xA0, 0x77, 0x73, 0x90, 0x77, 0x74, 0x07, 0x77, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_mms() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_mms() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_mms_data, Alpha4(color::Black));
   return value;
@@ -560,8 +560,8 @@ static const uint8_t ic_outlined_24_notification_more_data[] PROGMEM = {
   0xFB, 0x0D, 0x50, 0x30, 0xDF, 0xF9, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_more() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_more() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 23, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_more_data, Alpha4(color::Black));
   return value;
@@ -579,8 +579,8 @@ static const uint8_t ic_outlined_24_notification_network_check_data[] PROGMEM = 
   0x48, 0x24, 0xDD, 0x47, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_network_check() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_network_check() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 22, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_network_check_data, Alpha4(color::Black));
   return value;
@@ -596,8 +596,8 @@ static const uint8_t ic_outlined_24_notification_network_locked_data[] PROGMEM =
   0x2F, 0x07, 0xFD, 0x2F, 0x77, 0x1F, 0x77, 0x10, 0xBD, 0x0B,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_network_locked() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_network_locked() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_network_locked_data, Alpha4(color::Black));
   return value;
@@ -615,8 +615,8 @@ static const uint8_t ic_outlined_24_notification_no_encryption_gmailerrorred_dat
   0x0D, 0xFF, 0x83, 0xE2, 0x04, 0xDF, 0xF0, 0xD7, 0x72, 0x0A, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_no_encryption_gmailerrorred() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_no_encryption_gmailerrorred() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_no_encryption_gmailerrorred_data, Alpha4(color::Black));
   return value;
@@ -634,8 +634,8 @@ static const uint8_t ic_outlined_24_notification_no_encryption_data[] PROGMEM = 
   0x0D, 0xFF, 0x83, 0xE2, 0x04, 0xDF, 0xF0, 0xD7, 0x72, 0x0A, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_no_encryption() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_no_encryption() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_no_encryption_data, Alpha4(color::Black));
   return value;
@@ -649,8 +649,8 @@ static const uint8_t ic_outlined_24_notification_ondemand_video_data[] PROGMEM =
   0x77, 0x4A, 0x0D, 0xFF, 0xE8, 0x1D, 0x4D, 0xFF, 0xC0, 0xD0, 0x47, 0xF9, 0x77, 0xF9, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_ondemand_video() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_ondemand_video() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_ondemand_video_data, Alpha4(color::Black));
   return value;
@@ -663,8 +663,8 @@ static const uint8_t ic_outlined_24_notification_personal_video_data[] PROGMEM =
   0x4A, 0x0D, 0xFF, 0xE8, 0x1D, 0x4D, 0xFF, 0xC0, 0xD0, 0x47, 0xF9, 0x77, 0xF9, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_personal_video() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_personal_video() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_personal_video_data, Alpha4(color::Black));
   return value;
@@ -682,8 +682,8 @@ static const uint8_t ic_outlined_24_notification_phone_bluetooth_speaker_data[] 
   0x72, 0x81, 0x2A, 0xEE, 0x75, 0x84, 0x59, 0xBD, 0xEB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_bluetooth_speaker() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_bluetooth_speaker() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_bluetooth_speaker_data, Alpha4(color::Black));
   return value;
@@ -700,8 +700,8 @@ static const uint8_t ic_outlined_24_notification_phone_callback_data[] PROGMEM =
   0x70, 0x10, 0x9B, 0x82, 0xB6, 0x31, 0xA7, 0x28, 0x12, 0xAE, 0xE7, 0x58, 0x45, 0x9B, 0xDE, 0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_callback() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_callback() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_callback_data, Alpha4(color::Black));
   return value;
@@ -718,8 +718,8 @@ static const uint8_t ic_outlined_24_notification_phone_forwarded_data[] PROGMEM 
   0x31, 0xA7, 0x48, 0x12, 0xAE, 0xE7, 0x78, 0x45, 0x9B, 0xDE, 0xB2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_forwarded() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_forwarded() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_forwarded_data, Alpha4(color::Black));
   return value;
@@ -737,8 +737,8 @@ static const uint8_t ic_outlined_24_notification_phone_in_talk_data[] PROGMEM = 
   0x1A, 0x72, 0x81, 0x2A, 0xEE, 0x75, 0x84, 0x59, 0xBD, 0xEB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_in_talk() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_in_talk() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_in_talk_data, Alpha4(color::Black));
   return value;
@@ -755,8 +755,8 @@ static const uint8_t ic_outlined_24_notification_phone_locked_data[] PROGMEM = {
   0x41, 0x6A, 0xCE, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_locked() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_locked() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_locked_data, Alpha4(color::Black));
   return value;
@@ -775,8 +775,8 @@ static const uint8_t ic_outlined_24_notification_phone_missed_data[] PROGMEM = {
   0x78, 0x14, 0xC4, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_missed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_missed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 23, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_missed_data, Alpha4(color::Black));
   return value;
@@ -792,8 +792,8 @@ static const uint8_t ic_outlined_24_notification_phone_paused_data[] PROGMEM = {
   0xA7, 0x01, 0x09, 0xB8, 0x2B, 0x73, 0x1A, 0x72, 0x81, 0x2A, 0xEE, 0x75, 0x84, 0x59, 0xBD, 0xEB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_phone_paused() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_phone_paused() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 20, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_phone_paused_data, Alpha4(color::Black));
   return value;
@@ -810,8 +810,8 @@ static const uint8_t ic_outlined_24_notification_power_off_data[] PROGMEM = {
   0xC8, 0x47, 0x02, 0xDF, 0xB7, 0x10, 0x7C, 0x07, 0x28, 0x22, 0xDF, 0x97, 0x72, 0x81, 0x2B, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_power_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_power_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 20, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_power_off_data, Alpha4(color::Black));
   return value;
@@ -825,8 +825,8 @@ static const uint8_t ic_outlined_24_notification_power_data[] PROGMEM = {
   0x7F, 0x77, 0xF7, 0x60, 0x7C, 0x07, 0x60, 0x7C, 0x07, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_power() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_power() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 3, 17, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_power_data, Alpha4(color::Black));
   return value;
@@ -837,8 +837,8 @@ static const uint8_t ic_outlined_24_notification_priority_high_data[] PROGMEM = 
   0x80, 0xD4, 0xF7, 0x18, 0x34, 0xDD, 0x4D, 0xA0, 0x0D, 0xA8, 0x3D, 0x4D, 0xD4,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_priority_high() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_priority_high() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(10, 3, 13, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_priority_high_data, Alpha4(color::Black));
   return value;
@@ -855,8 +855,8 @@ static const uint8_t ic_outlined_24_notification_running_with_errors_data[] PROG
   0x71, 0x04, 0x0D, 0xF9, 0x0D, 0x04, 0x2A, 0x68, 0x65, 0x9D, 0xEF, 0xDA, 0x54, 0xA0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_running_with_errors() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_running_with_errors() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_running_with_errors_data, Alpha4(color::Black));
   return value;
@@ -870,8 +870,8 @@ static const uint8_t ic_outlined_24_notification_sd_card_alert_data[] PROGMEM = 
   0xDF, 0xF8, 0x1D, 0x4D, 0xFD, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sd_card_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sd_card_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sd_card_alert_data, Alpha4(color::Black));
   return value;
@@ -885,8 +885,8 @@ static const uint8_t ic_outlined_24_notification_sd_card_data[] PROGMEM = {
   0x75, 0xC7, 0x5C, 0x75, 0xC7, 0x5A, 0x0D, 0xFF, 0x81, 0xD4, 0xDF, 0xD0, 0xD0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sd_card() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sd_card() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sd_card_data, Alpha4(color::Black));
   return value;
@@ -900,8 +900,8 @@ static const uint8_t ic_outlined_24_notification_sim_card_alert_data[] PROGMEM =
   0xDF, 0xF8, 0x1D, 0x4D, 0xFD, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sim_card_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sim_card_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sim_card_alert_data, Alpha4(color::Black));
   return value;
@@ -915,8 +915,8 @@ static const uint8_t ic_outlined_24_notification_sms_failed_data[] PROGMEM = {
   0x74, 0x07, 0x77, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sms_failed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sms_failed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sms_failed_data, Alpha4(color::Black));
   return value;
@@ -930,8 +930,8 @@ static const uint8_t ic_outlined_24_notification_sms_data[] PROGMEM = {
   0x77, 0x73, 0x90, 0x77, 0x74, 0x07, 0x77, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sms() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sms() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sms_data, Alpha4(color::Black));
   return value;
@@ -949,8 +949,8 @@ static const uint8_t ic_outlined_24_notification_support_agent_data[] PROGMEM = 
   0xD7, 0x3F, 0x90, 0xD0, 0x41,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_support_agent() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_support_agent() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 21, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_support_agent_data, Alpha4(color::Black));
   return value;
@@ -968,8 +968,8 @@ static const uint8_t ic_outlined_24_notification_sync_disabled_data[] PROGMEM = 
   0x48, 0x48, 0x22, 0xDF, 0xB7, 0x78, 0x12, 0xDA, 0x77, 0x10, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sync_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sync_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 19, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sync_disabled_data, Alpha4(color::Black));
   return value;
@@ -985,8 +985,8 @@ static const uint8_t ic_outlined_24_notification_sync_lock_data[] PROGMEM = {
   0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sync_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sync_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 20, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sync_lock_data, Alpha4(color::Black));
   return value;
@@ -1003,8 +1003,8 @@ static const uint8_t ic_outlined_24_notification_sync_data[] PROGMEM = {
   0x07, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sync() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sync() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 1, 19, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sync_data, Alpha4(color::Black));
   return value;
@@ -1020,8 +1020,8 @@ static const uint8_t ic_outlined_24_notification_sync_problem_data[] PROGMEM = {
   0xB6, 0x09, 0xA0, 0xB3, 0x07, 0xC6, 0xA0, 0x93, 0x07, 0xD6, 0x08, 0x02, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_sync_problem() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_sync_problem() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 20, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_sync_problem_data, Alpha4(color::Black));
   return value;
@@ -1035,8 +1035,8 @@ static const uint8_t ic_outlined_24_notification_system_update_data[] PROGMEM = 
   0x4D, 0xFB, 0x0D, 0x04,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_system_update() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_system_update() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 1, 18, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_system_update_data, Alpha4(color::Black));
   return value;
@@ -1053,8 +1053,8 @@ static const uint8_t ic_outlined_24_notification_tap_and_play_data[] PROGMEM = {
   0x0D, 0x04, 0xA0, 0xD2, 0x90, 0xE2, 0x90, 0xE6,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_tap_and_play() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_tap_and_play() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 18, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_tap_and_play_data, Alpha4(color::Black));
   return value;
@@ -1069,8 +1069,8 @@ static const uint8_t ic_outlined_24_notification_time_to_leave_data[] PROGMEM = 
   0xB7, 0x58, 0x1B, 0xFB,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_time_to_leave() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_time_to_leave() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 20, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_time_to_leave_data, Alpha4(color::Black));
   return value;
@@ -1088,8 +1088,8 @@ static const uint8_t ic_outlined_24_notification_tv_off_data[] PROGMEM = {
   0xDF, 0xFB, 0x0B, 0x77, 0x58, 0x22, 0xDF, 0x97, 0x75, 0x81, 0x2B, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_tv_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_tv_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_tv_off_data, Alpha4(color::Black));
   return value;
@@ -1104,8 +1104,8 @@ static const uint8_t ic_outlined_24_notification_vibration_data[] PROGMEM = {
   0x72, 0xA7, 0x1A, 0x75, 0xA7, 0x1A, 0x75, 0xFD, 0x75, 0x08, 0xFB, 0x08, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_vibration() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_vibration() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 23, 20), Box(0, 0, 23, 23),
       ic_outlined_24_notification_vibration_data, Alpha4(color::Black));
   return value;
@@ -1120,8 +1120,8 @@ static const uint8_t ic_outlined_24_notification_video_chat_data[] PROGMEM = {
   0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_video_chat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_video_chat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_video_chat_data, Alpha4(color::Black));
   return value;
@@ -1135,8 +1135,8 @@ static const uint8_t ic_outlined_24_notification_voice_chat_data[] PROGMEM = {
   0xFC, 0x0D, 0x04, 0xB0, 0x77, 0x72, 0xA0, 0x77, 0x73, 0x90, 0x77, 0x74, 0x07, 0x77, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_voice_chat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_voice_chat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_voice_chat_data, Alpha4(color::Black));
   return value;
@@ -1155,8 +1155,8 @@ static const uint8_t ic_outlined_24_notification_vpn_lock_data[] PROGMEM = {
   0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_vpn_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_vpn_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_notification_vpn_lock_data, Alpha4(color::Black));
   return value;
@@ -1172,8 +1172,8 @@ static const uint8_t ic_outlined_24_notification_wc_data[] PROGMEM = {
   0x07, 0xB0, 0x75, 0xB4, 0x07, 0xB0, 0x75, 0xB4, 0x07, 0xB0, 0x75, 0xB4, 0x07, 0xB0, 0x75, 0xB3,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_wc() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_wc() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 20, 21), Box(0, 0, 23, 23),
       ic_outlined_24_notification_wc_data, Alpha4(color::Black));
   return value;
@@ -1192,8 +1192,8 @@ static const uint8_t ic_outlined_24_notification_wifi_off_data[] PROGMEM = {
   0x00, 0x75, 0x08, 0x07, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_wifi_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_wifi_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_wifi_off_data, Alpha4(color::Black));
   return value;
@@ -1210,8 +1210,8 @@ static const uint8_t ic_outlined_24_notification_wifi_data[] PROGMEM = {
   0x77, 0x75, 0x00, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_notification_wifi() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_notification_wifi() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 22, 19), Box(0, 0, 23, 23),
       ic_outlined_24_notification_wifi_data, Alpha4(color::Black));
   return value;

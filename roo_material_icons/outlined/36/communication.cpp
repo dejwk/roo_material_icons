@@ -14,8 +14,8 @@ static const uint8_t ic_outlined_36_communication_3p_data[] PROGMEM = {
   0x07, 0x77, 0x76, 0x90, 0x77, 0x77, 0x70, 0x77, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_3p() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_3p() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_3p_data, Alpha4(color::Black));
   return value;
@@ -38,8 +38,8 @@ static const uint8_t ic_outlined_36_communication_add_ic_call_data[] PROGMEM = {
   0x41,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_add_ic_call() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_add_ic_call() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_add_ic_call_data, Alpha4(color::Black));
   return value;
@@ -67,8 +67,8 @@ static const uint8_t ic_outlined_36_communication_alternate_email_data[] PROGMEM
   0x38, 0x22, 0x7A, 0xB8, 0x04, 0xD0, 0x67,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_alternate_email() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_alternate_email() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_alternate_email_data, Alpha4(color::Black));
   return value;
@@ -86,8 +86,8 @@ static const uint8_t ic_outlined_36_communication_app_registration_data[] PROGME
   0x37, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_app_registration() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_app_registration() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 31, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_app_registration_data, Alpha4(color::Black));
   return value;
@@ -105,8 +105,8 @@ static const uint8_t ic_outlined_36_communication_business_data[] PROGMEM = {
   0x09, 0x07, 0x80, 0xF3, 0xF8, 0x0B, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_business() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_business() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 32, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_business_data, Alpha4(color::Black));
   return value;
@@ -125,8 +125,8 @@ static const uint8_t ic_outlined_36_communication_call_end_data[] PROGMEM = {
   0x0A, 0xA0, 0xE0, 0x57, 0x76, 0x05, 0xB0, 0xA7, 0x81, 0x8A, 0x37, 0x77, 0x18, 0x13, 0xB8, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_end() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_end() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 10, 35, 23), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_end_data, Alpha4(color::Black));
   return value;
@@ -144,8 +144,8 @@ static const uint8_t ic_outlined_36_communication_call_made_data[] PROGMEM = {
   0x40, 0x6A, 0x09, 0x77, 0x60, 0x60, 0x97, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_made() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_made() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 7, 28, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_made_data, Alpha4(color::Black));
   return value;
@@ -163,8 +163,8 @@ static const uint8_t ic_outlined_36_communication_call_merge_data[] PROGMEM = {
   0x57, 0x70, 0x52,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_merge() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_merge() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(8, 5, 27, 30), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_merge_data, Alpha4(color::Black));
   return value;
@@ -182,8 +182,8 @@ static const uint8_t ic_outlined_36_communication_call_missed_outgoing_data[] PR
   0x09, 0x77, 0x74, 0x00, 0x97, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_missed_outgoing() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_missed_outgoing() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 31, 25), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_missed_outgoing_data, Alpha4(color::Black));
   return value;
@@ -201,8 +201,8 @@ static const uint8_t ic_outlined_36_communication_call_missed_data[] PROGMEM = {
   0x97, 0x77, 0x40, 0x09, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_missed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_missed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 31, 25), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_missed_data, Alpha4(color::Black));
   return value;
@@ -223,8 +223,8 @@ static const uint8_t ic_outlined_36_communication_call_data[] PROGMEM = {
   0xEF, 0xA0, 0x77, 0x74, 0x81, 0x59, 0xDE, 0x05, 0x77, 0x78, 0x41, 0x35, 0x67, 0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_data, Alpha4(color::Black));
   return value;
@@ -242,8 +242,8 @@ static const uint8_t ic_outlined_36_communication_call_received_data[] PROGMEM =
   0x7F, 0xF0, 0x77, 0x03, 0x80, 0x92, 0x70, 0x37,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_received() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_received() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 6, 29, 28), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_received_data, Alpha4(color::Black));
   return value;
@@ -261,8 +261,8 @@ static const uint8_t ic_outlined_36_communication_call_split_data[] PROGMEM = {
   0x77, 0x60, 0x7A, 0x07, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_call_split() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_call_split() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 29, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_call_split_data, Alpha4(color::Black));
   return value;
@@ -286,8 +286,8 @@ static const uint8_t ic_outlined_36_communication_cancel_presentation_data[] PRO
   0xFC, 0x81, 0x40, 0x9F, 0xFF, 0xFA, 0x09, 0x30, 0x48, 0x0B, 0x07, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_cancel_presentation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_cancel_presentation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 34, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_cancel_presentation_data, Alpha4(color::Black));
   return value;
@@ -317,8 +317,8 @@ static const uint8_t ic_outlined_36_communication_cell_tower_data[] PROGMEM = {
   0xA0, 0x57,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_cell_tower() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_cell_tower() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_cell_tower_data, Alpha4(color::Black));
   return value;
@@ -339,8 +339,8 @@ static const uint8_t ic_outlined_36_communication_cell_wifi_data[] PROGMEM = {
   0x07, 0xFF, 0xF4, 0x07, 0xFF, 0xF9, 0x30, 0x7F, 0xFF, 0xA0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_cell_wifi() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_cell_wifi() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 4, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_cell_wifi_data, Alpha4(color::Black));
   return value;
@@ -357,8 +357,8 @@ static const uint8_t ic_outlined_36_communication_chat_bubble_outline_data[] PRO
   0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_chat_bubble_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_chat_bubble_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_chat_bubble_outline_data, Alpha4(color::Black));
   return value;
@@ -371,8 +371,8 @@ static const uint8_t ic_outlined_36_communication_chat_bubble_data[] PROGMEM = {
   0x77, 0x74, 0xB0, 0x77, 0x77, 0x5A, 0x07, 0x77, 0x76, 0x90, 0x77, 0x77, 0x70, 0x77, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_chat_bubble() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_chat_bubble() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_chat_bubble_data, Alpha4(color::Black));
   return value;
@@ -389,8 +389,8 @@ static const uint8_t ic_outlined_36_communication_chat_data[] PROGMEM = {
   0x77, 0x77, 0x07, 0x77, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_chat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_chat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_chat_data, Alpha4(color::Black));
   return value;
@@ -404,8 +404,8 @@ static const uint8_t ic_outlined_36_communication_clear_all_data[] PROGMEM = {
   0x07, 0x60, 0x7F, 0xFE, 0x07, 0x60, 0x38, 0x0A, 0x07, 0x03, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_clear_all() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_clear_all() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 10, 31, 25), Box(0, 0, 35, 35),
       ic_outlined_36_communication_clear_all_data, Alpha4(color::Black));
   return value;
@@ -422,8 +422,8 @@ static const uint8_t ic_outlined_36_communication_comment_data[] PROGMEM = {
   0x77, 0x07, 0x97, 0x77, 0x71, 0x07,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_comment() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_comment() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_comment_data, Alpha4(color::Black));
   return value;
@@ -446,8 +446,8 @@ static const uint8_t ic_outlined_36_communication_comments_disabled_data[] PROGM
   0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_comments_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_comments_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 32, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_comments_disabled_data, Alpha4(color::Black));
   return value;
@@ -470,8 +470,8 @@ static const uint8_t ic_outlined_36_communication_contact_emergency_data[] PROGM
   0xEF, 0xFF, 0xFC, 0x83, 0xE3, 0x01, 0x68, 0x0B, 0x27, 0x06, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_contact_emergency() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_contact_emergency() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 35, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_contact_emergency_data, Alpha4(color::Black));
   return value;
@@ -494,8 +494,8 @@ static const uint8_t ic_outlined_36_communication_contact_mail_data[] PROGMEM = 
   0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_contact_mail() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_contact_mail() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 35, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_contact_mail_data, Alpha4(color::Black));
   return value;
@@ -519,8 +519,8 @@ static const uint8_t ic_outlined_36_communication_contact_phone_data[] PROGMEM =
   0x60, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_contact_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_contact_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 35, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_contact_phone_data, Alpha4(color::Black));
   return value;
@@ -541,8 +541,8 @@ static const uint8_t ic_outlined_36_communication_contacts_data[] PROGMEM = {
   0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_contacts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_contacts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 32, 35), Box(0, 0, 35, 35),
       ic_outlined_36_communication_contacts_data, Alpha4(color::Black));
   return value;
@@ -569,8 +569,8 @@ static const uint8_t ic_outlined_36_communication_co_present_data[] PROGMEM = {
   0xFF, 0xFA, 0x07, 0x50, 0x30, 0x42, 0x07, 0xFF, 0xFA, 0x07, 0x72,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_co_present() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_co_present() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_co_present_data, Alpha4(color::Black));
   return value;
@@ -600,8 +600,8 @@ static const uint8_t ic_outlined_36_communication_desktop_access_disabled_data[]
   0x30, 0xEA, 0x0E, 0x02, 0x77, 0x77, 0x28, 0x23, 0xEF, 0xC7, 0x77, 0x74, 0x03, 0x0B, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_desktop_access_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_desktop_access_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 34, 35), Box(0, 0, 35, 35),
       ic_outlined_36_communication_desktop_access_disabled_data, Alpha4(color::Black));
   return value;
@@ -625,8 +625,8 @@ static const uint8_t ic_outlined_36_communication_dialer_sip_data[] PROGMEM = {
   0x81, 0x59, 0xDE, 0x05, 0x77, 0x78, 0x41, 0x35, 0x67, 0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_dialer_sip() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_dialer_sip() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_dialer_sip_data, Alpha4(color::Black));
   return value;
@@ -653,8 +653,8 @@ static const uint8_t ic_outlined_36_communication_dialpad_data[] PROGMEM = {
   0x61, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_dialpad() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_dialpad() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 1, 29, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_dialpad_data, Alpha4(color::Black));
   return value;
@@ -680,8 +680,8 @@ static const uint8_t ic_outlined_36_communication_document_scanner_data[] PROGME
   0x80, 0x37, 0x03, 0x77, 0x03, 0x80, 0x37,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_document_scanner() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_document_scanner() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 32, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_document_scanner_data, Alpha4(color::Black));
   return value;
@@ -706,8 +706,8 @@ static const uint8_t ic_outlined_36_communication_domain_disabled_data[] PROGMEM
   0xE0, 0x27, 0x77, 0x71, 0x82, 0x3E, 0xFC, 0x77, 0x77, 0x30, 0x30, 0xB2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_domain_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_domain_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 33, 35), Box(0, 0, 35, 35),
       ic_outlined_36_communication_domain_disabled_data, Alpha4(color::Black));
   return value;
@@ -728,8 +728,8 @@ static const uint8_t ic_outlined_36_communication_domain_verification_data[] PRO
   0x1E, 0xFF, 0xFB, 0x83, 0xE1, 0x03, 0xBF, 0xFF, 0x90, 0xB0, 0x31,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_domain_verification() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_domain_verification() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 6, 31, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_domain_verification_data, Alpha4(color::Black));
   return value;
@@ -750,8 +750,8 @@ static const uint8_t ic_outlined_36_communication_duo_data[] PROGMEM = {
   0xFD, 0xCB, 0x72, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_duo() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_duo() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_duo_data, Alpha4(color::Black));
   return value;
@@ -770,8 +770,8 @@ static const uint8_t ic_outlined_36_communication_email_data[] PROGMEM = {
   0x08, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_email() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_email() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_email_data, Alpha4(color::Black));
   return value;
@@ -791,8 +791,8 @@ static const uint8_t ic_outlined_36_communication_forum_data[] PROGMEM = {
   0x77, 0x70, 0x79, 0x77, 0x77, 0x10, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_forum() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_forum() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_forum_data, Alpha4(color::Black));
   return value;
@@ -814,8 +814,8 @@ static const uint8_t ic_outlined_36_communication_forward_to_inbox_data[] PROGME
   0x77, 0x77, 0x10, 0x07, 0x77, 0x77, 0x20, 0x16,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_forward_to_inbox() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_forward_to_inbox() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 34, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_forward_to_inbox_data, Alpha4(color::Black));
   return value;
@@ -830,8 +830,8 @@ static const uint8_t ic_outlined_36_communication_hourglass_bottom_data[] PROGME
   0x70, 0x7F, 0xFA, 0x07, 0x80, 0xAB, 0x6F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_hourglass_bottom() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_hourglass_bottom() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(9, 3, 26, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_hourglass_bottom_data, Alpha4(color::Black));
   return value;
@@ -846,8 +846,8 @@ static const uint8_t ic_outlined_36_communication_hourglass_top_data[] PROGMEM =
   0xE7, 0x5E, 0x75, 0xE7, 0x58, 0x0E, 0x5F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_hourglass_top() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_hourglass_top() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(9, 3, 26, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_hourglass_top_data, Alpha4(color::Black));
   return value;
@@ -878,8 +878,8 @@ static const uint8_t ic_outlined_36_communication_hub_data[] PROGMEM = {
   0x0A, 0x75, 0x0A, 0xC0, 0xA7, 0x68, 0x22, 0x66, 0x27, 0x78, 0x22, 0x66, 0x27,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_hub() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_hub() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 0, 35, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_hub_data, Alpha4(color::Black));
   return value;
@@ -902,8 +902,8 @@ static const uint8_t ic_outlined_36_communication_import_contacts_data[] PROGMEM
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_import_contacts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_import_contacts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 6, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_import_contacts_data, Alpha4(color::Black));
   return value;
@@ -919,8 +919,8 @@ static const uint8_t ic_outlined_36_communication_import_export_data[] PROGMEM =
   0x7B, 0x07, 0x77, 0x48, 0x17, 0xF7, 0x77, 0x60, 0x36,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_import_export() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_import_export() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 4, 28, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_import_export_data, Alpha4(color::Black));
   return value;
@@ -945,8 +945,8 @@ static const uint8_t ic_outlined_36_communication_invert_colors_off_data[] PROGM
   0x60, 0x90, 0x21,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_invert_colors_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_invert_colors_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 31, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_invert_colors_off_data, Alpha4(color::Black));
   return value;
@@ -972,8 +972,8 @@ static const uint8_t ic_outlined_36_communication_key_off_data[] PROGMEM = {
   0x90, 0x25,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_key_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_key_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 35, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_key_off_data, Alpha4(color::Black));
   return value;
@@ -992,8 +992,8 @@ static const uint8_t ic_outlined_36_communication_key_data[] PROGMEM = {
   0x77, 0x10, 0x60, 0xEF, 0x0E, 0x07, 0x77, 0x73, 0x87, 0x16, 0xBD, 0xFE, 0xB7, 0x17, 0x76,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_key() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_key() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 9, 34, 26), Box(0, 0, 35, 35),
       ic_outlined_36_communication_key_data, Alpha4(color::Black));
   return value;
@@ -1018,8 +1018,8 @@ static const uint8_t ic_outlined_36_communication_list_alt_data[] PROGMEM = {
   0xFD, 0x07, 0x05, 0xFF, 0xFD, 0x81, 0x50, 0x58, 0x0A, 0x47, 0x05, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_list_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_list_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_list_alt_data, Alpha4(color::Black));
   return value;
@@ -1045,8 +1045,8 @@ static const uint8_t ic_outlined_36_communication_live_help_data[] PROGMEM = {
   0x10, 0xDA, 0x0D, 0x01, 0x77, 0x72, 0x82, 0x1D, 0xD1, 0x77, 0x74, 0x00, 0x17, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_live_help() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_live_help() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 3, 31, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_live_help_data, Alpha4(color::Black));
   return value;
@@ -1073,8 +1073,8 @@ static const uint8_t ic_outlined_36_communication_location_off_data[] PROGMEM = 
   0x10, 0x27, 0x71, 0x00, 0x67, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_location_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_location_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 29, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_location_off_data, Alpha4(color::Black));
   return value;
@@ -1098,8 +1098,8 @@ static const uint8_t ic_outlined_36_communication_location_on_data[] PROGMEM = {
   0xA0, 0x47, 0x75, 0x00, 0x67, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_location_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_location_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 3, 28, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_location_on_data, Alpha4(color::Black));
   return value;
@@ -1120,8 +1120,8 @@ static const uint8_t ic_outlined_36_communication_mail_lock_data[] PROGMEM = {
   0x08, 0xF0, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mail_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mail_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 35, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mail_lock_data, Alpha4(color::Black));
   return value;
@@ -1140,8 +1140,8 @@ static const uint8_t ic_outlined_36_communication_mail_outline_data[] PROGMEM = 
   0x08, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mail_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mail_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mail_outline_data, Alpha4(color::Black));
   return value;
@@ -1160,8 +1160,8 @@ static const uint8_t ic_outlined_36_communication_mail_data[] PROGMEM = {
   0x08, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mail() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mail() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mail_data, Alpha4(color::Black));
   return value;
@@ -1180,8 +1180,8 @@ static const uint8_t ic_outlined_36_communication_mark_chat_read_data[] PROGMEM 
   0x71, 0xA0, 0x77, 0x77, 0x71, 0x90, 0x77, 0x77, 0x72, 0x07, 0x77, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mark_chat_read() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mark_chat_read() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mark_chat_read_data, Alpha4(color::Black));
   return value;
@@ -1199,8 +1199,8 @@ static const uint8_t ic_outlined_36_communication_mark_chat_unread_data[] PROGME
   0xA0, 0x77, 0x77, 0x69, 0x07, 0x77, 0x77, 0x07, 0x77, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mark_chat_unread() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mark_chat_unread() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mark_chat_unread_data, Alpha4(color::Black));
   return value;
@@ -1222,8 +1222,8 @@ static const uint8_t ic_outlined_36_communication_mark_email_read_data[] PROGMEM
   0x77, 0x77, 0x71, 0x00, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mark_email_read() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mark_email_read() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mark_email_read_data, Alpha4(color::Black));
   return value;
@@ -1243,8 +1243,8 @@ static const uint8_t ic_outlined_36_communication_mark_email_unread_data[] PROGM
   0x08, 0xDF, 0xFF, 0xB0, 0xD0, 0x81,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mark_email_unread() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mark_email_unread() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mark_email_unread_data, Alpha4(color::Black));
   return value;
@@ -1263,8 +1263,8 @@ static const uint8_t ic_outlined_36_communication_mark_unread_chat_alt_data[] PR
   0x90, 0x77, 0x77, 0x70, 0x77, 0x77, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mark_unread_chat_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mark_unread_chat_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mark_unread_chat_alt_data, Alpha4(color::Black));
   return value;
@@ -1281,8 +1281,8 @@ static const uint8_t ic_outlined_36_communication_message_data[] PROGMEM = {
   0x77, 0x77, 0x07, 0x77, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_message() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_message() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_message_data, Alpha4(color::Black));
   return value;
@@ -1305,8 +1305,8 @@ static const uint8_t ic_outlined_36_communication_mobile_screen_share_data[] PRO
   0x30, 0x9F, 0xFC, 0x09, 0x30, 0x38, 0x09, 0x47, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_mobile_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_mobile_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 1, 28, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_mobile_screen_share_data, Alpha4(color::Black));
   return value;
@@ -1331,8 +1331,8 @@ static const uint8_t ic_outlined_36_communication_more_time_data[] PROGMEM = {
   0xDF, 0xDC, 0x95, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_more_time() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_more_time() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_more_time_data, Alpha4(color::Black));
   return value;
@@ -1356,8 +1356,8 @@ static const uint8_t ic_outlined_36_communication_nat_data[] PROGMEM = {
   0x77, 0x74, 0x07, 0xD0, 0xB0, 0x37, 0x77, 0x58, 0x47, 0xDC, 0xA6, 0x17, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_nat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_nat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_nat_data, Alpha4(color::Black));
   return value;
@@ -1382,8 +1382,8 @@ static const uint8_t ic_outlined_36_communication_no_sim_data[] PROGMEM = {
   0x90, 0x31,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_no_sim() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_no_sim() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 31, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_no_sim_data, Alpha4(color::Black));
   return value;
@@ -1409,8 +1409,8 @@ static const uint8_t ic_outlined_36_communication_pause_presentation_data[] PROG
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_pause_presentation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_pause_presentation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 34, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_pause_presentation_data, Alpha4(color::Black));
   return value;
@@ -1439,8 +1439,8 @@ static const uint8_t ic_outlined_36_communication_person_add_disabled_data[] PRO
   0x28, 0x23, 0xEF, 0xB7, 0x77, 0x74, 0x03, 0x0B, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_person_add_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_person_add_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 34, 35), Box(0, 0, 35, 35),
       ic_outlined_36_communication_person_add_disabled_data, Alpha4(color::Black));
   return value;
@@ -1463,8 +1463,8 @@ static const uint8_t ic_outlined_36_communication_person_search_data[] PROGMEM =
   0x06, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_person_search() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_person_search() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_person_search_data, Alpha4(color::Black));
   return value;
@@ -1489,8 +1489,8 @@ static const uint8_t ic_outlined_36_communication_phone_disabled_data[] PROGMEM 
   0x43, 0x17, 0x72, 0x0B, 0xB0, 0x67, 0x77, 0x58, 0x2B, 0xFE, 0x27, 0x77, 0x60, 0x90, 0x21,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phone_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phone_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 4, 31, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phone_disabled_data, Alpha4(color::Black));
   return value;
@@ -1511,8 +1511,8 @@ static const uint8_t ic_outlined_36_communication_phone_enabled_data[] PROGMEM =
   0xA3, 0x77, 0x10, 0x5E, 0x81, 0xD9, 0x57, 0x75, 0x84, 0x57, 0x65, 0x31, 0x77, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phone_enabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phone_enabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phone_enabled_data, Alpha4(color::Black));
   return value;
@@ -1537,8 +1537,8 @@ static const uint8_t ic_outlined_36_communication_phonelink_erase_data[] PROGMEM
   0x42,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phonelink_erase() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phonelink_erase() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 1, 31, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phonelink_erase_data, Alpha4(color::Black));
   return value;
@@ -1561,8 +1561,8 @@ static const uint8_t ic_outlined_36_communication_phonelink_lock_data[] PROGMEM 
   0x48, 0x09, 0x47, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phonelink_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phonelink_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 1, 31, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phonelink_lock_data, Alpha4(color::Black));
   return value;
@@ -1583,8 +1583,8 @@ static const uint8_t ic_outlined_36_communication_phonelink_ring_data[] PROGMEM 
   0x0E, 0xFF, 0xB0, 0xE0, 0x37, 0x30, 0x10, 0x68, 0x09, 0x37, 0x06, 0x01, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phonelink_ring() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phonelink_ring() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 32, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phonelink_ring_data, Alpha4(color::Black));
   return value;
@@ -1609,8 +1609,8 @@ static const uint8_t ic_outlined_36_communication_phonelink_setup_data[] PROGMEM
   0x42,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phonelink_setup() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phonelink_setup() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 1, 31, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phonelink_setup_data, Alpha4(color::Black));
   return value;
@@ -1631,8 +1631,8 @@ static const uint8_t ic_outlined_36_communication_phone_data[] PROGMEM = {
   0xEF, 0xA0, 0x77, 0x74, 0x81, 0x59, 0xDE, 0x05, 0x77, 0x78, 0x41, 0x35, 0x67, 0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_phone_data, Alpha4(color::Black));
   return value;
@@ -1664,8 +1664,8 @@ static const uint8_t ic_outlined_36_communication_portable_wifi_off_data[] PROGM
   0x57, 0x77, 0x70, 0x13,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_portable_wifi_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_portable_wifi_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_portable_wifi_off_data, Alpha4(color::Black));
   return value;
@@ -1687,8 +1687,8 @@ static const uint8_t ic_outlined_36_communication_present_to_all_data[] PROGMEM 
   0x70, 0x4F, 0xFF, 0xFC, 0x81, 0x40, 0xAF, 0xFF, 0xFA, 0x0A, 0x30, 0x48, 0x0B, 0x07, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_present_to_all() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_present_to_all() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 34, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_present_to_all_data, Alpha4(color::Black));
   return value;
@@ -1715,8 +1715,8 @@ static const uint8_t ic_outlined_36_communication_print_disabled_data[] PROGMEM 
   0xA0, 0xE0, 0x37, 0x77, 0x71, 0x83, 0x2D, 0xFC, 0x17, 0x77, 0x72, 0x81, 0x2A, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_print_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_print_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 33, 35), Box(0, 0, 35, 35),
       ic_outlined_36_communication_print_disabled_data, Alpha4(color::Black));
   return value;
@@ -1746,8 +1746,8 @@ static const uint8_t ic_outlined_36_communication_qr_code_2_data[] PROGMEM = {
   0x82, 0x37, 0x73, 0x20, 0x38, 0x01, 0x70, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_qr_code_2() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_qr_code_2() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_qr_code_2_data, Alpha4(color::Black));
   return value;
@@ -1775,8 +1775,8 @@ static const uint8_t ic_outlined_36_communication_qr_code_data[] PROGMEM = {
   0x28, 0x23, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_qr_code() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_qr_code() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_qr_code_data, Alpha4(color::Black));
   return value;
@@ -1803,8 +1803,8 @@ static const uint8_t ic_outlined_36_communication_qr_code_scanner_data[] PROGMEM
   0x3F, 0xB0, 0x77, 0x70, 0x7F, 0xF0, 0x77, 0x70, 0x7F, 0xF0, 0x77, 0x70, 0x7F,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_qr_code_scanner() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_qr_code_scanner() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_qr_code_scanner_data, Alpha4(color::Black));
   return value;
@@ -1820,8 +1820,8 @@ static const uint8_t ic_outlined_36_communication_read_more_data[] PROGMEM = {
   0xE7, 0x20, 0xD0, 0x15, 0x07, 0xFE, 0x72, 0x01, 0x60, 0x38, 0x09, 0x17,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_read_more() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_read_more() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 10, 32, 25), Box(0, 0, 35, 35),
       ic_outlined_36_communication_read_more_data, Alpha4(color::Black));
   return value;
@@ -1846,8 +1846,8 @@ static const uint8_t ic_outlined_36_communication_ring_volume_data[] PROGMEM = {
   0x70, 0x10, 0x37, 0x77, 0x30, 0x30, 0x14,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_ring_volume() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_ring_volume() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 35, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_ring_volume_data, Alpha4(color::Black));
   return value;
@@ -1867,8 +1867,8 @@ static const uint8_t ic_outlined_36_communication_rss_feed_data[] PROGMEM = {
   0x0D, 0x40, 0x8B, 0x0A, 0x4C, 0x85, 0x40, 0x6C, 0xEA, 0x24, 0x06, 0xB0, 0xC4, 0x0E, 0xB0, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_rss_feed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_rss_feed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 6, 29, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_rss_feed_data, Alpha4(color::Black));
   return value;
@@ -1891,8 +1891,8 @@ static const uint8_t ic_outlined_36_communication_rtt_data[] PROGMEM = {
   0x40, 0x1F, 0xB0, 0xC7, 0x74, 0x03, 0xFB, 0x0A, 0x77, 0x40, 0x28, 0x06, 0x70, 0x47, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_rtt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_rtt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 32, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_rtt_data, Alpha4(color::Black));
   return value;
@@ -1911,8 +1911,8 @@ static const uint8_t ic_outlined_36_communication_screen_share_data[] PROGMEM = 
   0x09, 0xD0, 0xF0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 6, 35, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_screen_share_data, Alpha4(color::Black));
   return value;
@@ -1937,8 +1937,8 @@ static const uint8_t ic_outlined_36_communication_send_time_extension_data[] PRO
   0x74, 0x04, 0x80, 0x27, 0x01, 0x58, 0x37, 0xFE, 0x71, 0x77, 0x75, 0x81, 0x67, 0x17, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_send_time_extension() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_send_time_extension() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 34, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_send_time_extension_data, Alpha4(color::Black));
   return value;
@@ -1965,8 +1965,8 @@ static const uint8_t ic_outlined_36_communication_sentiment_satisfied_alt_data[]
   0x77, 0x07, 0x0E, 0xFB, 0x0E, 0x07, 0x77, 0x48, 0x90, 0x38, 0xBD, 0xEE, 0xDB, 0x83, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_sentiment_satisfied_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_sentiment_satisfied_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_sentiment_satisfied_alt_data, Alpha4(color::Black));
   return value;
@@ -1987,8 +1987,8 @@ static const uint8_t ic_outlined_36_communication_sip_data[] PROGMEM = {
   0x81,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_sip() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_sip() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_sip_data, Alpha4(color::Black));
   return value;
@@ -2010,8 +2010,8 @@ static const uint8_t ic_outlined_36_communication_speaker_phone_data[] PROGMEM =
   0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_speaker_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_speaker_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(6, 1, 29, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_speaker_phone_data, Alpha4(color::Black));
   return value;
@@ -2035,8 +2035,8 @@ static const uint8_t ic_outlined_36_communication_spoke_data[] PROGMEM = {
   0x16, 0x01, 0x0A, 0xD0, 0xA0, 0x16, 0x83, 0x25, 0x75, 0x27, 0x38, 0x32, 0x57, 0x52, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_spoke() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_spoke() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 31, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_spoke_data, Alpha4(color::Black));
   return value;
@@ -2055,8 +2055,8 @@ static const uint8_t ic_outlined_36_communication_stay_current_landscape_data[] 
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_stay_current_landscape() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_stay_current_landscape() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 7, 34, 28), Box(0, 0, 35, 35),
       ic_outlined_36_communication_stay_current_landscape_data, Alpha4(color::Black));
   return value;
@@ -2077,8 +2077,8 @@ static const uint8_t ic_outlined_36_communication_stay_current_portrait_data[] P
   0x9F, 0xFC, 0x09, 0x30, 0x48, 0x09, 0x47, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_stay_current_portrait() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_stay_current_portrait() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 1, 28, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_stay_current_portrait_data, Alpha4(color::Black));
   return value;
@@ -2097,8 +2097,8 @@ static const uint8_t ic_outlined_36_communication_stay_primary_landscape_data[] 
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_stay_primary_landscape() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_stay_primary_landscape() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 7, 34, 28), Box(0, 0, 35, 35),
       ic_outlined_36_communication_stay_primary_landscape_data, Alpha4(color::Black));
   return value;
@@ -2119,8 +2119,8 @@ static const uint8_t ic_outlined_36_communication_stay_primary_portrait_data[] P
   0x9F, 0xFC, 0x09, 0x30, 0x48, 0x09, 0x47, 0x04, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_stay_primary_portrait() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_stay_primary_portrait() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(7, 1, 28, 34), Box(0, 0, 35, 35),
       ic_outlined_36_communication_stay_primary_portrait_data, Alpha4(color::Black));
   return value;
@@ -2145,8 +2145,8 @@ static const uint8_t ic_outlined_36_communication_stop_screen_share_data[] PROGM
   0xB0, 0xC0, 0x17, 0x77, 0x73, 0x05, 0xA0, 0xB7, 0x77, 0x75, 0x05, 0x0B, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_stop_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_stop_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 35, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_stop_screen_share_data, Alpha4(color::Black));
   return value;
@@ -2170,8 +2170,8 @@ static const uint8_t ic_outlined_36_communication_swap_calls_data[] PROGMEM = {
   0x70, 0x10, 0xAD, 0x0A, 0x01, 0x74, 0x00, 0x17, 0x38, 0x32, 0x57, 0x52, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_swap_calls() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_swap_calls() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 6, 32, 28), Box(0, 0, 35, 35),
       ic_outlined_36_communication_swap_calls_data, Alpha4(color::Black));
   return value;
@@ -2190,8 +2190,8 @@ static const uint8_t ic_outlined_36_communication_textsms_data[] PROGMEM = {
   0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_textsms() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_textsms() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 32, 32), Box(0, 0, 35, 35),
       ic_outlined_36_communication_textsms_data, Alpha4(color::Black));
   return value;
@@ -2215,8 +2215,8 @@ static const uint8_t ic_outlined_36_communication_unsubscribe_data[] PROGMEM = {
   0x50, 0x10, 0xCE, 0x05, 0x77, 0x71, 0x84, 0x7C, 0xFE, 0xA3, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_unsubscribe() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_unsubscribe() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 32, 29), Box(0, 0, 35, 35),
       ic_outlined_36_communication_unsubscribe_data, Alpha4(color::Black));
   return value;
@@ -2239,8 +2239,8 @@ static const uint8_t ic_outlined_36_communication_voicemail_data[] PROGMEM = {
   0xEF, 0xFF, 0xB8, 0x1E, 0x81, 0x72, 0x04, 0x06, 0x80, 0xA0, 0x70, 0x60, 0x46,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_voicemail() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_voicemail() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 9, 35, 25), Box(0, 0, 35, 35),
       ic_outlined_36_communication_voicemail_data, Alpha4(color::Black));
   return value;
@@ -2266,8 +2266,8 @@ static const uint8_t ic_outlined_36_communication_vpn_key_off_data[] PROGMEM = {
   0xBF, 0xE2, 0x77, 0x77, 0x30, 0x90, 0x24,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_vpn_key_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_vpn_key_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 34, 33), Box(0, 0, 35, 35),
       ic_outlined_36_communication_vpn_key_off_data, Alpha4(color::Black));
   return value;
@@ -2290,8 +2290,8 @@ static const uint8_t ic_outlined_36_communication_vpn_key_data[] PROGMEM = {
   0x03, 0x71, 0xFA, 0x74, 0x83, 0x46, 0x76, 0x47, 0x48, 0x05, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_vpn_key() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_vpn_key() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 7, 35, 28), Box(0, 0, 35, 35),
       ic_outlined_36_communication_vpn_key_data, Alpha4(color::Black));
   return value;
@@ -2315,8 +2315,8 @@ static const uint8_t ic_outlined_36_communication_wifi_calling_data[] PROGMEM = 
   0x05, 0x77, 0x71, 0x84, 0x13, 0x56, 0x75, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_36_communication_wifi_calling() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_36_communication_wifi_calling() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 4, 32, 31), Box(0, 0, 35, 35),
       ic_outlined_36_communication_wifi_calling_data, Alpha4(color::Black));
   return value;

@@ -12,8 +12,8 @@ static const uint8_t ic_outlined_24_alert_add_alert_data[] PROGMEM = {
   0x7F, 0xFA, 0x07, 0xFF, 0xC7, 0x77, 0x40, 0xDA, 0x0D, 0x77, 0x82, 0x4D, 0xD4, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_add_alert() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_add_alert() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 22), Box(0, 0, 23, 23),
       ic_outlined_24_alert_add_alert_data, Alpha4(color::Black));
   return value;
@@ -32,8 +32,8 @@ static const uint8_t ic_outlined_24_alert_auto_delete_data[] PROGMEM = {
   0x71, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_auto_delete() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_auto_delete() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 22, 22), Box(0, 0, 23, 23),
       ic_outlined_24_alert_auto_delete_data, Alpha4(color::Black));
   return value;
@@ -51,8 +51,8 @@ static const uint8_t ic_outlined_24_alert_error_outline_data[] PROGMEM = {
   0xF9, 0x0D, 0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_error_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_error_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_alert_error_outline_data, Alpha4(color::Black));
   return value;
@@ -68,8 +68,8 @@ static const uint8_t ic_outlined_24_alert_error_data[] PROGMEM = {
   0x04, 0x73, 0x86, 0x59, 0xDE, 0xED, 0x95, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_error() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_error() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 21, 21), Box(0, 0, 23, 23),
       ic_outlined_24_alert_error_data, Alpha4(color::Black));
   return value;
@@ -85,8 +85,8 @@ static const uint8_t ic_outlined_24_alert_notification_important_data[] PROGMEM 
   0x07, 0xFF, 0xC7, 0x77, 0x40, 0xDA, 0x0D, 0x77, 0x82, 0x4D, 0xD4, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_notification_important() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_notification_important() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 20, 22), Box(0, 0, 23, 23),
       ic_outlined_24_alert_notification_important_data, Alpha4(color::Black));
   return value;
@@ -104,8 +104,8 @@ static const uint8_t ic_outlined_24_alert_warning_amber_data[] PROGMEM = {
   0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_warning_amber() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_warning_amber() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_alert_warning_amber_data, Alpha4(color::Black));
   return value;
@@ -120,8 +120,8 @@ static const uint8_t ic_outlined_24_alert_warning_data[] PROGMEM = {
   0x2F, 0x0E, 0x30, 0x8F, 0xFC, 0x81, 0x80, 0x2F, 0xFE, 0x02, 0x0B, 0xFF, 0xE0, 0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_outlined_24_alert_warning() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_outlined_24_alert_warning() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 22, 20), Box(0, 0, 23, 23),
       ic_outlined_24_alert_warning_data, Alpha4(color::Black));
   return value;

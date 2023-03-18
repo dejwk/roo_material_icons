@@ -10,8 +10,8 @@ static const uint8_t ic_sharp_18_toggle_check_box_outline_blank_data[] PROGMEM =
   0x08,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_check_box_outline_blank() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_check_box_outline_blank() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_check_box_outline_blank_data, Alpha4(color::Black));
   return value;
@@ -25,8 +25,8 @@ static const uint8_t ic_sharp_18_toggle_check_box_data[] PROGMEM = {
   0xE0, 0x0B, 0xC0, 0x7F, 0x00, 0xBF, 0xD0, 0x0B, 0xFD, 0x0B, 0x08, 0x80, 0x90, 0xB0, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_check_box() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_check_box() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_check_box_data, Alpha4(color::Black));
   return value;
@@ -39,8 +39,8 @@ static const uint8_t ic_sharp_18_toggle_indeterminate_check_box_data[] PROGMEM =
   0x00, 0xBF, 0xD0, 0x0B, 0xFD, 0x00, 0xBF, 0xD0, 0x0B, 0xFD, 0x0B, 0x08, 0x80, 0x90, 0xB0, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_indeterminate_check_box() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_indeterminate_check_box() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_indeterminate_check_box_data, Alpha4(color::Black));
   return value;
@@ -57,8 +57,8 @@ static const uint8_t ic_sharp_18_toggle_radio_button_checked_data[] PROGMEM = {
   0x8F, 0xD2, 0x50, 0x10, 0x9E, 0x09, 0x01, 0x72, 0x82, 0x57, 0x75, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_radio_button_checked() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_radio_button_checked() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_radio_button_checked_data, Alpha4(color::Black));
   return value;
@@ -74,8 +74,8 @@ static const uint8_t ic_sharp_18_toggle_radio_button_unchecked_data[] PROGMEM = 
   0x10, 0x9E, 0x09, 0x01, 0x72, 0x82, 0x57, 0x75, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_radio_button_unchecked() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_radio_button_unchecked() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_radio_button_unchecked_data, Alpha4(color::Black));
   return value;
@@ -90,8 +90,8 @@ static const uint8_t ic_sharp_18_toggle_star_border_data[] PROGMEM = {
   0x33, 0xDE, 0xF1, 0x68, 0x15, 0xE7, 0x48, 0x17, 0xE5, 0x60, 0x40, 0x16, 0x01, 0x04, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star_border() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star_border() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_border_data, Alpha4(color::Black));
   return value;
@@ -106,8 +106,8 @@ static const uint8_t ic_sharp_18_toggle_star_border_purple500_data[] PROGMEM = {
   0x33, 0xDE, 0xF1, 0x68, 0x15, 0xE7, 0x48, 0x17, 0xE5, 0x60, 0x40, 0x16, 0x01, 0x04, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star_border_purple500() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star_border_purple500() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_border_purple500_data, Alpha4(color::Black));
   return value;
@@ -122,8 +122,8 @@ static const uint8_t ic_sharp_18_toggle_star_half_data[] PROGMEM = {
   0x81, 0x7E, 0x56, 0x04, 0x01, 0x60, 0x10, 0x43,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star_half() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star_half() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_half_data, Alpha4(color::Black));
   return value;
@@ -138,8 +138,8 @@ static const uint8_t ic_sharp_18_toggle_star_outline_data[] PROGMEM = {
   0x33, 0xDE, 0xF1, 0x68, 0x15, 0xE7, 0x48, 0x17, 0xE5, 0x60, 0x40, 0x16, 0x01, 0x04, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_outline_data, Alpha4(color::Black));
   return value;
@@ -153,8 +153,8 @@ static const uint8_t ic_sharp_18_toggle_star_data[] PROGMEM = {
   0x81, 0x5E, 0x74, 0x81, 0x7E, 0x56, 0x04, 0x01, 0x60, 0x10, 0x43,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_data, Alpha4(color::Black));
   return value;
@@ -168,8 +168,8 @@ static const uint8_t ic_sharp_18_toggle_star_purple500_data[] PROGMEM = {
   0x81, 0x5E, 0x74, 0x81, 0x7E, 0x56, 0x04, 0x01, 0x60, 0x10, 0x43,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_star_purple500() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_star_purple500() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_star_purple500_data, Alpha4(color::Black));
   return value;
@@ -183,8 +183,8 @@ static const uint8_t ic_sharp_18_toggle_toggle_off_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_toggle_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_toggle_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 5, 16, 12), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_toggle_off_data, Alpha4(color::Black));
   return value;
@@ -198,8 +198,8 @@ static const uint8_t ic_sharp_18_toggle_toggle_on_data[] PROGMEM = {
   0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_toggle_toggle_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_toggle_toggle_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 5, 16, 12), Box(0, 0, 17, 17),
       ic_sharp_18_toggle_toggle_on_data, Alpha4(color::Black));
   return value;

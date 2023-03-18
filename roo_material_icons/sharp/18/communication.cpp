@@ -10,8 +10,8 @@ static const uint8_t ic_sharp_18_communication_3p_data[] PROGMEM = {
   0x3A, 0x09, 0x80, 0x77, 0x82, 0x13, 0xF7, 0x76, 0x03, 0x07, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_3p() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_3p() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_3p_data, Alpha4(color::Black));
   return value;
@@ -26,8 +26,8 @@ static const uint8_t ic_sharp_18_communication_add_ic_call_data[] PROGMEM = {
   0xDC, 0x0B, 0x72, 0x83, 0x27, 0x99, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_add_ic_call() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_add_ic_call() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_add_ic_call_data, Alpha4(color::Black));
   return value;
@@ -45,8 +45,8 @@ static const uint8_t ic_sharp_18_communication_alternate_email_data[] PROGMEM = 
   0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_alternate_email() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_alternate_email() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_alternate_email_data, Alpha4(color::Black));
   return value;
@@ -62,8 +62,8 @@ static const uint8_t ic_sharp_18_communication_app_registration_data[] PROGMEM =
   0x05, 0x36,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_app_registration() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_app_registration() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 15, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_app_registration_data, Alpha4(color::Black));
   return value;
@@ -80,8 +80,8 @@ static const uint8_t ic_sharp_18_communication_business_data[] PROGMEM = {
   0x05,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_business() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_business() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_business_data, Alpha4(color::Black));
   return value;
@@ -94,8 +94,8 @@ static const uint8_t ic_sharp_18_communication_call_end_data[] PROGMEM = {
   0x0A, 0xC8, 0x1A, 0x0B, 0xA0, 0xA7, 0x10, 0xAA, 0x0B, 0x30, 0xB0, 0x77, 0x30, 0x70, 0xB2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_end() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_end() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 5, 17, 11), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_end_data, Alpha4(color::Black));
   return value;
@@ -109,8 +109,8 @@ static const uint8_t ic_sharp_18_communication_call_made_data[] PROGMEM = {
   0x81, 0x8F, 0x87, 0x20, 0x60, 0x87, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_made() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_made() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_made_data, Alpha4(color::Black));
   return value;
@@ -124,8 +124,8 @@ static const uint8_t ic_sharp_18_communication_call_merge_data[] PROGMEM = {
   0xD7, 0x01, 0x60, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_merge() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_merge() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 13, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_merge_data, Alpha4(color::Black));
   return value;
@@ -138,8 +138,8 @@ static const uint8_t ic_sharp_18_communication_call_missed_outgoing_data[] PROGM
   0xBB, 0x48, 0x48, 0xF8, 0x8F, 0x82, 0x00, 0xB5, 0x08, 0xA0, 0x83, 0x00, 0x26, 0x00, 0x86,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_missed_outgoing() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_missed_outgoing() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 5, 15, 12), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_missed_outgoing_data, Alpha4(color::Black));
   return value;
@@ -152,8 +152,8 @@ static const uint8_t ic_sharp_18_communication_call_missed_data[] PROGMEM = {
   0x00, 0xB2, 0x84, 0x8F, 0x88, 0xF8, 0x40, 0x02, 0x30, 0x8A, 0x08, 0x74, 0x00, 0x86,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_missed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_missed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 5, 15, 12), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_missed_data, Alpha4(color::Black));
   return value;
@@ -167,8 +167,8 @@ static const uint8_t ic_sharp_18_communication_call_data[] PROGMEM = {
   0x70, 0x60, 0xDC, 0x0B, 0x72, 0x83, 0x27, 0x99, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_data, Alpha4(color::Black));
   return value;
@@ -182,8 +182,8 @@ static const uint8_t ic_sharp_18_communication_call_received_data[] PROGMEM = {
   0xF0, 0x33, 0x01, 0x80, 0x33, 0x01, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_received() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_received() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_received_data, Alpha4(color::Black));
   return value;
@@ -197,8 +197,8 @@ static const uint8_t ic_sharp_18_communication_call_split_data[] PROGMEM = {
   0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_call_split() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_call_split() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_call_split_data, Alpha4(color::Black));
   return value;
@@ -214,8 +214,8 @@ static const uint8_t ic_sharp_18_communication_cancel_presentation_data[] PROGME
   0x75, 0x84, 0x3F, 0x33, 0xFC, 0x80, 0x90, 0xB8, 0x2C, 0xF3, 0x28, 0x09, 0x4B, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_cancel_presentation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_cancel_presentation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_cancel_presentation_data, Alpha4(color::Black));
   return value;
@@ -232,8 +232,8 @@ static const uint8_t ic_sharp_18_communication_cell_tower_data[] PROGMEM = {
   0xA7, 0x20, 0x50, 0xE3, 0x06, 0x0E, 0x72, 0x02, 0x03, 0x40, 0x35,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_cell_tower() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_cell_tower() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_cell_tower_data, Alpha4(color::Black));
   return value;
@@ -249,8 +249,8 @@ static const uint8_t ic_sharp_18_communication_cell_wifi_data[] PROGMEM = {
   0x0C, 0xD8, 0x28, 0x3F, 0x32, 0x01, 0x0C, 0xFA, 0x03, 0x20, 0x28, 0x06, 0x31,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_cell_wifi() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_cell_wifi() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 2, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_cell_wifi_data, Alpha4(color::Black));
   return value;
@@ -264,8 +264,8 @@ static const uint8_t ic_sharp_18_communication_chat_bubble_outline_data[] PROGME
   0x82, 0x37, 0xF7, 0x76, 0x00, 0x77, 0x70, 0x17, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_chat_bubble_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_chat_bubble_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_chat_bubble_outline_data, Alpha4(color::Black));
   return value;
@@ -278,8 +278,8 @@ static const uint8_t ic_sharp_18_communication_chat_bubble_data[] PROGMEM = {
   0x07, 0xA0, 0x98, 0x07, 0x78, 0x23, 0x7F, 0x77, 0x60, 0x07, 0x77, 0x01, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_chat_bubble() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_chat_bubble() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_chat_bubble_data, Alpha4(color::Black));
   return value;
@@ -294,8 +294,8 @@ static const uint8_t ic_sharp_18_communication_chat_data[] PROGMEM = {
   0x76, 0x00, 0x77, 0x70, 0x17, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_chat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_chat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_chat_data, Alpha4(color::Black));
   return value;
@@ -307,8 +307,8 @@ static const uint8_t ic_sharp_18_communication_clear_all_data[] PROGMEM = {
   0x80, 0x6B, 0x02, 0x77, 0x10, 0x88, 0x05, 0xB0, 0x83, 0x08, 0x80, 0x5B, 0x08, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_clear_all() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_clear_all() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 5, 15, 12), Box(0, 0, 17, 17),
       ic_sharp_18_communication_clear_all_data, Alpha4(color::Black));
   return value;
@@ -323,8 +323,8 @@ static const uint8_t ic_sharp_18_communication_comment_data[] PROGMEM = {
   0x81, 0x7F, 0x77, 0x70, 0x07, 0x77, 0x10, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_comment() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_comment() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_comment_data, Alpha4(color::Black));
   return value;
@@ -340,8 +340,8 @@ static const uint8_t ic_sharp_18_communication_comments_disabled_data[] PROGMEM 
   0x37, 0x48, 0x16, 0xF7, 0x77, 0x81, 0x6F, 0x77, 0x70, 0x60, 0x71,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_comments_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_comments_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_comments_disabled_data, Alpha4(color::Black));
   return value;
@@ -355,8 +355,8 @@ static const uint8_t ic_sharp_18_communication_contact_emergency_data[] PROGMEM 
   0x01, 0x70, 0x5F, 0xFF, 0xC8, 0x09, 0x63,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_contact_emergency() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_contact_emergency() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_contact_emergency_data, Alpha4(color::Black));
   return value;
@@ -371,8 +371,8 @@ static const uint8_t ic_sharp_18_communication_contact_mail_data[] PROGMEM = {
   0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_contact_mail() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_contact_mail() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_contact_mail_data, Alpha4(color::Black));
   return value;
@@ -387,8 +387,8 @@ static const uint8_t ic_sharp_18_communication_contact_phone_data[] PROGMEM = {
   0xCF, 0xFF, 0x80, 0x96, 0xB0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_contact_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_contact_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_contact_phone_data, Alpha4(color::Black));
   return value;
@@ -403,8 +403,8 @@ static const uint8_t ic_sharp_18_communication_contacts_data[] PROGMEM = {
   0x4F, 0xD2,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_contacts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_contacts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 0, 16, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_contacts_data, Alpha4(color::Black));
   return value;
@@ -420,8 +420,8 @@ static const uint8_t ic_sharp_18_communication_co_present_data[] PROGMEM = {
   0x1F, 0xB0, 0xA3, 0x01, 0x03, 0x28, 0x06, 0x30, 0x26,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_co_present() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_co_present() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_co_present_data, Alpha4(color::Black));
   return value;
@@ -438,8 +438,8 @@ static const uint8_t ic_sharp_18_communication_desktop_access_disabled_data[] PR
   0xE1, 0x81, 0xBF, 0x47, 0x18, 0x02, 0x72, 0x81, 0xBF, 0x47, 0x72, 0x0B, 0x03, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_desktop_access_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_desktop_access_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 17, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_desktop_access_disabled_data, Alpha4(color::Black));
   return value;
@@ -454,8 +454,8 @@ static const uint8_t ic_sharp_18_communication_dialer_sip_data[] PROGMEM = {
   0xDC, 0x0B, 0x72, 0x83, 0x27, 0x99, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_dialer_sip() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_dialer_sip() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_dialer_sip_data, Alpha4(color::Black));
   return value;
@@ -471,8 +471,8 @@ static const uint8_t ic_sharp_18_communication_dialpad_data[] PROGMEM = {
   0x00, 0x97, 0x20, 0x6A, 0x06, 0x71, 0x03, 0xA0, 0x37, 0x20, 0x01, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_dialpad() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_dialpad() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 14, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_dialpad_data, Alpha4(color::Black));
   return value;
@@ -489,8 +489,8 @@ static const uint8_t ic_sharp_18_communication_document_scanner_data[] PROGMEM =
   0x5F, 0x33, 0xB0, 0x66, 0x06, 0xB0, 0x31, 0x0F, 0x17, 0x10, 0xF1, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_document_scanner() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_document_scanner() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 0, 16, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_document_scanner_data, Alpha4(color::Black));
   return value;
@@ -508,8 +508,8 @@ static const uint8_t ic_sharp_18_communication_domain_disabled_data[] PROGMEM = 
   0x47, 0x71, 0x81, 0xBF, 0x47, 0x71, 0x0B, 0x03,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_domain_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_domain_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 16, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_domain_disabled_data, Alpha4(color::Black));
   return value;
@@ -523,8 +523,8 @@ static const uint8_t ic_sharp_18_communication_domain_verification_data[] PROGME
   0xB8, 0x04, 0x78, 0x1B, 0x62, 0x80, 0x65, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_domain_verification() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_domain_verification() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_domain_verification_data, Alpha4(color::Black));
   return value;
@@ -540,8 +540,8 @@ static const uint8_t ic_sharp_18_communication_duo_data[] PROGMEM = {
   0x72, 0x83, 0x15, 0x76, 0x46,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_duo() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_duo() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_duo_data, Alpha4(color::Black));
   return value;
@@ -555,8 +555,8 @@ static const uint8_t ic_sharp_18_communication_email_data[] PROGMEM = {
   0x7F, 0xF0, 0x07, 0xFF, 0x00, 0x7F, 0xF0, 0x70,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_email() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_email() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_email_data, Alpha4(color::Black));
   return value;
@@ -571,8 +571,8 @@ static const uint8_t ic_sharp_18_communication_forum_data[] PROGMEM = {
   0x9A, 0x07, 0x76, 0x81, 0x7F, 0x77, 0x70, 0x07, 0x77, 0x10, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_forum() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_forum() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_forum_data, Alpha4(color::Black));
   return value;
@@ -587,8 +587,8 @@ static const uint8_t ic_sharp_18_communication_forward_to_inbox_data[] PROGMEM =
   0x18, 0x03, 0x58, 0x41, 0x55, 0xAF, 0x97, 0x40, 0x70, 0x97, 0x50, 0x32,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_forward_to_inbox() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_forward_to_inbox() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_forward_to_inbox_data, Alpha4(color::Black));
   return value;
@@ -601,8 +601,8 @@ static const uint8_t ic_sharp_18_communication_hourglass_bottom_data[] PROGMEM =
   0x6C, 0x81, 0x60, 0x5E, 0x05, 0x09, 0xE0, 0x09, 0xE0, 0x09, 0xE0, 0x90, 0x28, 0x02, 0x30, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_hourglass_bottom() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_hourglass_bottom() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 2, 12, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_hourglass_bottom_data, Alpha4(color::Black));
   return value;
@@ -615,8 +615,8 @@ static const uint8_t ic_sharp_18_communication_hourglass_top_data[] PROGMEM = {
   0x59, 0x44, 0x82, 0x49, 0x94, 0x48, 0x91, 0x49, 0x9B, 0x99, 0x99, 0xB9, 0x28, 0x02, 0x30, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_hourglass_top() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_hourglass_top() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(5, 2, 12, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_hourglass_top_data, Alpha4(color::Black));
   return value;
@@ -633,8 +633,8 @@ static const uint8_t ic_sharp_18_communication_hub_data[] PROGMEM = {
   0xC1, 0x48, 0x31, 0xCF, 0xC1, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_hub() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_hub() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 0, 17, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_hub_data, Alpha4(color::Black));
   return value;
@@ -649,8 +649,8 @@ static const uint8_t ic_sharp_18_communication_import_contacts_data[] PROGMEM = 
   0xF9, 0x09, 0xF8, 0xA1, 0x33, 0xA5, 0x20, 0x12, 0x6C, 0xC6, 0x21, 0x02, 0x5B, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_import_contacts() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_import_contacts() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_import_contacts_data, Alpha4(color::Black));
   return value;
@@ -664,8 +664,8 @@ static const uint8_t ic_sharp_18_communication_import_export_data[] PROGMEM = {
   0x77, 0x01, 0x06, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_import_export() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_import_export() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(4, 2, 13, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_import_export_data, Alpha4(color::Black));
   return value;
@@ -681,8 +681,8 @@ static const uint8_t ic_sharp_18_communication_invert_colors_off_data[] PROGMEM 
   0x81, 0x13, 0x33, 0x81, 0x6E, 0x27, 0x60, 0x11,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_invert_colors_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_invert_colors_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 15, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_invert_colors_off_data, Alpha4(color::Black));
   return value;
@@ -697,8 +697,8 @@ static const uint8_t ic_sharp_18_communication_key_off_data[] PROGMEM = {
   0x68, 0x21, 0x47, 0x54, 0x81, 0x6F, 0x77, 0x78, 0x16, 0xF7, 0x77, 0x81, 0x6E, 0x27, 0x70, 0x12,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_key_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_key_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_key_off_data, Alpha4(color::Black));
   return value;
@@ -712,8 +712,8 @@ static const uint8_t ic_sharp_18_communication_key_data[] PROGMEM = {
   0xFE, 0x10, 0x61, 0x06, 0x30, 0x50, 0xEB, 0x0D, 0x03, 0x73, 0x82, 0x14, 0x74, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_key() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_key() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 4, 16, 13), Box(0, 0, 17, 17),
       ic_sharp_18_communication_key_data, Alpha4(color::Black));
   return value;
@@ -728,8 +728,8 @@ static const uint8_t ic_sharp_18_communication_list_alt_data[] PROGMEM = {
   0x80, 0x0B, 0x73, 0x0F, 0xB0, 0xE8, 0x06, 0xB8, 0x1E, 0xB8, 0x80, 0x90, 0xB0, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_list_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_list_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_list_alt_data, Alpha4(color::Black));
   return value;
@@ -744,8 +744,8 @@ static const uint8_t ic_sharp_18_communication_live_help_data[] PROGMEM = {
   0xA0, 0xB7, 0x40, 0x0B, 0x60,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_live_help() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_live_help() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 15, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_live_help_data, Alpha4(color::Black));
   return value;
@@ -761,8 +761,8 @@ static const uint8_t ic_sharp_18_communication_location_off_data[] PROGMEM = {
   0xC7, 0x00, 0xC3, 0x03, 0x04, 0x70, 0x01, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_location_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_location_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 14, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_location_off_data, Alpha4(color::Black));
   return value;
@@ -777,8 +777,8 @@ static const uint8_t ic_sharp_18_communication_location_on_data[] PROGMEM = {
   0x00, 0xC7, 0x30, 0x01, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_location_on() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_location_on() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 1, 14, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_location_on_data, Alpha4(color::Black));
   return value;
@@ -793,8 +793,8 @@ static const uint8_t ic_sharp_18_communication_mail_lock_data[] PROGMEM = {
   0x03, 0xFB, 0x02, 0x07, 0xC0, 0x18, 0x06, 0x51, 0x02, 0x80, 0x05,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mail_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mail_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 17, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mail_lock_data, Alpha4(color::Black));
   return value;
@@ -808,8 +808,8 @@ static const uint8_t ic_sharp_18_communication_mail_outline_data[] PROGMEM = {
   0x97, 0x59, 0x00, 0x79, 0x75, 0x90, 0x07, 0x98, 0x09, 0x07, 0x90, 0x07, 0xFF, 0x07,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mail_outline() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mail_outline() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mail_outline_data, Alpha4(color::Black));
   return value;
@@ -823,8 +823,8 @@ static const uint8_t ic_sharp_18_communication_mark_chat_read_data[] PROGMEM = {
   0x03, 0x30, 0x40, 0x77, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mark_chat_read() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mark_chat_read() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mark_chat_read_data, Alpha4(color::Black));
   return value;
@@ -838,8 +838,8 @@ static const uint8_t ic_sharp_18_communication_mark_chat_unread_data[] PROGMEM =
   0x74, 0x04, 0x07, 0x75,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mark_chat_unread() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mark_chat_unread() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 15, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mark_chat_unread_data, Alpha4(color::Black));
   return value;
@@ -854,8 +854,8 @@ static const uint8_t ic_sharp_18_communication_mark_email_read_data[] PROGMEM = 
   0x75, 0x01, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mark_email_read() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mark_email_read() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mark_email_read_data, Alpha4(color::Black));
   return value;
@@ -869,8 +869,8 @@ static const uint8_t ic_sharp_18_communication_mark_email_unread_data[] PROGMEM 
   0xD0, 0x04, 0xFD, 0x00, 0x4F, 0xD0, 0x40, 0x18, 0x09, 0x05, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mark_email_unread() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mark_email_unread() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mark_email_unread_data, Alpha4(color::Black));
   return value;
@@ -886,8 +886,8 @@ static const uint8_t ic_sharp_18_communication_mark_unread_chat_alt_data[] PROGM
   0x07, 0x77,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mark_unread_chat_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mark_unread_chat_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 0, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mark_unread_chat_alt_data, Alpha4(color::Black));
   return value;
@@ -902,8 +902,8 @@ static const uint8_t ic_sharp_18_communication_message_data[] PROGMEM = {
   0x77, 0x60, 0x07, 0x77, 0x01, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_message() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_message() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_message_data, Alpha4(color::Black));
   return value;
@@ -919,8 +919,8 @@ static const uint8_t ic_sharp_18_communication_mobile_screen_share_data[] PROGME
   0x06, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_mobile_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_mobile_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 14, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_mobile_screen_share_data, Alpha4(color::Black));
   return value;
@@ -935,8 +935,8 @@ static const uint8_t ic_sharp_18_communication_more_time_data[] PROGMEM = {
   0x08, 0x48, 0x16, 0xD2, 0x68, 0x59, 0xDB, 0xAD, 0xA2, 0x72, 0x81, 0x33, 0x16,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_more_time() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_more_time() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_more_time_data, Alpha4(color::Black));
   return value;
@@ -951,8 +951,8 @@ static const uint8_t ic_sharp_18_communication_nat_data[] PROGMEM = {
   0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_nat() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_nat() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_nat_data, Alpha4(color::Black));
   return value;
@@ -967,8 +967,8 @@ static const uint8_t ic_sharp_18_communication_no_sim_data[] PROGMEM = {
   0x08, 0x20, 0x28, 0x05, 0xB8, 0x1C, 0xF8, 0x75, 0x08, 0x05,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_no_sim() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_no_sim() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_no_sim_data, Alpha4(color::Black));
   return value;
@@ -984,8 +984,8 @@ static const uint8_t ic_sharp_18_communication_pause_presentation_data[] PROGMEM
   0x33, 0xF3, 0x75, 0x84, 0x3F, 0x33, 0xFC, 0x80, 0x90, 0xB8, 0x2C, 0xF3, 0x28, 0x09, 0x4B, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_pause_presentation() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_pause_presentation() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_pause_presentation_data, Alpha4(color::Black));
   return value;
@@ -1001,8 +1001,8 @@ static const uint8_t ic_sharp_18_communication_person_add_disabled_data[] PROGME
   0x93, 0x76, 0x81, 0xCF, 0x47, 0x72, 0x81, 0xCF, 0x47, 0x72, 0x0B, 0x03, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_person_add_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_person_add_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 17, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_person_add_disabled_data, Alpha4(color::Black));
   return value;
@@ -1016,8 +1016,8 @@ static const uint8_t ic_sharp_18_communication_person_search_data[] PROGMEM = {
   0x73, 0x01, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_person_search() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_person_search() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 4, 14, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_person_search_data, Alpha4(color::Black));
   return value;
@@ -1033,8 +1033,8 @@ static const uint8_t ic_sharp_18_communication_phone_disabled_data[] PROGMEM = {
   0x36, 0x81, 0x9F, 0x77, 0x60, 0x90, 0x40,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phone_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phone_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 15, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phone_disabled_data, Alpha4(color::Black));
   return value;
@@ -1048,8 +1048,8 @@ static const uint8_t ic_sharp_18_communication_phone_enabled_data[] PROGMEM = {
   0x45, 0x0B, 0xC0, 0xD0, 0x67, 0x83, 0x89, 0x97, 0x27, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phone_enabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phone_enabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phone_enabled_data, Alpha4(color::Black));
   return value;
@@ -1065,8 +1065,8 @@ static const uint8_t ic_sharp_18_communication_phonelink_erase_data[] PROGMEM = 
   0x0B, 0xFA, 0x0B, 0x30, 0x28, 0x05, 0x30, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phonelink_erase() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phonelink_erase() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 0, 15, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phonelink_erase_data, Alpha4(color::Black));
   return value;
@@ -1081,8 +1081,8 @@ static const uint8_t ic_sharp_18_communication_phonelink_lock_data[] PROGMEM = {
   0xFA, 0x0B, 0x20, 0x28, 0x05, 0x30, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phonelink_lock() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phonelink_lock() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 15, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phonelink_lock_data, Alpha4(color::Black));
   return value;
@@ -1097,8 +1097,8 @@ static const uint8_t ic_sharp_18_communication_phonelink_ring_data[] PROGMEM = {
   0x50, 0x79, 0x70, 0x79, 0x50, 0x7F, 0xB5, 0x07, 0xFB, 0x50, 0x18, 0x06, 0x35,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phonelink_ring() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phonelink_ring() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 0, 16, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phonelink_ring_data, Alpha4(color::Black));
   return value;
@@ -1114,8 +1114,8 @@ static const uint8_t ic_sharp_18_communication_phonelink_setup_data[] PROGMEM = 
   0xBF, 0xA0, 0xB3, 0x02, 0x80, 0x53, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phonelink_setup() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phonelink_setup() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 0, 15, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phonelink_setup_data, Alpha4(color::Black));
   return value;
@@ -1129,8 +1129,8 @@ static const uint8_t ic_sharp_18_communication_phone_data[] PROGMEM = {
   0x70, 0x60, 0xDC, 0x0B, 0x72, 0x83, 0x27, 0x99, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_phone_data, Alpha4(color::Black));
   return value;
@@ -1148,8 +1148,8 @@ static const uint8_t ic_sharp_18_communication_portable_wifi_off_data[] PROGMEM 
   0x61,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_portable_wifi_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_portable_wifi_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_portable_wifi_off_data, Alpha4(color::Black));
   return value;
@@ -1165,8 +1165,8 @@ static const uint8_t ic_sharp_18_communication_present_to_all_data[] PROGMEM = {
   0x2C, 0xF3, 0x28, 0x09, 0x4B, 0x02,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_present_to_all() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_present_to_all() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 2, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_present_to_all_data, Alpha4(color::Black));
   return value;
@@ -1183,8 +1183,8 @@ static const uint8_t ic_sharp_18_communication_print_disabled_data[] PROGMEM = {
   0xDF, 0x57, 0x71, 0x81, 0xBF, 0x57, 0x71, 0x0A, 0x03,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_print_disabled() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_print_disabled() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 16, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_print_disabled_data, Alpha4(color::Black));
   return value;
@@ -1201,8 +1201,8 @@ static const uint8_t ic_sharp_18_communication_qr_code_2_data[] PROGMEM = {
   0xC8, 0x8B, 0xBB, 0x82, 0x85, 0x2B, 0x22, 0xBB, 0x80,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_qr_code_2() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_qr_code_2() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_qr_code_2_data, Alpha4(color::Black));
   return value;
@@ -1217,8 +1217,8 @@ static const uint8_t ic_sharp_18_communication_qr_code_data[] PROGMEM = {
   0x6B, 0x77, 0xD1, 0x07, 0x66, 0x63, 0x28, 0x00, 0x52, 0x83, 0x41, 0x33, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_qr_code() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_qr_code() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_qr_code_data, Alpha4(color::Black));
   return value;
@@ -1236,8 +1236,8 @@ static const uint8_t ic_sharp_18_communication_qr_code_scanner_data[] PROGMEM = 
   0x77, 0xB0, 0x36, 0x03, 0xB8, 0x47, 0x37, 0x77, 0x16, 0x83, 0x17, 0x77, 0x30,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_qr_code_scanner() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_qr_code_scanner() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_qr_code_scanner_data, Alpha4(color::Black));
   return value;
@@ -1250,8 +1250,8 @@ static const uint8_t ic_sharp_18_communication_read_more_data[] PROGMEM = {
   0x68, 0x13, 0x01, 0x80, 0x1A, 0x03,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_read_more() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_read_more() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 6, 15, 11), Box(0, 0, 17, 17),
       ic_sharp_18_communication_read_more_data, Alpha4(color::Black));
   return value;
@@ -1267,8 +1267,8 @@ static const uint8_t ic_sharp_18_communication_ring_volume_data[] PROGMEM = {
   0x83, 0x07, 0x03, 0x73, 0x03, 0x07, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_ring_volume() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_ring_volume() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 17, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_ring_volume_data, Alpha4(color::Black));
   return value;
@@ -1283,8 +1283,8 @@ static const uint8_t ic_sharp_18_communication_rss_feed_data[] PROGMEM = {
   0x7E, 0xA2, 0x85, 0xBF, 0x50, 0x7F, 0x90,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_rss_feed() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_rss_feed() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_rss_feed_data, Alpha4(color::Black));
   return value;
@@ -1299,8 +1299,8 @@ static const uint8_t ic_sharp_18_communication_rtt_data[] PROGMEM = {
   0x50, 0x1C, 0x84, 0x94, 0xAF, 0xB7, 0x73, 0x0A, 0xB0, 0xD7, 0x38, 0x00, 0x30, 0x24,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_rtt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_rtt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_rtt_data, Alpha4(color::Black));
   return value;
@@ -1314,8 +1314,8 @@ static const uint8_t ic_sharp_18_communication_screen_share_data[] PROGMEM = {
   0x07, 0xFF, 0x07, 0x20, 0x10, 0xDF, 0xD8, 0x4D, 0x10, 0x77, 0x9F, 0xD8, 0x19, 0x77, 0xFF, 0xC0,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 17, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_screen_share_data, Alpha4(color::Black));
   return value;
@@ -1331,8 +1331,8 @@ static const uint8_t ic_sharp_18_communication_send_time_extension_data[] PROGME
   0xD0, 0x63, 0x01, 0x80, 0x03, 0x28, 0x11, 0xD6, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_send_time_extension() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_send_time_extension() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 1, 16, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_send_time_extension_data, Alpha4(color::Black));
   return value;
@@ -1349,8 +1349,8 @@ static const uint8_t ic_sharp_18_communication_sentiment_satisfied_alt_data[] PR
   0x38, 0xFD, 0x25, 0x01, 0x09, 0xE0, 0x90, 0x17, 0x28, 0x25, 0x77, 0x56,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_sentiment_satisfied_alt() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_sentiment_satisfied_alt() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_sentiment_satisfied_alt_data, Alpha4(color::Black));
   return value;
@@ -1364,8 +1364,8 @@ static const uint8_t ic_sharp_18_communication_sip_data[] PROGMEM = {
   0xF0, 0x03, 0xFF, 0x00, 0x3F, 0xF0, 0x30, 0x18, 0x09, 0x25, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_sip() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_sip() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_sip_data, Alpha4(color::Black));
   return value;
@@ -1379,8 +1379,8 @@ static const uint8_t ic_sharp_18_communication_speaker_phone_data[] PROGMEM = {
   0x0B, 0x60, 0xB4, 0x0B, 0x60, 0xB4, 0x0B, 0x60, 0xB4, 0x0B, 0x6E, 0x68, 0x02, 0x73,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_speaker_phone() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_speaker_phone() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 14, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_speaker_phone_data, Alpha4(color::Black));
   return value;
@@ -1394,8 +1394,8 @@ static const uint8_t ic_sharp_18_communication_spoke_data[] PROGMEM = {
   0x04, 0x20, 0x40, 0xEA, 0x06, 0x30, 0x10, 0x36, 0x03, 0x01, 0x20,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_spoke() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_spoke() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 15, 15), Box(0, 0, 17, 17),
       ic_sharp_18_communication_spoke_data, Alpha4(color::Black));
   return value;
@@ -1409,8 +1409,8 @@ static const uint8_t ic_sharp_18_communication_stay_current_landscape_data[] PRO
   0xA0, 0xC8, 0x06, 0x30, 0xCA, 0x00, 0x3F, 0xFA, 0x03, 0x01, 0x80, 0x94, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_stay_current_landscape() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_stay_current_landscape() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 17, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_stay_current_landscape_data, Alpha4(color::Black));
   return value;
@@ -1425,8 +1425,8 @@ static const uint8_t ic_sharp_18_communication_stay_current_portrait_data[] PROG
   0x82, 0xCF, 0x33, 0xFB, 0x00, 0x3F, 0xB0, 0x31, 0x80, 0x63, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_stay_current_portrait() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_stay_current_portrait() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 14, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_stay_current_portrait_data, Alpha4(color::Black));
   return value;
@@ -1440,8 +1440,8 @@ static const uint8_t ic_sharp_18_communication_stay_primary_landscape_data[] PRO
   0xA0, 0xC8, 0x06, 0x30, 0xCA, 0x00, 0x3F, 0xFA, 0x03, 0x01, 0x80, 0x94, 0x30, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_stay_primary_landscape() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_stay_primary_landscape() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 3, 17, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_stay_primary_landscape_data, Alpha4(color::Black));
   return value;
@@ -1456,8 +1456,8 @@ static const uint8_t ic_sharp_18_communication_stay_primary_portrait_data[] PROG
   0x82, 0xCF, 0x33, 0xFB, 0x00, 0x3F, 0xB0, 0x31, 0x80, 0x63, 0x01,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_stay_primary_portrait() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_stay_primary_portrait() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(3, 0, 14, 17), Box(0, 0, 17, 17),
       ic_sharp_18_communication_stay_primary_portrait_data, Alpha4(color::Black));
   return value;
@@ -1474,8 +1474,8 @@ static const uint8_t ic_sharp_18_communication_stop_screen_share_data[] PROGMEM 
   0xCE, 0x37, 0x71, 0x81, 0x1B, 0x31,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_stop_screen_share() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_stop_screen_share() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 1, 17, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_stop_screen_share_data, Alpha4(color::Black));
   return value;
@@ -1491,8 +1491,8 @@ static const uint8_t ic_sharp_18_communication_swap_calls_data[] PROGMEM = {
   0x58, 0x14, 0xE4, 0x30, 0x9A, 0x0D, 0x03, 0x60, 0x15, 0x01, 0x03, 0x50,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_swap_calls() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_swap_calls() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 3, 16, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_swap_calls_data, Alpha4(color::Black));
   return value;
@@ -1506,8 +1506,8 @@ static const uint8_t ic_sharp_18_communication_textsms_data[] PROGMEM = {
   0xA0, 0x98, 0x07, 0x78, 0x23, 0x7F, 0x77, 0x60, 0x07, 0x77, 0x01, 0x77, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_textsms() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_textsms() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 1, 16, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_textsms_data, Alpha4(color::Black));
   return value;
@@ -1522,8 +1522,8 @@ static const uint8_t ic_sharp_18_communication_unsubscribe_data[] PROGMEM = {
   0x51, 0xA8, 0x33, 0xB6, 0x72, 0x06, 0xC0, 0x37, 0x38, 0x28, 0xED, 0x51,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_unsubscribe() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_unsubscribe() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 2, 16, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_unsubscribe_data, Alpha4(color::Black));
   return value;
@@ -1538,8 +1538,8 @@ static const uint8_t ic_sharp_18_communication_voicemail_data[] PROGMEM = {
   0xDA, 0x82, 0xCD, 0xFB, 0x30, 0x50, 0x98, 0x06, 0xB0, 0x90, 0x52,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_voicemail() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_voicemail() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 17, 12), Box(0, 0, 17, 17),
       ic_sharp_18_communication_voicemail_data, Alpha4(color::Black));
   return value;
@@ -1555,8 +1555,8 @@ static const uint8_t ic_sharp_18_communication_vpn_key_off_data[] PROGMEM = {
   0x10, 0x13,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_vpn_key_off() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_vpn_key_off() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(1, 2, 17, 16), Box(0, 0, 17, 17),
       ic_sharp_18_communication_vpn_key_off_data, Alpha4(color::Black));
   return value;
@@ -1570,8 +1570,8 @@ static const uint8_t ic_sharp_18_communication_vpn_key_data[] PROGMEM = {
   0xA0, 0xB4, 0x07, 0xC0, 0xC0, 0x23, 0x03, 0xA0, 0xB5, 0x82, 0x15, 0x74, 0x58, 0x21, 0x77, 0x52,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_vpn_key() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_vpn_key() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(0, 4, 17, 13), Box(0, 0, 17, 17),
       ic_sharp_18_communication_vpn_key_data, Alpha4(color::Black));
   return value;
@@ -1585,8 +1585,8 @@ static const uint8_t ic_sharp_18_communication_wifi_calling_data[] PROGMEM = {
   0xB0, 0x75, 0x81, 0x2C, 0xEC, 0x07, 0x70, 0x50, 0xCB, 0x07, 0x72, 0x82, 0x13, 0x52, 0x10,
 };
 
-const RleImage4bppxBiased<Alpha4, PrgMemResource>& ic_sharp_18_communication_wifi_calling() {
-  static RleImage4bppxBiased<Alpha4, PrgMemResource> value(
+const RleImage4bppxBiased<Alpha4, ProgMemPtr>& ic_sharp_18_communication_wifi_calling() {
+  static RleImage4bppxBiased<Alpha4, ProgMemPtr> value(
       Box(2, 3, 14, 14), Box(0, 0, 17, 17),
       ic_sharp_18_communication_wifi_calling_data, Alpha4(color::Black));
   return value;
