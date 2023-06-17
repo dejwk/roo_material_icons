@@ -9,5 +9,5 @@ The collection contains over 34000 icon files, and takes a few minutes to compil
 
 * [filled](https://github.com/dejwk/roo_material_icons_filled)
 * [outlined](https://github.com/dejwk/roo_material_icons_outlined)
-* [rounded](https://github.com/dejwk/roo_material_icons_rounded)
+* [round](https://github.com/dejwk/roo_material_icons_round)
 * [sharp](https://github.com/dejwk/roo_material_icons_sharp)
