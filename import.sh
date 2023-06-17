@@ -55,11 +55,12 @@ echo "Categories found: "
 echo ${categories}
 
 function copy_pngs_3 {
-  echo "Family 'filled': copying PNG files from 3.0.2..."
+  echo "Copying PNG files from 3.0.2..."
 
   for size in ${sizes}; do
     echo "size: ${size}"
     mkdir -p import/png/filled/${size}
+    mkdir -p import/png/outlined/${size}
     for category in ${categories}; do
       echo "category: ${category}"
       # Copy the 3.0.2 filled icons.
@@ -77,7 +78,7 @@ function copy_pngs_3 {
     done
   done
 
-  echo "Family ${family}: Copying PNG files done."
+  echo "Copying PNG files done."
 }
 
 function copy_pngs_master_by_family {
