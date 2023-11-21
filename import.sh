@@ -3,7 +3,7 @@
 source_dir_master=import/material-design-icons-master
 source_dir_3_0_2=import/material-design-icons-3.0.2
 importer_dir=import/roo_display_image_importer-main
-icon_dir=`pwd`
+icon_dir=`pwd`/src
 
 sizes="18 24 36 48"
 
