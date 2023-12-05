@@ -3,7 +3,7 @@
 source_dir_master=import/material-design-icons-master
 source_dir_3_0_2=import/material-design-icons-3.0.2
 importer_dir=import/roo_display_image_importer-main
-icon_dir=`pwd`/src
+icon_dir=`pwd`
 
 sizes="18 24 36 48"
 
@@ -125,7 +125,17 @@ function generate_family {
       echo "category: ${category}"
       mkdir -p roo_material_icons/${family}/${size}/${category}
       files=`find import/png/${family}/${size}/${category} -name "*.png" -printf "%f\n" | sort | sed -e ':a;N;s/\n/ /;ba'`
-      (cd ${importer_dir}; ./gradlew run --args="-s PROGMEM -o ${category} -e ALPHA4 -c RLE --fg=color::Black --autocrop --input-dir=${icon_dir}/import/png/${family}/${size}/${category} --output-dir=${icon_dir}/roo_material_icons/${family}/${size} ${files}")
+      (cd ${importer_dir}; ./gradlew run --args="-s PROGMEM -o ${category} -e ALPHA4 -c RLE --fg=color::Black --autocrop --input-dir=${icon_dir}/import/png/${family}/${size}/${category} --output-dir=${icon_dir}/src/roo_material_icons/${family}/${size} ${files}")
+    done
+  done
+
+  # Generate 'all size' headers.
+  for category in ${categories}; do
+    output=src/roo_material_icons/${family}/${category}.h
+    rm ${output}
+    touch ${output}
+    for size in ${sizes}; do
+      echo "#include \"roo_material_icons/${family}/${size}/${category}.h\"" >> ${output}
     done
   done
 
@@ -143,4 +153,3 @@ generate_family "filled" "materialicons" "baseline"
 generate_family "round" "materialiconsround" "round"
 generate_family "outlined" "materialiconsoutlined" "outline"
 generate_family "sharp" "materialiconssharp" "sharp"
-
